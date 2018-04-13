@@ -1,0 +1,210 @@
+<!-- TOC -->
+<ul>
+<li><a href="#chapter---microscopy">Chapter - Microscopy</a> - <a href="#diy-widefield">DIY Widefield</a> - <a href="#cameras">Cameras</a> - <a href="#scientific-cmos-scmos">Scientific CMOS (sCMOS)</a> - <a href="#filters">Filters</a> - <a href="#lenses">Lenses</a> - <a href="#mechanics">Mechanics</a></li>
+<li><a href="#chapter---telemetry-control">Chapter - Telemetry &amp; Control</a> - <a href="#scada-on-the-cheap">SCADA on the Cheap</a> - <a href="#development-boards">Development boards</a> - <a href="#development-environment">Development Environment</a></li>
+<li><a href="#chapter---contemporary-video-processing">Chapter - Contemporary Video Processing</a> - <a href="#background">Background</a> - <a href="#effective-and-efficient-code">Effective and Efficient Code</a> - <a href="#microscopy-and-functional-imaging-two-core-innovations-in-available">Microscopy and Functional Imaging Two core innovations in available</a> - <a href="#image-processing-1-computing-power-and-connectivity">Image Processing 1. Computing Power and Connectivity</a> - <a href="#big-data">Big Data</a> - <a href="#map-reduce">Map-Reduce</a> - <a href="#image-processing">Image Processing</a> - <a href="#motion-correction-two-approaches-to-find-displacement">Motion Correction Two approaches to find displacement</a> - <a href="#spatially-homogeneous-phase-correlation">Spatially Homogeneous phase correlation</a> - <a href="#triangulate-best">Triangulate best</a> - <a href="#image-enhancement">Image Enhancement</a> - <a href="#feature-extraction">Feature Extraction</a></li>
+<li><a href="#chapter---acceleration-and-optimization-procedures-for-online-video-processing">Chapter - Acceleration and Optimization Procedures for Online Video Processing</a> - <a href="#tutorial">Tutorial</a> - <a href="#incremental-update-of-statistics">Incremental Update of Statistics</a> - <a href="#central-moments">central moments</a> - <a href="#extract-features">Extract Features</a></li>
+<li><a href="#chapter---evaluation-of-approach">Chapter - Evaluation of Approach</a> - <a href="#choice-of-implementation">Choice of Implementation</a> - <a href="#language-is-matlab-the-best-tool-for-this-job">Language: Is MATLAB the best tool for this job?</a> - <a href="#alternatives-languages">Alternatives Languages</a> - <a href="#alternative-libraries">Alternative Libraries</a> - <a href="#choice-of-interface">Choice of Interface</a> - <a href="#procedural-framework-pipes-streams-graphs">Procedural Framework: Pipes, Streams, &amp; Graphs</a> - <a href="#concurrency-parallel-performance">Concurrency: Parallel = Performance?</a> - <a href="#scheduling">Scheduling</a> - <a href="#adaptive">Adaptive</a> - <a href="#choice-of-operations">Choice of Operations</a> - <a href="#motion-correction">Motion Correction</a> - <a href="#motion-estimation">Motion Estimation</a> - <a href="#motion-compensation-interpolation">Motion Compensation &amp; Interpolation</a></li>
+<li><a href="#chapter---survey-of-alternative-strategies">Chapter - Survey of Alternative Strategies</a> - <a href="#implementation">Implementation</a> - <a href="#efficientcode">EfficientCode</a> - <a href="#operation">Operation</a></li>
+<li><a href="#chapter---compression-as-a-tool-a-goal-as-an-explanation">Chapter - Compression: as a Tool, a Goal, as an Explanation</a></li>
+</ul>
+<!-- /TOC -->
+<h1 id="chapter---microscopy">Chapter - Microscopy</h1>
+<h2 id="diy-widefield">DIY Widefield</h2>
+<h3 id="cameras">Cameras</h3>
+<h4 id="scientific-cmos-scmos">Scientific CMOS (sCMOS)</h4>
+<ul>
+<li>Correlated double sampling</li>
+<li>HDR</li>
+<li>On-sensor Fusion</li>
+<li>Commercial availability</li>
+<li></li>
+</ul>
+<h3 id="filters">Filters</h3>
+<h3 id="lenses">Lenses</h3>
+<h3 id="mechanics">Mechanics</h3>
+<h1 id="chapter---telemetry-control">Chapter - Telemetry &amp; Control</h1>
+<h2 id="scada-on-the-cheap">SCADA on the Cheap</h2>
+<h2 id="development-boards">Development boards</h2>
+<h2 id="development-environment">Development Environment</h2>
+<h1 id="chapter---contemporary-video-processing">Chapter - Contemporary Video Processing</h1>
+<h2 id="background">Background</h2>
+<h3 id="effective-and-efficient-code">Effective and Efficient Code</h3>
+<ul>
+<li>Background - Microscopy and Functional Imaging - Image Processing</li>
+</ul>
+<h2 id="microscopy-and-functional-imaging-two-core-innovations-in-available">Microscopy and Functional Imaging Two core innovations in available</h2>
+<ul>
+<li>technology 1. Synthetic bio (i.e. GCaMP) 2. Cameras</li>
+<li>scientific CMOS</li>
+</ul>
+<h2 id="image-processing-1.-computing-power-and-connectivity">Image Processing 1. Computing Power and Connectivity</h2>
+<ul>
+<li>Remote Clusters (AWS)</li>
+<li>Graphics Processing Units (NVIDIA GTX)</li>
+<li>Embedded Units (NVIDIA Tegra X2) 2. Well developed libraries</li>
+<li>ImageJ (so so)</li>
+<li>OpenCV (uses OpenCL)</li>
+<li>GStreamer (much better)</li>
+<li>OpenGL</li>
+<li>Shader</li>
+</ul>
+<h2 id="big-data">Big Data</h2>
+<ul>
+<li>not exactly...</li>
+<li>disparate simple queries across</li>
+</ul>
+<h2 id="map-reduce">Map-Reduce</h2>
+<ul>
+<li>Dataflow Processing</li>
+<li>Actors model</li>
+<li>Petri Nets</li>
+<li>Graph Processing - i.e. Tensorflow</li>
+</ul>
+<h2 id="image-processing">Image Processing</h2>
+<ul>
+<li>Motion Correction</li>
+<li>Image Enhancement</li>
+</ul>
+<h2 id="motion-correction-two-approaches-to-find-displacement">Motion Correction Two approaches to find displacement</h2>
+<h3 id="spatially-homogeneous-phase-correlation">Spatially Homogeneous phase correlation</h3>
+<ul>
+<li>aka normalized cross correlation - Feature Matching</li>
+<li>Detect features (i.e. corners) ### Triangulate best</li>
+</ul>
+<h2 id="image-enhancement">Image Enhancement</h2>
+<ol type="1">
+<li>Contrast - Linear Scaling - Lookup Tables</li>
+<li>Spatial and Temporal Filtering</li>
+<li>Feature images - Gradients</li>
+</ol>
+<h2 id="feature-extraction">Feature Extraction</h2>
+<ol type="1">
+<li>Feature images (temporally independent)</li>
+</ol>
+<ul>
+<li>Gradients - Surface Curvature 2. Long Term Memory - Statistics - changes (single pixel)</li>
+<li>Mutual information changes (inter-pixel)</li>
+</ul>
+<h1 id="chapter---acceleration-and-optimization-procedures-for-online-video-processing">Chapter - Acceleration and Optimization Procedures for Online Video Processing</h1>
+<h2 id="tutorial">Tutorial</h2>
+<h3 id="incremental-update-of-statistics">Incremental Update of Statistics</h3>
+<h4 id="central-moments">central moments</h4>
+<div class="sourceCode" id="cb1"><pre class="sourceCode matlab"><code class="sourceCode matlab"><a class="sourceLine" id="cb1-1" data-line-number="1">      function [m1,m2,m3,m4,fmin,fmax] = updateStatistics(x,m1,m2,m3,m4))</a>
+<a class="sourceLine" id="cb1-2" data-line-number="2">            n = n + <span class="fl">1</span>;</a>
+<a class="sourceLine" id="cb1-3" data-line-number="3">            </a>
+<a class="sourceLine" id="cb1-4" data-line-number="4">            <span class="co">% GET PIXEL SAMPLE</span></a>
+<a class="sourceLine" id="cb1-5" data-line-number="5">            f = F(rowIdx,colIdx,k);</a>
+<a class="sourceLine" id="cb1-6" data-line-number="6">            </a>
+<a class="sourceLine" id="cb1-7" data-line-number="7">            <span class="co">% PRECOMPUTE &amp; CACHE SOME VALUES FOR SPEED</span></a>
+<a class="sourceLine" id="cb1-8" data-line-number="8">            d = single(f) - m1;</a>
+<a class="sourceLine" id="cb1-9" data-line-number="9">            dk = d/n;</a>
+<a class="sourceLine" id="cb1-10" data-line-number="10">            dk2 = dk^<span class="fl">2</span>;</a>
+<a class="sourceLine" id="cb1-11" data-line-number="11">            s = d*dk*(n-<span class="fl">1</span>);</a>
+<a class="sourceLine" id="cb1-12" data-line-number="12">            </a>
+<a class="sourceLine" id="cb1-13" data-line-number="13">            <span class="co">% UPDATE CENTRAL MOMENTS</span></a>
+<a class="sourceLine" id="cb1-14" data-line-number="14">            m1 = m1 + dk;</a>
+<a class="sourceLine" id="cb1-15" data-line-number="15">            m4 = m4 + s*dk2*(n.^<span class="fl">2</span>-<span class="fl">3</span>*n+<span class="fl">3</span>) + <span class="fl">6</span>*dk2*m2 - <span class="fl">4</span>*dk*m3;</a>
+<a class="sourceLine" id="cb1-16" data-line-number="16">            m3 = m3 + s*dk*(n-<span class="fl">2</span>) - <span class="fl">3</span>*dk*m2;</a>
+<a class="sourceLine" id="cb1-17" data-line-number="17">            m2 = m2 + s;</a>
+<a class="sourceLine" id="cb1-18" data-line-number="18">            </a>
+<a class="sourceLine" id="cb1-19" data-line-number="19">            <span class="co">% UPDATE MIN &amp; MAX</span></a>
+<a class="sourceLine" id="cb1-20" data-line-number="20">            fmin = min(fmin, f);</a>
+<a class="sourceLine" id="cb1-21" data-line-number="21">            fmax = max(fmax, f);</a>
+<a class="sourceLine" id="cb1-22" data-line-number="22">      end</a></code></pre></div>
+<h4 id="extract-features">Extract Features</h4>
+<div class="sourceCode" id="cb2"><pre class="sourceCode matlab"><code class="sourceCode matlab"><a class="sourceLine" id="cb2-1" data-line-number="1"></a>
+<a class="sourceLine" id="cb2-2" data-line-number="2">      function [dm1,dm2,dm3,dm4] = getStatisticUpdate(x,m1,m2,m3,m4)</a>
+<a class="sourceLine" id="cb2-3" data-line-number="3">            <span class="co">% COMPUTE DIFFERENTIAL UPDATE TO CENTRAL MOMENTS</span></a>
+<a class="sourceLine" id="cb2-4" data-line-number="4">            dm1 = dk;</a>
+<a class="sourceLine" id="cb2-5" data-line-number="5">            m1 = m1 + dm1;</a>
+<a class="sourceLine" id="cb2-6" data-line-number="6">            dm4 = s*dk2*(n^<span class="fl">2</span>-<span class="fl">3</span>*n+<span class="fl">3</span>) + <span class="fl">6</span>*dk2*m2 - <span class="fl">4</span>*dk*m3;   </a>
+<a class="sourceLine" id="cb2-7" data-line-number="7">            dm3 = s*dk*(n-<span class="fl">2</span>) - <span class="fl">3</span>*dk*m2;</a>
+<a class="sourceLine" id="cb2-8" data-line-number="8">            dm2 = s;</a>
+<a class="sourceLine" id="cb2-9" data-line-number="9">            m2 = m2 + dm2;</a>
+<a class="sourceLine" id="cb2-10" data-line-number="10">            <span class="co">% NORMALIZE BY VARIANCE &amp; SAMPLE NUMBER -&gt; CONVERSION TO dVar, dSkew, dKurt   </span></a>
+<a class="sourceLine" id="cb2-11" data-line-number="11">            dm2 = dm2/max(<span class="fl">1</span>,n-<span class="fl">1</span>);</a>
+<a class="sourceLine" id="cb2-12" data-line-number="12">            dm3 = dm3*sqrt(max(<span class="fl">1</span>,n))/(m2^<span class="fl">1.5</span>);</a>
+<a class="sourceLine" id="cb2-13" data-line-number="13">            dm4 = dm4*n/(m2^<span class="fl">2</span>);                 </a>
+<a class="sourceLine" id="cb2-14" data-line-number="14">      end</a></code></pre></div>
+<p>Simple Processing on GPU</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode matlab"><code class="sourceCode matlab"><a class="sourceLine" id="cb3-1" data-line-number="1">      [dm1,dm2,dm3,dm4] = arrayfun(@getStatisticUpdate(x,m1,m2,m3,m4)</a>
+<a class="sourceLine" id="cb3-2" data-line-number="2">      [dm1,dm2,dm3,dm4] = arrayfun(@getStatisticUpdate(rowidx,colidx)</a></code></pre></div>
+<h1 id="chapter---evaluation-of-approach">Chapter - Evaluation of Approach</h1>
+<p>Video Processing Strategy Thus Far</p>
+<h2 id="choice-of-implementation">Choice of Implementation</h2>
+<h3 id="language-is-matlab-the-best-tool-for-this-job">Language: Is MATLAB the best tool for this job?</h3>
+<ul>
+<li>Standard language in many engineering programs</li>
+<li>Proprietary</li>
+<li>Performance</li>
+<li>Compatibility</li>
+<li>Need for a “SandBox”</li>
+<li>Lacks modularity</li>
+<li></li>
+</ul>
+<h4 id="alternatives-languages">Alternatives Languages</h4>
+<ul>
+<li>Python</li>
+<li>C/C++</li>
+<li>Java/Scala</li>
+<li>Javascript/Node</li>
+<li>GO, Haskell</li>
+</ul>
+<h4 id="alternative-libraries">Alternative Libraries</h4>
+<ul>
+<li><a href="https://developer.nvidia.com/npp">NVIDIA Performance Primitives</a></li>
+<li><a href="https://developer.nvidia.com/opencv">OpenCV</a></li>
+<li><a href="http://www.vlfeat.org/">VLFeat</a></li>
+<li>OpenGL</li>
+<li>OpenCL</li>
+<li>OpenVX</li>
+<li>CLosedDoesNotExist (…?)</li>
+<li>Shader Languages
+<ul>
+<li>GLSL</li>
+<li>HLSL</li>
+<li>WebGL</li>
+<li>Halide</li>
+<li></li>
+</ul></li>
+<li>FFmpeg</li>
+<li>GStreamer</li>
+</ul>
+<h2 id="choice-of-interface">Choice of Interface</h2>
+<h3 id="procedural-framework-pipes-streams-graphs">Procedural Framework: Pipes, Streams, &amp; Graphs</h3>
+<h4 id="concurrency-parallel-performance">Concurrency: Parallel = Performance?</h4>
+<p>Not always, no. While concurrent processing of independent tasks or sequentially arriving data elements will almost always increase performance, this is not always the case. At a lower instruction-level than we typically program, synchronous operations can often be optimized in ways that asynchronous operations cannot, typically through strategic register allocation, or by taking cache-hit performance). “Globally Asynchronous Locally Synchronous”</p>
+<h4 id="scheduling">Scheduling</h4>
+<h4 id="adaptive">Adaptive</h4>
+<h2 id="choice-of-operations">Choice of Operations</h2>
+<ul>
+<li>What is the goal?</li>
+<li>Is it effective?
+<ul>
+<li>Is the computation cost worth the result?</li>
+</ul></li>
+<li>Are there side-effects or artifacts?
+<ul>
+<li>Can they be reliably controlled or accounted for?</li>
+</ul></li>
+</ul>
+<h3 id="motion-correction">Motion Correction</h3>
+<p>In our application, the goal of a motion correction operation is to artificially suppress translation of the brain tissue parallel to the image plane. <em>Phase-Correlation</em> (also referred to as <em>normalized cross-correlation</em>) has consistent performance across a range of image sources with varying spatial noise characteristics. However, a large non-uniform change from reference frames - such as occurs when cells with low baseline fluourescence are first activated - can cause drastic errors that must be recognized and corrected by a supervisory procedure. This can induce an undesirable, unpredicatable, and specifically inopportune latency Unfortunately in all the whole pipeline.</p>
+<p>Unfortunately, “Globally Asynchronous Locally Synchronous”</p>
+<p>as it’s In some experimental setups,</p>
+<p>The phase correlation method of #### Motion Estimation - cost: 2-10 ms/frame - Frequently unstable (depending on video content)</p>
+<h4 id="motion-compensation-interpolation">Motion Compensation &amp; Interpolation</h4>
+<ul>
+<li>cost: 400-800 us/frame</li>
+<li>Requires infill with nearby or prior pixel values if frame size is to be maintained</li>
+</ul>
+<h1 id="chapter---survey-of-alternative-strategies">Chapter - Survey of Alternative Strategies</h1>
+<h2 id="implementation">Implementation</h2>
+<h3 id="efficientcode">EfficientCode</h3>
+<ul>
+<li>Scalable - Reusable - Make it MODULAR</li>
+<li></li>
+</ul>
+<h3 id="operation">Operation</h3>
+<h1 id="chapter---compression-as-a-tool-a-goal-as-an-explanation">Chapter - Compression: as a Tool, a Goal, as an Explanation</h1>
