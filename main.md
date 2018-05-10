@@ -34,12 +34,12 @@
                   - [Extract Features](#extract-features)
 - [Chapter - Evaluation of Approach](#chapter---evaluation-of-approach)
       - [Choice of Implementation](#choice-of-implementation)
-            - [Language: Is MATLAB the best tool for this job?](#language-is-matlab-the-best-tool-for-this-job)
+            - [Language: Is MATLAB the best tool for this job?](#language--is-matlab-the-best-tool-for-this-job)
                   - [Alternatives Languages](#alternatives-languages)
                   - [Alternative Libraries](#alternative-libraries)
       - [Choice of Interface](#choice-of-interface)
-            - [Procedural Framework: Pipes, Streams, & Graphs](#procedural-framework-pipes-streams-graphs)
-                  - [Concurrency: Parallel = Performance?](#concurrency-parallel-performance)
+            - [Procedural Framework: Pipes, Streams, & Graphs](#procedural-framework--pipes--streams--graphs)
+                  - [Concurrency: Parallel = Performance?](#concurrency--parallel-performance)
                   - [Scheduling](#scheduling)
                   - [Adaptive](#adaptive)
       - [Choice of Operations](#choice-of-operations)
@@ -50,7 +50,7 @@
       - [Implementation](#implementation)
             - [EfficientCode](#efficientcode)
             - [Operation](#operation)
-- [Chapter - Compression: as a Tool, a Goal, as an Explanation](#chapter---compression-as-a-tool-a-goal-as-an-explanation)
+- [Chapter - Compression: as a Tool, a Goal, as an Explanation](#chapter---compression--as-a-tool--a-goal--as-an-explanation)
 
 <!-- /TOC -->
 
