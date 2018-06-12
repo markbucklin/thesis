@@ -1,4 +1,4 @@
-## Distributed Dataflow and Streaming
+# Distributed Dataflow and Streaming
 
 
 ### Choice of Implementation
@@ -35,5 +35,5 @@
       - i.e. Tensorflow
 
       
----
+***
 
