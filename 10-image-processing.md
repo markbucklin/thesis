@@ -1,4 +1,4 @@
-## Image Processing 
+# Image Processing 
 
 This section borrows from AIM-1 and AIM-2 of the prospectus.
 
@@ -142,7 +142,7 @@ The phase correlation method of
 
 
 
-###Survey of Alternative Strategies
+### Survey of Alternative Strategies
 
 ### Implementation
 
@@ -155,5 +155,5 @@ The phase correlation method of
 
 
 
----
+***
 

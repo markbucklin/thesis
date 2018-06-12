@@ -3,8 +3,11 @@
 <p>My initial experience in optoelectronic device development was as an undergrad at Columbia University where I was advised by Elizabeth Hillman, and developed a device that combined thermography and near-infrared spectroscopy in a portable and inexpensive device intended to provide early detection of adverse neoplastic changes through at-home daily monitoring, particularly targeting use by patients with high-risk for breast cancer.</p>
 <p>I then went to the Das Lab where I developed macroscopic imaging systems used for intrinsic imaging in the visual cortex of awake primates.</p>
 <p>As a MD/PhD student, I attempt to maintain a potential to adapt the end-products of each development for clinical applicability.</p>
-<p>The story presented here is rather unusual in that success precedes failure. The volume of tangible presentable results is greatest toward the beginning stages of the work described here. This unusual inversion is what make this story worth hearing, however. Thank you for taking the time to read this. I hope that at least the technical information provided herein, if not the procedural insight, is valuable in your current or future endeavors. # Introducion</p>
+<p>The story presented here is rather unusual in that success precedes failure. The volume of tangible presentable results is greatest toward the beginning stages of the work described here. This unusual inversion is what make this story worth hearing, however. Thank you for taking the time to read this. I hope that at least the technical information provided herein, if not the procedural insight, is valuable in your current or future endeavors.</p>
+<hr />
+<h1 id="introduction">Introduction</h1>
 <p>Most of this comes from the prospectus and the F31/NRSA application.</p>
+<hr />
 <h2 id="microscopy">Microscopy</h2>
 <p>This section describes the background in microscopy in the neurosciences, and also how it relates to imaging in healthcare and electrophysiology in neuroscience. It will also describe the basic elements necessary for the construction of a microscope in a laboratory where calcium imaging in an animal is available. It will also refer to later sections which cover the design and construction of mechanical elements for animal handling and optical access (i.e. the headplate and a chronic optical window).</p>
 <h3 id="filters">Filters</h3>
@@ -15,13 +18,19 @@
 <li>technology 1. Synthetic bio (i.e. GCaMP) 2. Cameras</li>
 <li>scientific CMOS</li>
 </ul>
+<hr />
 <h2 id="cameras-and-sensors">Cameras and Sensors</h2>
 <p>This section details the evolution of cameras sensors and other sensors that provide bio-relevant data. Emphasis is on</p>
+<hr />
+<h2 id="sensors">Sensors</h2>
 <h3 id="telemetry-control">Telemetry &amp; Control</h3>
 <h3 id="scada-on-the-cheap">SCADA on the Cheap</h3>
 <h3 id="development-boards">Development boards</h3>
+<hr />
 <h2 id="data-scaling">Data Scaling</h2>
-<p>This section describes the reality of how data scales as more and more sensors are added. Typically we humans think linearly, but the ramifications of increasing something like sensor size is often exponential. Furthermore, many operations we perform have costs that scale exponentially, and in my humble opinion are not even worth attempting if any such procedure must applied continuously on a data=stream. ## Image Processing</p>
+<p>This section describes the reality of how data scales as more and more sensors are added. Typically we humans think linearly, but the ramifications of increasing something like sensor size is often exponential. Furthermore, many operations we perform have costs that scale exponentially, and in my humble opinion are not even worth attempting if any such procedure must applied continuously on a data=stream.</p>
+<hr />
+<h2 id="image-processing">Image Processing</h2>
 <p>This section borrows from AIM-1 and AIM-2 of the prospectus.</p>
 <h3 id="computing-power-and-connectivity">Computing Power and Connectivity</h3>
 <ul>
@@ -34,7 +43,7 @@
 <li>OpenGL</li>
 <li>Shader</li>
 </ul>
-<h3 id="image-processing">Image Processing</h3>
+<h3 id="image-processing-1">Image Processing</h3>
 <ul>
 <li>Motion Correction</li>
 <li>Image Enhancement</li>
@@ -158,11 +167,15 @@
 <li></li>
 </ul>
 <h3 id="operation">Operation</h3>
+<hr />
 <h2 id="video-processing">Video Processing</h2>
 <p>This section borrows from AIM-1 and AIM-2 from the prospectus.</p>
 <h3 id="effective-and-efficient-code">Effective and Efficient Code</h3>
+<hr />
 <h2 id="biomimicry-in-visual-processing">Biomimicry in Visual Processing</h2>
-<p>This section describes how image and video processing in the computer relate to visual processing in the mammalian brain. The overall goal is to emphasize the advantage and importance of biomimetic development. ## Distributed Dataflow and Streaming</p>
+<p>This section describes how image and video processing in the computer relate to visual processing in the mammalian brain. The overall goal is to emphasize the advantage and importance of biomimetic development.</p>
+<hr />
+<h2 id="distributed-dataflow-and-streaming">Distributed Dataflow and Streaming</h2>
 <h3 id="choice-of-implementation">Choice of Implementation</h3>
 <h3 id="language-is-matlab-the-best-tool-for-this-job">Language: Is MATLAB the best tool for this job?</h3>
 <ul>
@@ -193,15 +206,20 @@
 <li>Dataflow Processing</li>
 <li>Actors model</li>
 <li>Petri Nets</li>
-<li>Graph Processing - i.e. Tensorflow ## Software for Procedure Development</li>
+<li>Graph Processing - i.e. Tensorflow</li>
 </ul>
+<hr />
+<h2 id="software-for-procedure-development">Software for Procedure Development</h2>
 <h3 id="development-environment">Development Environment</h3>
+<hr />
 <h2 id="information-and-informativity">Information and Informativity</h2>
 <p>This section presents a background in information theory in the context of behavior sensors and video streams. I further elaborate on what types of information neuroscientists and healthcare providers would hope to extract from these data, focusing on a larger picture of connecting the process of extraction directly the ultimate application.</p>
 <p>Whereas previous attempts to process data focus largely on putting it in an intermediate state that is workable with current limitations on computation, visualization, and developer interaction with the data-streams, we now have an opportunity to skip intermediate states and develop with applications in mind.</p>
 <p>Transition into compression by showing that previous attempts were essentially compression algorithms developed specifically for the data and preconceived notions about results, but that we can also apply very well developed general compression algorithms, with slight modifications to extract features such as localized bitrate that quantify (in an unbiased way) information content in an selectable region of a video-frame as it changes over time.</p>
+<hr />
 <h2 id="compression-as-a-tool-a-goal-as-an-explanation">Compression: as a Tool, a Goal, as an Explanation</h2>
 <p>This section describes general compression algorithms as well as compression algorithms specifically tailored to application in video, accomplished by searching for both temporal and spatial redunancy.</p>
+<hr />
 <h2 id="acknowledgements">Acknowledgements</h2>
 <p>The support and patience I have received from my committee has gone far beyond what should be expected of anyone. I can’t thank you enough. * Xue Han, Ph.D. * Jerome Mertz, Ph.D. * Ian Davis, Ph.D. * Tom Bifano, Ph.D. * David Boas, Ph.D.</p>
-<h1 id="appendix">Appendix</h1>
+<hr />
