@@ -1,5 +1,6 @@
 # Introduction
 
+
 Optical techniques for observing neural activity have advanced recently
 owing to both an evolution of digital imaging technology, and the
 development of synthetic proteins that act as fluorescent indicators of
@@ -318,9 +319,9 @@ one or both of two ways:
     modification of the stimulus, or directing modification of the
     field-of-view.
 
-Online streamed processing, as specified by Aim 2, addresses the issues
-of processing and storingfvy for sufficient learning from large networks
-possible. Additionally, I propose a strategy in the Aim 3 methods
+Streaming processing addresses the issues
+of processing and storing for sufficient learning from large networks
+possible. Additionally, I propose a strategy in the  methods
 section by which incorporating this online processing stream into
 stimulus-response-type experiments could help correct *limited sampling
 bias*, enabling neural coding analysis in large populations of neurons
