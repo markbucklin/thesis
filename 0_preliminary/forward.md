@@ -9,5 +9,7 @@ As a MD/PhD student, I attempt to maintain a potential to adapt the end-products
 
 The story presented here is rather unusual in that success precedes failure. The volume of tangible presentable results is greatest toward the beginning stages of the work described here. This unusual inversion is what make this story worth hearing, however. Thank you for taking the time to read this. I hope that at least the technical information provided herein, if not the procedural insight, is valuable in your current or future endeavors.
 
+<!-- Every day my colleagues and I are surprised and amazed by the bizarre twists and turns we observe.  -->
+<!-- Occasionally left bewildered, not quite capable --- or perhaps unwilling to recall --- the motivational catch phrase that is stamped and stamped again, the meat of the intro, and stamped again to bring discussion to an end... -->
 
 ***
