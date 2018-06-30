@@ -11,5 +11,3 @@ The story presented here is rather unusual in that success precedes failure. The
 
 <!-- Every day my colleagues and I are surprised and amazed by the bizarre twists and turns we observe.  -->
 <!-- Occasionally left bewildered, not quite capable --- or perhaps unwilling to recall --- the motivational catch phrase that is stamped and stamped again, the meat of the intro, and stamped again to bring discussion to an end... -->
-
-***
