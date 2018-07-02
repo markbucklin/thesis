@@ -2,6 +2,20 @@
 
 This section borrows from AIM-1 and AIM-2 of the prospectus.
 
+# Introduction
+# Procedures for Calcium Imaging
+# Computer Software Environments for Image Processing
+# Computational Resources for Processing Large Data Sets
+# Method and Approach
+# Image Pre-processing: Contrast Enhancement and Motion Correction
+# Region of Interest (ROI) identification & segmentation:
+# Region of Interest (ROI) merging:
+# Visualization
+# Predicting Activation State & Assessing Network Activity
+# Parallel Processing
+# Managing Continuity
+
+
 #### Computing Power and Connectivity 
 - Remote Clusters (AWS) 
 - Graphics Processing Units (NVIDIA GTX) 

@@ -61,56 +61,6 @@ header-includes:
 ...
 
 
-**Table of Contents**
-
-Abstract
-
-Preface
-
-List of Abbreviations
-
-Chapter 1: Development of a library of adaptable software that enables
-neuroscientists to acquire, process, analyze, and visualize large
-volumes of fluorescence imaging data from awake behaving animals.
-
-1.1 Introduction
-
-1.1.1 Procedures for Calcium Imaging
-
-1.1.2 Computer Software Environments for Image Processing
-
-1.1.3 Computational Resources for Processing Large Data Sets
-
-1.2 Method and Approach
-
-1.2.1 Image Pre-processing: Contrast Enhancement and Motion Correction
-
-1.2.2 Region of Interest (ROI) identification & segmentation:
-
-1.2.3 Region of Interest (ROI) merging:
-
-1.2.4 Visualization
-
-1.2.5 Predicting Activation State & Assessing Network Activity
-
-1.2.6 Parallel Processing
-
-1.2.7 Managing Continuity
 
 
 
-Bibliography
-
-Vita
-
-List of Tables (required, if any)
-
-List of Figures (required, if any)
-
-List of Illustrations or Schemes (required, if any)
-
-
-
-**Chapter 1: Development of a library of adaptable software that enables
-neuroscientists to acquire, process, analyze, and visualize large
-volumes of fluorescence imaging data from awake behaving animals.**
