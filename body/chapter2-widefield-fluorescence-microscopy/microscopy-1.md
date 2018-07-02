@@ -1,5 +1,4 @@
-
-## Microscopy 1
+# Microscopy 1
 
 This section describes the background in microscopy in the neurosciences, and also how it relates to imaging in
 healthcare and electrophysiology in neuroscience. It will also describe the basic elements necessary for the
