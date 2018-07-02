@@ -1,16 +1,17 @@
 
 # Chapter - Microscopy
 
-## DIY Widefield
+## DIY Widefield Microscope Hardware
 
-### Cameras
+## Cameras
+This section details the evolution of cameras sensors and other sensors that provide bio-relevant data. Emphasis is on
 
-#### Scientific CMOS (sCMOS)
+
+### Scientific CMOS (sCMOS)
 - Correlated double sampling
 - HDR
 - On-sensor Fusion
 - Commercial availability
-- 
 
 ### Filters
 
@@ -18,8 +19,9 @@
 
 ### Mechanics
 
-# Chapter - Telemetry & Control
-## SCADA on the Cheap
+
+
+
 
 ## Development boards
 
@@ -33,9 +35,7 @@
 - Background - Microscopy and Functional Imaging - Image Processing
 
 ## Microscopy and Functional Imaging Two core innovations in available
-- technology 
-      1. Synthetic bio (i.e. GCaMP) 
-      2. Cameras 
+- technology 1. Synthetic bio (i.e. GCaMP) 2. Cameras 
 - scientific CMOS
 
 ## Image Processing 1. Computing Power and Connectivity 
@@ -56,8 +56,7 @@
 - Dataflow Processing 
 - Actors model
 - Petri Nets 
-- Graph Processing 
-      - i.e. Tensorflow
+- Graph Processing - i.e. Tensorflow
 
 ## Image Processing 
 - Motion Correction 
@@ -67,7 +66,7 @@
 ###  Spatially Homogeneous phase correlation
 - aka normalized cross correlation - Feature Matching 
 - Detect features (i.e. corners) 
-### Triangulate best
+  ### Triangulate best
 
 ## Image Enhancement 
 1. Contrast - Linear Scaling - Lookup Tables 
@@ -77,8 +76,7 @@
 ## Feature Extraction 
 1. Feature images (temporally independent)
 
-- Gradients - Surface Curvature 2. Long Term Memory - Statistics
-      - changes (single pixel) 
+- Gradients - Surface Curvature 2. Long Term Memory - Statistics - changes (single pixel) 
 - Mutual information changes (inter-pixel)
 
 # Chapter - Acceleration and Optimization Procedures for Online Video Processing 
@@ -167,10 +165,10 @@ Video Processing Strategy Thus Far
 - OpenVX
 - CLosedDoesNotExist (...?)
 - Shader Languages
-   - GLSL
-   - HLSL
-   - WebGL
-   - Halide
+  - GLSL
+  - HLSL
+  - WebGL
+  - Halide
    - 
 - FFmpeg
 - GStreamer
@@ -179,12 +177,14 @@ Video Processing Strategy Thus Far
 ### Procedural Framework: Pipes, Streams, & Graphs
 
 #### Concurrency: Parallel = Performance?
-Not always, no. While concurrent processing of independent tasks or sequentially arriving data elements will almost always increase performance, this is not always the case. At a lower instruction-level than we typically program, synchronous operations can often be optimized in ways that asynchronous operations cannot, typically through strategic register allocation, or by taking cache-hit performance).
-"Globally Asynchronous Locally Synchronous"
+Not always, no. While concurrent processing of independent tasks or sequentially arriving data elements will almost
+always increase performance, this is not always the case. At a lower instruction-level than we typically program,
+synchronous operations can often be optimized in ways that asynchronous operations cannot, typically through strategic
+register allocation, or by taking cache-hit performance). "Globally Asynchronous Locally Synchronous"
 
-#### Scheduling
+<!-- #### Scheduling -->
 
-#### Adaptive 
+<!-- #### Adaptive  -->
 
 ## Choice of Operations
 - What is the goal?
@@ -194,10 +194,14 @@ Not always, no. While concurrent processing of independent tasks or sequentially
   - Can they be reliably controlled or accounted for?
 
 ### Motion Correction
-In our application, the goal of a motion correction operation is to artificially suppress translation of the brain tissue parallel to the image plane. *Phase-Correlation* (also referred to as *normalized cross-correlation*) has consistent performance across a range of image sources with varying spatial noise characteristics. However, a large non-uniform change from reference frames - such as occurs when cells with low baseline fluourescence are first activated - can cause drastic errors that must be recognized and corrected by a supervisory procedure. This can induce an undesirable, unpredicatable, and specifically inopportune latency Unfortunately in all the whole pipeline.
+In our application, the goal of a motion correction operation is to artificially suppress translation of the brain
+tissue parallel to the image plane. *Phase-Correlation* (also referred to as *normalized cross-correlation*) has
+consistent performance across a range of image sources with varying spatial noise characteristics. However, a large
+non-uniform change from reference frames - such as occurs when cells with low baseline fluourescence are first activated
+- can cause drastic errors that must be recognized and corrected by a supervisory procedure. This can induce an
+undesirable, unpredicatable, and specifically inopportune latency Unfortunately in all the whole pipeline.
 
-Unfortunately, 
-"Globally Asynchronous Locally Synchronous"
+Unfortunately, "Globally Asynchronous Locally Synchronous"
 
 as it's In some experimental setups, 
 
@@ -212,17 +216,17 @@ The phase correlation method of
 
 
 
-# Chapter - Survey of Alternative Strategies
+<!-- # Chapter - Survey of Alternative Strategies -->
 
-## Implementation
+<!-- ## Implementation -->
 
-### EfficientCode 
-- Scalable - Reusable - Make it MODULAR 
+<!-- ### EfficientCode  -->
+<!-- - Scalable - Reusable - Make it MODULAR  -->
 - 
 
-### Operation
+<!-- ### Operation -->
 
 
-# Chapter - Compression: as a Tool, a Goal, as an Explanation
+
 
 
