@@ -1,4 +1,19 @@
 ## Closed-Loop Diffuse Optogenetic Neuromodulation
+
+
+Chronic implant for long-term multi-site recording and
+optogenetic neuromodulation. The implant is fixed to a mouse’s skull
+with dental cement, and sits on top of bilateral 5 mm craniotomies.
+Electrodes are driven through 32 guiding-tunnels along pre-determined
+trajectories to bilateral targets in thalamus, striatum, prefrontal
+cortex, motor cortex and auditory cortex. 2 High-intensity LEDs are
+coupled to optical fibers driven to mediodorsal and centromedial
+thalamic nuclei. Electrode trajectories are computed in stereotaxic
+coordinates and imported into CAD model to construct guiding-tunnel
+features that facilitate correct placement of electrode tips in brain
+targets and connection to a circuit board. A-C) CAD model of implant. D)
+Circuit board for electrode termination and LED power.
+
 <!-- from submitted NRSA/F31 Application -->
 Brain disease, often accompanied by enormous personal and economic costs, continues to emerge as among the most pressing
 contributors to the global disease burden. Unprecedented advances in biotechnology and in portable electronics support
