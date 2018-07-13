@@ -80,7 +80,11 @@ Many built-in MATLAB functions are implemented using efficient multi-threaded pr
 
 Standard elementwise operators like *plus* (+) and *times* (.\*), as well as comparison operators like *equals* (==) and *less-than* (&lt;) will be performed efficiently using as many processing cores as available when applied to large n-dimensional arrays of the same size. However, when operand sizes differ a simple call to the built-in operation will not work. For example, if we wish to subtract the average from each pixel over time from all frames in the series we can accomplish this with a call to MATLAB's *bsxfun* function, which stands for Binary-Singleton-eXpansion-FUNction, as shown below:
 
-&gt;&gt; Fmeansub = bsxfun( @minus, F, mean(F,3) );
+''' {.matlab}
+
+      Fmeansub = bsxfun( @minus, F, mean(F,3) ); 
+
+'''
 
 This operation passes a function handle as the first argument (denoted by the '@' symbol) indicating the operation to perform. It then passes the entire \[IxJxK\] array of image data as the second argument, and it's temporal mean with size \[IxJx1\] is calculated once and passed as the third. The function efficiently expands the mean argument as needed for fast distribution across parallel threads.
 
@@ -199,6 +203,7 @@ Building the set of functions for offline processing enabled application to data
 -   WebGL
 -   Halide
 -   -   FFmpeg
+
 -   GStreamer
 
 ## Choice of Interface
@@ -246,5 +251,3 @@ The phase correlation method of \#\#\#\#\# Motion Estimation - cost: 2-10 ms/fra
 -   
 
 #### Operation
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
