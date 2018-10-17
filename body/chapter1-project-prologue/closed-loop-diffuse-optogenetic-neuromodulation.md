@@ -1,5 +1,8 @@
 ## Closed-Loop Diffuse Optogenetic Neuromodulation
 
+<!-- carbon fiber electrode & LED -->
+<!-- (Deep-Target Carbon-Fiber Electrode Array and Bilateral Illumination) -->
+
 Chronic implant for long-term multi-site recording and optogenetic neuromodulation. The implant is fixed to a mouse’s skull with dental cement, and sits on top of bilateral 5 mm craniotomies. Electrodes are driven through 32 guiding-tunnels along pre-determined trajectories to bilateral targets in thalamus, striatum, prefrontal cortex, motor cortex and auditory cortex. 2 High-intensity LEDs are coupled to optical fibers driven to mediodorsal and centromedial thalamic nuclei. Electrode trajectories are computed in stereotaxic coordinates and imported into CAD model to construct guiding-tunnel features that facilitate correct placement of electrode tips in brain targets and connection to a circuit board. A-C) CAD model of implant. D) Circuit board for electrode termination and LED power.
 
 <!-- from submitted NRSA/F31 Application -->
@@ -225,22 +228,22 @@ All surgical implants and equipment would be autoclaved prior to surgery and kep
 
 We expect that very few implantations would be successfully performed early in the project. The implant and circuitry design would almost certainly need revision, as would the surgical procedures and the software. However, once a functional design is settled on it would be trivial to scale the project so that several mice may be started (fitted with implants) each week. These mice would be observed in a bowl with a camera.
 
-## Justification
+#### Justification
 
 The mammalian nervous system is extremely complex. The intention of the proposed project is to build technology that would facilitate rapid development to novel therapeutics that alleviate human suffering caused by poorly understood neurological diseases. Transgenic mice are excellent for this project because of the easy availability and large variety of specific cell-type-expression in the brain areas we wish to target.
 
-## Veterinary Care
+#### Veterinary Care
 
 Mice for this project would be housed and cared for in Boston University’s AAALAC accredited animal facility. The Laboratory Animal Care Facility employs an Attending Veterinarian, a Veterinary Services Manager, and three veterinary technicians to oversee animals used in research.
 
-## Procedures to Ensure Limited Discomfort, Distress, Pain, and Injury
+#### Procedures to Ensure Limited Discomfort, Distress, Pain, and Injury
 
 An extensive pubmed search for studies utilizing a similar experimental approach did not yield more appropriate methods for ensuring minimal pain and distress. Following surgical implantation 0.3 mg/kg injections of burprenorphine would be administered to mice every 6-12 hours for 48 hours, and they would be routinely observed for signs of pain and distress. Prior to animal behavior testing, mice would also be given time to adjust to the head-fixation device and running ball. ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Method of Euthanasia
+#### Method of Euthanasia
 
 Mice would be euthanized by either a lethal dose of sodium pentobarbitol administered IP or via CO~2~ gas chamber. Sodium pentobarbitol would be used if perfusion of neural tissue for histology is necessary. Because all animals used would be adults, CO~2~ asfixiation is appropriate. Cervical dislocation would follow either method of euthaniasia to ensure death. These methods are consistent with the AMVA Guidelines for Euthanasia of Animals.
 
-# Parameters for large-scale study
+#### Parameters for large-scale study
 
 Figure 2 – This diagram shows the process outlined in AIM 3 used to select a set of input/output targets defining each mouse. The variables assigned at each stage would be used by the stimulation-control and machine-learning algorithms described in AIM 2. BLUE: Cre-LoxP mouse strain (cre) and genotype (0,-,+) from inbred and WT-crossed Cre-LoxP Transgenics. G0 = wild-type;, G-(cre) = heterzygous expression of cre; G+(cre) = homozygous expression of Cre (e.g. G+(Emx), G+(D1), etc.). BLACK: Stimulation targets defined by viral gene delivery using adeno-associated virus (AAV) vector. Each target is defined by the opsin/promoter-pair of the gene delivered and the stereotaxic-coordinates, or equivalently the brain region reference atlas acronym, defined using the ALLEN Mouse Brain Atlas. ap,ml,dv = anteroposterior, mediolateral, & dorsoventral coordinates respectively. e.g. ops∈{‘chr2’,’arch’,’arch’,…etc.}. pro∈{ ‘cag’,’caglox’}. k = 1,2,…,Q. where Q≤8 is the total number of unilateral brain regions targeted for injection. d,s = dexter, sinister, used to represent whether bilaterally symmetric target region is on right or left side of the brain respectively. For Example, S3d refers to the 3rd stimulation site in the right hemisphere for an individual mouse and would initially be defined programmatically with property:value pairs (MATLAB handle notation), e.g. &gt;&gt; mouse(36).S3d = S(‘chr2’,’caglox’,reg(-1.34,1.75,4.5)). RED: Recording target region defined by target tip placement of carbon-fiber or tungsten microwire recording electrodes (driven and fixed during initial surgery), similar to Sk except also including a parameter, p, referring to the pad on the the circuit board to which the electrode attaches. Each Rk can also be assigned filter parameters where ‘filt’ can be one of {filt\_lp, filt\_hp, filt\_bp} for low-pass, high-pass, and band-pass respectively, with appropriate cuttoff parameter, fs. GREEN: represents a fully defined mouse.

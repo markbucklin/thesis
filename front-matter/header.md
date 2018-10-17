@@ -51,15 +51,16 @@ header-includes:
     - \usepackage{appendix}
     - \usepackage{caption}
 	- \usepackage{float}
-\numberwithin{figure}{section}
-\numberwithin{table}{section}
-\pagenumbering{arabic}
-\setstretch{1}
-\setlength{\parskip}{9pt}
-<!-- \captionsetup[table]{labelformat=empty} -->
+    - \numberwithin{figure}{section}
+    - \numberwithin{table}{section}
+    - \numberwithin{equations}{section}
+    - \pagenumbering{arabic}
+    - \setstretch{1}
+    - \setlength{\parskip}{9pt}
+
+
 
 ...
-
 
 
 
