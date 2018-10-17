@@ -1,5 +1,5 @@
-
 # Abbreviations
+
 <!-- GECI ................................................Genetically Encoded
 Calcium Indicator
 
@@ -21,3 +21,7 @@ Single-Instruction Multiple Data
 PD
 ........................................................................\...
 Parkinson's Disease -->
+<!-- use the --abbreviations extension? -->
+\*\[HTML\]: Hypertext Markup Language
+
+\*\[HTML\]: Hypertext Markup Language
