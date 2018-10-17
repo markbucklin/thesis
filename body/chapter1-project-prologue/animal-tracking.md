@@ -1,5 +1,5 @@
 ## Animal Tracking
-
+<!-- ## Automated Behavior Tracking: Mouse-Bowl Spin-Counter -->
 <!-- #### Free Behavior with Video Tracking -->
 <!-- ![](media/image8.jpeg){width="1.5in" height="1.2711318897637796in"} -->
 <!-- ![](media/image9.tiff){width="2.0in" height="1.7125in"}![](media/image10.tiff){width="1.4986111111111111in"
