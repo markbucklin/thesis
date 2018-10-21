@@ -22,10 +22,11 @@ Because a single photon microscope does not rely on scanning features, it can be
 <!-- from the frontiers paper -->
 ## Background: Brain Imaging and Microscopy in Neuroscience
 
-### Fluorescent Proteins Background
+## Fluorescent Proteins Background
 
 -   GCamP
     -   vs dyes
+
 
 ### Fluorescence Microscope Types Background
 
@@ -50,11 +51,11 @@ Because a single photon microscope does not rely on scanning features, it can be
 
 The simplest configuration of infinite wide-field microscope requires an excitation
 
-#### Excitation
+### Excitation
 
-#### Emission
+### Emission
 
-#### Emitted Light Collection and Image Formation (emission/collection)
+### Emitted Light Collection and Image Formation (emission/collection)
 
 -   Lens selection
     -   objectives
