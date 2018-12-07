@@ -10,7 +10,7 @@ The IR touchscreen provided a robus measure of the location of any contact with 
 
 Files in this folder are used to run our "BehaviorBox" system, which features easily customizable control of experiments involving an infrared touchscreen and LCD display along with speakers, water-ports, lights, essentially anything that can be controlled electronically...
 
-COGENT 2000 The graphics/visual-stimulation package used is missing from this folder due to size, but can be downloaded from the source (http://www.vislab.ucl.ac.uk/cogent\_2000.php)
+COGENT 2000 The graphics/visual-stimulation package used is missing from this folder due to size, but can be downloaded from the source [](http://www.vislab.ucl.ac.uk/cogent_2000.php)
 
 <!-- TouchDisplay, TouchInterface, Speaker, NiDaqInterface, DataFile, BehaviorFile, DataLogger, BehaviorBox, BehaviorBoxController, PositionData, Rectangle  -->
 

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption/>
+  <note>Created by Hamamatsu Inc.
+Tue, 20 May 2014 01:21:28 Eastern Daylight Time
+
+[ CALIBRATION ]
+title = Default
+units = Pixels
+symbol = Px
+factor = 1.000000
+scale_len = 100.000000
+[ CAPTURE DEVICE ]
+ Camera Type = D_CAM
+ Camera Name = C11440-42U S/N: 000040
+ Camera Size = 2048x2048
+ Bit Depth = 16-Bit
+ Binning = 1
+ Capture Region = (X0=0, Y0=0, Width=2048, Height=2048)
+
+[ CAPTURE SETTINGS ]
+ eOffset1 = 100.00
+ eCoeff1 = 0.50000
+ Exposure1 = 0.100000 s
+</note>
+  <place/>
+  <categories/>
+</comment>
