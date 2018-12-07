@@ -5,9 +5,7 @@
 
 A webcam-based motion tracking box has been constructed to analyze the movement of our unilaterally lesioned PD mouse model. Video is recorded at 15 frames per second and processed on-line or off-line using a function written in MATLAB. Briefly, this function converts each frame to a black and white image (logical matrix), uses morphological filtering functions to isolate the mouse (remove mouse excrement) and identify its body (remove the tail), then finds the center of mass in cartesian coordinates (maximum center of projection on x- and y-axes), and the rostral-caudal orientation measured in degrees off the x-axis. Orientation is determined by the index of maximum of a radon transform of the binary image. Processing is accomplished at a rate of 15-16 fps, using a single core, or 64 fps using parallel processing on a quad-core processor with multi-threading enabled. The advantage of this apparatus over the virtual-reality system is that it allows free movement of an untrained mouse, with real-time movement metrics at nearly the same rate as the spherical treadmil
 
-![](img/framesample.jpg){height="2in"}
-![](img/image9.tiff){width="2.0in" height="1.7125in"}
-![](img/image10.tiff){width="1.4986111111111111in" height="1.5541666666666667in"}
+![Input frame ](img/bowl/framesample.jpg){#fig:animal-tracking-input-frame height="2in"}
 
 ### Motion Sensors
 
