@@ -81,11 +81,11 @@ Many built-in MATLAB functions are implemented using efficient multi-threaded pr
 
 Standard elementwise operators like _plus_ (+) and _times_ (.\*), as well as comparison operators like _equals_ (==) and _less-than_ (&lt;) will be performed efficiently using as many processing cores as available when applied to large n-dimensional arrays of the same size. However, when operand sizes differ a simple call to the built-in operation will not work. For example, if we wish to subtract the average from each pixel over time from all frames in the series we can accomplish this with a call to MATLAB's _bsxfun_ function, which stands for Binary-Singleton-eXpansion-FUNction, as shown below:
 
-''' .matlab
+```matlab
 
       Fmeansub = bsxfun( @minus, F, mean(F,3) );
 
-'''
+```
 
 This operation passes a function handle as the first argument (denoted by the '@' symbol) indicating the operation to perform. It then passes the entire \[IxJxK\] array of image data as the second argument, and it's temporal mean with size \[IxJx1\] is calculated once and passed as the third. The function efficiently expands the mean argument as needed for fast distribution across parallel threads.
 
@@ -138,7 +138,7 @@ Building the set of functions for offline processing enabled application to data
 
 ##### central moments
 
-```.matlab
+```matlab
       function [m1,m2,m3,m4,fmin,fmax] = updateStatistics(x,m1,m2,m3,m4))
             n = n + 1;
 
@@ -165,7 +165,7 @@ Building the set of functions for offline processing enabled application to data
 
 ##### Extract Features
 
-```.matlab
+```matlab
 
       function [dm1,dm2,dm3,dm4] = getStatisticUpdate(x,m1,m2,m3,m4)
             % COMPUTE DIFFERENTIAL UPDATE TO CENTRAL MOMENTS
@@ -184,7 +184,7 @@ Building the set of functions for offline processing enabled application to data
 
 #### Simple Processing on GPU
 
-```.matlab
+```matlab
       [dm1,dm2,dm3,dm4] = arrayfun(@getStatisticUpdate(x,m1,m2,m3,m4)
       [dm1,dm2,dm3,dm4] = arrayfun(@getStatisticUpdate(rowidx,colidx)
 ```
