@@ -62,10 +62,6 @@ The initial stages of this project have focused on aim 1 – designing the physi
 
 A _chronic neural implant_ is required for this project, as the machine-learning component of this closed-loop system would require time and signal stability to function effectively. While our lab currently employs chronically implanted drivable tetrode arrays, this project would benefit from dropping this complexity in favor of _static_ electrodes that are set to their prescribed position during the initial surgery, and never thereafter.
 
-<!--
-![](img/image1.png){width="2.0in" height="1.2013888888888888in"}**Electrodes: **
-
-![](img/image2.png){width="2.0in" height="0.6486111111111111in"} -->
 
 Sustained penetration of brain tissue with large (&gt;15 microns) diameter electrodes provokes a chonic inflammatory reaction to the foreign body eventually encapsulates the electrode in a “glial scar” and inhibits regeneration of neural process in the vicinity (Polikov, Tresco, and Reichert 2005). The chronic implant designed for this project would use silicon electrodes to record from deep brain targets, and for shallow targets would employ _carbon fiber electrodes_ (4-10 microns) using methods developed in a nearby collaborating lab (@guitchounts_carbon-fiber_2013). Carbon fiber is cheaply available with a range of electrical properties, but the common properties of high modulus and small diameter – 5-10 micron vs. 30-50 microns for typical commercial microwire arrays (@ward_toward_2009) – allows carbon fiber to penetrate brain tissue without deforming, and to remain long-term without provoking an inflammatory reaction (@kozai_ultrasmall_2012).
 
@@ -75,18 +71,13 @@ High-intensity LEDs would be incorporated into the implant in favor of a traditi
 
 LED arrays, and Digital Micromirror Devices (DMDs) and Liquid Crystal on Silicon (LcoS) chips have been considered as a means of greater spatial control of light intensity; any of these would be incorporated if the technology improves during the lifetime of the project, but the current state of technology places heavy restrictions on space and/or power requirements to merit incorporation into the implant. Incorporating multiple LEDs (4 to 8) would enable semi-independent activation of neurons in widely-separated brain regions, the proposed project would need to _overlap_ this diffuse control with more precise targeted delivery of opsins (@packer_targeting_2013).
 
-<!--
-![](img/image3.png){width="1.4951388888888888in" height="1.0in"}**PCB and Implant
 
-![img/pcb/_bottom.PNG](img/image4.png){width="1.5121237970253718in" height="1.0in"}
-![img/pcb/_top.PNG](img/image5.png){width="1.5214709098862642in" height="1.0in"}
-![img/2013-12-04 15.33.53.jpg](img/image6.jpeg){width="1.5191251093613298in" height="1.0in"}
+#### Figure: PCB schematic for head-mounted carbon fiber electrode array {#pcb-top}
+![top 1](./img/pcb/pcb_top1){#pcb-top1 height="1.0in"}
+![top 2](./img/pcb/pcb_top2){#pcb-top2   height="1.0in"}
+![top 3](./img/pcb/pcb_top3){#pcb-top3  height="1.0in"}
+Caption: Circuit Board for connection to carbon-fiber electrodes and LEDs
 
-Figure 1Circuit Board for Electrodes and LEDs
-
-  -- -- --
-
-  -- -- -- -->
 
 Here I describe the design strategy for the physical implant outlined above that would provide pathways to and from the mouse brain for the the electrodes and LEDs described above, as well as the circuit board that sits within this implant and consolidates all _input/output_ signals for connection with a computer. This project would strive to ensure the bidirectional chronic neural implant is _resilient_ to the abuse it would surely endure over the weeks to months of service _affixed to the cranium_ of a laboratory mouse. The outcome we wish to avoid is _movement_ of the penetrating electrodes within the brain tissue when external forces act on the implant, or when internal forces cause the animals brain to move relative to its skull. Moreover, if the electrode is unable to move with the brain there is substantial risk of electrode breakage.
 
@@ -228,13 +219,13 @@ The number of animals used over the course of this project is an estimate that b
 
 - *Total: \~200* -->
 
-#### Surgery\*\*
+#### Surgery
 
 Mice would be anaesthetized prior to survival surgeries with a steady flow of 1-4% islofluorane in pure oxygen and depth of breathing would be monitored continuously. Once under, body temperature would be monitored and controlled with a heating pad and rectal thermometer. Prior to surgical incision, mice would be given a subcutaneous injection of 0.2 mg/kg buprenorphine. Hair removal and topical antiseptic (betadine and 70% alcohol) would be applied over the implantation site. The skull would then be stabilized with ear bars and an incision would be made in the caudal to rostral direction over the midline of the skull. With the use of a 2-dimensional template, positions for chronic electrodes would be marked on the skull with ink. A dental drill would be used to drill 16 small craniotomies (8 in each hemisphere) and injections would be made into brain regions underlying each craniotomy. 32 electrodes (2 in each craniotomy) would be inserted into the brain with a stereotaxic apparatus, and surgical lubricant would be placed over the surface of each craniotomy. Three bone screws would be inserted into the skull to stabilize the implant once it is in place. A custom head plate would be placed around the implanted electrodes and bone screws and cemented to the skull with bone cement.
 
 All surgical implants and equipment would be autoclaved prior to surgery and kept clean with 10% bleach or chlorhexidine. Mice would be kept warm with a heating lamp during recover.
 
-#### Behavioral Training\*\*
+#### Behavioral Training
 
 We expect that very few implantations would be successfully performed early in the project. The implant and circuitry design would almost certainly need revision, as would the surgical procedures and the software. However, once a functional design is settled on it would be trivial to scale the project so that several mice may be started (fitted with implants) each week. These mice would be observed in a bowl with a camera.
 
@@ -248,7 +239,7 @@ Mice for this project would be housed and cared for in Boston University’s AAA
 
 #### Procedures to Ensure Limited Discomfort, Distress, Pain, and Injury
 
-An extensive pubmed search for studies utilizing a similar experimental approach did not yield more appropriate methods for ensuring minimal pain and distress. Following surgical implantation 0.3 mg/kg injections of burprenorphine would be administered to mice every 6-12 hours for 48 hours, and they would be routinely observed for signs of pain and distress. Prior to animal behavior testing, mice would also be given time to adjust to the head-fixation device and running ball. ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+An extensive pubmed search for studies utilizing a similar experimental approach did not yield more appropriate methods for ensuring minimal pain and distress. Following surgical implantation 0.3 mg/kg injections of burprenorphine would be administered to mice every 6-12 hours for 48 hours, and they would be routinely observed for signs of pain and distress. Prior to animal behavior testing, mice would also be given time to adjust to the head-fixation device and running ball.
 
 #### Method of Euthanasia
 
@@ -256,4 +247,10 @@ Mice would be euthanized by either a lethal dose of sodium pentobarbitol adminis
 
 #### Parameters for large-scale study
 
-Figure 2 – This diagram shows the process outlined in AIM 3 used to select a set of input/output targets defining each mouse. The variables assigned at each stage would be used by the stimulation-control and machine-learning algorithms described in AIM 2. BLUE: Cre-LoxP mouse strain (cre) and genotype (0,-,+) from inbred and WT-crossed Cre-LoxP Transgenics. G0 = wild-type;, G-(cre) = heterzygous expression of cre; G+(cre) = homozygous expression of Cre (e.g. G+(Emx), G+(D1), etc.). BLACK: Stimulation targets defined by viral gene delivery using adeno-associated virus (AAV) vector. Each target is defined by the opsin/promoter-pair of the gene delivered and the stereotaxic-coordinates, or equivalently the brain region reference atlas acronym, defined using the ALLEN Mouse Brain Atlas. ap,ml,dv = anteroposterior, mediolateral, & dorsoventral coordinates respectively. e.g. ops∈{‘chr2’,’arch’,’arch’,…etc.}. pro∈{ ‘cag’,’caglox’}. k = 1,2,…,Q. where Q≤8 is the total number of unilateral brain regions targeted for injection. d,s = dexter, sinister, used to represent whether bilaterally symmetric target region is on right or left side of the brain respectively. For Example, S3d refers to the 3rd stimulation site in the right hemisphere for an individual mouse and would initially be defined programmatically with property:value pairs (MATLAB handle notation), e.g. &gt;&gt; mouse(36).S3d = S(‘chr2’,’caglox’,reg(-1.34,1.75,4.5)). RED: Recording target region defined by target tip placement of carbon-fiber or tungsten microwire recording electrodes (driven and fixed during initial surgery), similar to Sk except also including a parameter, p, referring to the pad on the the circuit board to which the electrode attaches. Each Rk can also be assigned filter parameters where ‘filt’ can be one of {filt_lp, filt_hp, filt_bp} for low-pass, high-pass, and band-pass respectively, with appropriate cuttoff parameter, fs. GREEN: represents a fully defined mouse.
+Figure 2 – This diagram shows the process outlined in AIM 3 used to select a set of input/output targets defining each mouse. The variables assigned at each stage would be used by the stimulation-control and machine-learning algorithms described in AIM 2. BLUE: Cre-LoxP mouse strain (cre) and genotype (0,-,+) from inbred and WT-crossed Cre-LoxP Transgenics. G0 = wild-type;, G-(cre) = heterzygous expression of cre; G+(cre) = homozygous expression of Cre (e.g. G+(Emx), G+(D1), etc.). BLACK: Stimulation targets defined by viral gene delivery using adeno-associated virus (AAV) vector. Each target is defined by the opsin/promoter-pair of the gene delivered and the stereotaxic-coordinates, or equivalently the brain region reference atlas acronym, defined using the ALLEN Mouse Brain Atlas. ap,ml,dv = anteroposterior, mediolateral, & dorsoventral coordinates respectively. e.g. ops∈{‘chr2’,’arch’,’arch’,…etc.}. pro∈{ ‘cag’,’caglox’}. k = 1,2,…,Q. where Q≤8 is the total number of unilateral brain regions targeted for injection. d,s = dexter, sinister, used to represent whether bilaterally symmetric target region is on right or left side of the brain respectively. For Example, S3d refers to the 3rd stimulation site in the right hemisphere for an individual mouse and would initially be defined programmatically with property:value pairs (MATLAB handle notation), e.g.
+
+```matlab
+ mouse(36).S3d = S(‘chr2’,’caglox’,reg(-1.34,1.75,4.5)).
+```
+
+ RED: Recording target region defined by target tip placement of carbon-fiber or tungsten microwire recording electrodes (driven and fixed during initial surgery), similar to Sk except also including a parameter, p, referring to the pad on the the circuit board to which the electrode attaches. Each Rk can also be assigned filter parameters where ‘filt’ can be one of {filt_lp, filt_hp, filt_bp} for low-pass, high-pass, and band-pass respectively, with appropriate cuttoff parameter, fs. GREEN: represents a fully defined mouse.
