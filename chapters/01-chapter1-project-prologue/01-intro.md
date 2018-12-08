@@ -7,6 +7,3 @@ This chapter describes several projects that were started early during my gradua
     -   pros/cons of each
     -   very little compromise in tradeoffs
 -   Filling the gaps between these three approaches
-
-
-
