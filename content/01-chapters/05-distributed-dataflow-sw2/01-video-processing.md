@@ -39,37 +39,25 @@ The displacement of each frame is found to sub-pixel precision, then used with a
 
 A number of statistics for each pixel are updated online and can be used for normalization and segmentation procedures later in the process. These include the minimum and maximum pixel intensity, and the first four central moments, which are easily converted to the mean, variance, skewness, and kurtosis. The formulas for making these calculations are given below, and are performed in a highly efficient manner as data are kept local to each processing core, and repeat computations are minimized.
 
+
+```matlab
 n = n + 1;
-
-% GET PIXEL SAMPLE
-
 f = F(rowIdx,colIdx,k);
-
-% PRECOMPUTE & CACHE SOME VALUES FOR SPEED
-
 d = single(f) - m1;
-
 dk = d/n;
-
 dk2 = dk\^2;
-
 s = d\*dk\*(n-1);
 
 % UPDATE CENTRAL MOMENTS
-
 m1 = m1 + dk;
-
 m4 = m4 + s\*dk2\*(n.\^2-3\*n+3) + 6\*dk2\*m2 - 4\*dk\*m3;
-
 m3 = m3 + s\*dk\*(n-2) - 3\*dk\*m2;
-
 m2 = m2 + s;
-
 % UPDATE MIN & MAX
-
 fmin = min(fmin, f);
-
 fmax = max(fmax, f);
+```
+
 
 Furthermore, the value used to update each central moment at each point in time can be used as a measure of change in the distribution of each pixel caused by the current pixel intensity, as explained next.
 
