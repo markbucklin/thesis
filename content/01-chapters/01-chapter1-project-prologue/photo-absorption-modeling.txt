@@ -3,4 +3,3 @@
 
 <!-- Thermal Modeling of laser light delivery to brain through fixed fiber optic -->
 This was a modeling project. <!-- TODO -->
-
