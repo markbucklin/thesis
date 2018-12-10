@@ -1,4 +1,5 @@
-<!-- 
+# Cover Page
+<!--
 Development and Application
 
 of a Closed-Loop Continuous Optical Neural Interface
