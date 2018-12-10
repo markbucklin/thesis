@@ -1,7 +1,0 @@
-## Sensors
-
-
-* Development boards
-
-
-***
