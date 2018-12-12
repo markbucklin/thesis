@@ -1,6 +1,6 @@
 ## Computer Workstation
 
-Go to [Puget Systems](pugetsystems.com) to find a computer configuration that is well tested and uses commercially available components to deliver high performance. If you don't feel like putting a computer together yourself, you could order directly from them.
+Go to [Puget Systems](http://www.pugetsystems.com) to find a computer configuration that is well tested and uses commercially available components to deliver high performance. If you don't feel like putting a computer together yourself, you could order directly from them.
 
 ### Part Selection and Assembly
 
