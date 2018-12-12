@@ -31,3 +31,11 @@ README.md
 ![mousedata1fiberon1](../../../img/animal-tracking/09mousedata1fiberon1.jpg){#animal-tracking-bowl-mousedata1fiberon1}
 Caption: Processing steps for automated rotation counting procedure used in hemiparkinsonian mouse study
 ```
+
+
+## Site generation
+
+Using daux.io
+```bash
+docker run --rm -it -v "$PWD":/build daux/daux.io daux generate --source=body --destination=static
+```
