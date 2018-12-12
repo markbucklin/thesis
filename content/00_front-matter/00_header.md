@@ -47,6 +47,8 @@ lof: True
 lot: True
 
 numbersections: true
+
+# for pandoc-fignos
 header-includes:
     - \usepackage{appendix}
     - \usepackage{caption}
