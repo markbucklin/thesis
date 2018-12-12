@@ -16,11 +16,25 @@ A webcam-based motion tracking box constructed to analyze the movement of our un
 
 
 #### Figure: text is ignored {#animal-tracking-bowl}
-
-
-
+![raw](../../../img/animal-tracking/01raw.jpg){#animal-tracking-bowl-raw}
+![black-and-white](../../../img/animal-tracking/02black-and-white.jpg){#animal-tracking-bowl-black-and-white}
+![twoframes](../../../img/animal-tracking/03twoframes.jpg){#animal-tracking-bowl-twoframes}
+![tail_ID](../../../img/animal-tracking/05tail_ID.jpg){#animal-tracking-bowl-tail_ID}
+![mousedata1](../../../img/animal-tracking/06mousedata1.jpg){#animal-tracking-bowl-mousedata1}
+![mousedata1close](../../../img/animal-tracking/07mousedata1close.jpg){#animal-tracking-bowl-mousedata1close}
+![mousedata2](../../../img/animal-tracking/08mousedata2.jpg){#animal-tracking-bowl-mousedata2}
+![mousedata1fiberon1](../../../img/animal-tracking/09mousedata1fiberon1.jpg){#animal-tracking-bowl-mousedata1fiberon1}
 Caption: Processing steps for automated rotation counting procedure used in hemiparkinsonian mouse study
 
+
+<!-- ![raw](../../../img/animal-tracking/01raw.jpg){#fig:raw}
+![black-and-white](../../../img/animal-tracking/02black-and-white.jpg){#fig:black-and-white}
+![twoframes](../../../img/animal-tracking/03twoframes.jpg){#fig:twoframes}
+![tail_ID](../../../img/animal-tracking/05tail_ID.jpg){#fig:tail_ID}
+![mousedata1](../../../img/animal-tracking/06mousedata1.jpg){#fig:mousedata1}
+![mousedata1close](../../../img/animal-tracking/07mousedata1close.jpg){#fig:mousedata1close}
+![mousedata2](../../../img/animal-tracking/08mousedata2.jpg){#fig:mousedata2}
+![mousedata1fiberon1](../../../img/animal-tracking/09mousedata1fiberon1.jpg){#fig:mousedata1fiberon1} -->
 
 
 <!-- ![picture of bowl tail_ID ](img/bowl/tail_ID.jpg){#bowl-tail_ID width=30%}
