@@ -7,10 +7,11 @@ A virtual reality system was assembled, adopting methods from the Harvey lab lab
 ### Treadmill contstruction
 
 #### Figure: {#spherical-treadmill}
-![spherical-treadmill-VR/01-treadmill-mouse-running ](../../../img/0spherical-treadmill-VR/01-treadmill-mouse-running.jpg){#spherical-treadmill-VR1-treadmill-mouse-running}
-![spherical-treadmill-VR/02-treadmill-front ](../../../img/0spherical-treadmill-VR/02-treadmill-front.jpg){#spherical-treadmill-VR2-treadmill-front}
-![spherical-treadmill-VR/03-treadmill-top ](../../../img/0spherical-treadmill-VR/03-treadmill-top.jpg){#spherical-treadmill-V03-treadmill-top}
+![spherical-treadmill-VR/01-treadmill-mouse-running ](img/0spherical-treadmill-VR/01-treadmill-mouse-running.jpg){#spherical-treadmill-VR1-treadmill-mouse-running}
+![spherical-treadmill-VR/02-treadmill-front ](img/0spherical-treadmill-VR/02-treadmill-front.jpg){#spherical-treadmill-VR2-treadmill-front}
+![spherical-treadmill-VR/03-treadmill-top ](img/0spherical-treadmill-VR/03-treadmill-top.jpg){#spherical-treadmill-V03-treadmill-top}
 Caption: this treadmill supports behavior.
+
 
 
 
