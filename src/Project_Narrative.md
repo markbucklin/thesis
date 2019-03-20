@@ -1,0 +1,3 @@
+**Project Narrative**
+
+Brain disease, often accompanied by enormous personal and economic costs, continues to emerge as among the most pressing contributors to the global disease burden. Unprecedented advances in biotechnology and in portable electronics support tremendous opportunity to conduct research with excellent potential for advanced understanding, improved treatments, and one day cures for these devastating diseases, disorders and conditions. This project will leverage technology from the fast-moving forefronts of electronics and biomedical research to build a next-generation neuroprosthetic.
