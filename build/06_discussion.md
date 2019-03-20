@@ -1,0 +1,45 @@
+# Discussion
+
+## Points to Address
+
+-   "Biomimicry" in Visual Processing
+    -   This section describes how image and video processing in the computer relate to visual processing in the mammalian brain. The overall goal is to emphasize the advantage and importance of biomimetic development.
+    -   Neuromorphic computing
+        -   On chip image processing
+            -   relation "edge computing"
+        -   event-based image sensors
+            -   "Artificial retina"
+            -   tittto
+            -   situations where event streams are advantageous
+            -   asynchronous
+            -   threshold-based
+        -   convolutional neural-nets and deep learning for specific tasks
+            -   similarities
+            -   differences (substantial)
+        -   genetic programming approaches to procedure optimization
+            -   minimize latency
+            -   maximize sensitivity and accuracy
+            -   minimize computational cost
+                -   minimize energy expenditure (metabolic efficiency)
+    -   Visual stream processing
+        -   feature extraction
+        -   motion estimation and compensation
+    -   Asymmetry of learning/training time and desired inference computation time
+-   Common themes across projects
+    -   finding common standards
+        -   sticking to non-proprietary *open source* conventions
+            -   optical parts (lens threads)
+            -   file formats
+            -   software libraries
+            -   programming languages
+        -   file transmission
+            -   web-based
+    -   Borrow from related sectors
+        -   better developed in many cases
+        -   surveillance
+        -   media streaming for web/entertainment
+        -   sports
+        -   astronomy/telescopes
+        -   medical imaging
+        -   automotive
+    -
