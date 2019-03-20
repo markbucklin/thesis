@@ -478,5 +478,3 @@
 
 {{figcaption(SW-sequence-vlcsnap)}}
 </div>
-
-
