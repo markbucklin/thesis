@@ -1,3 +1,4 @@
+### beveled fiber bundle notes
 This experiment was performed in an effort to further characterize the beveled fiber bundle, and also to test the full-field limits of the new sCMOS camera. 
 
 The mouse used was provided by KK. Transgenic EMX-Cre crossed with an Arch strain (EMX-Arch), thus all pyramidal neurons are expressing Archaerhodopsin along with GFP. This may be far from the sparse labeling we suspect would work with the beveled fiber bundle.
