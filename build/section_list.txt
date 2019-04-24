@@ -1,0 +1,238 @@
+/dev/null
+
+CHAPTER: ./00_introduction
+# Forward
+# Abstract
+# Introduction
+## Optical Imaging of Neural Activity
+## Procedures for Calcium Imaging
+## Computer Software Environments for Image Processing
+## Computational Resources for Processing Large Data Sets
+
+CHAPTER: ./01_project-prologue
+# Project Prologue {#sec:project-prologue}
+## Neuroscience Technology Development Background {#sec:neuroscience-technology-development-background}
+## Behavior Box {#sec:behavior-box}
+### IR Touchscreen {#sec:ir-touchscreen}
+### FrameSynx Toolbox {#sec:framesynx-toolbox}
+### Data File {#sec:data-file}
+## Animal Tracking {#sec:animal-tracking}
+### Using Computer Vision to track Position and Orientation {#sec:using-computer-vision-to-track-position-and-orientation}
+## Spherical Treadmill & Virtual-Reality
+### Treadmill contstruction
+#### Figure: {#spherical-treadmill}
+### Water Delivery
+#### Figure: {#water-delivery}
+### Motion Sensors
+#### Generic USB Computer Mouse with Minimal Linux
+#### Navigation Sensor Chip with Arduino
+#### Figure: {#motion-sensors}
+## Closed-Loop Diffuse Optogenetic Neuromodulation
+### Background
+### Project Plan
+#### Design a novel adaptive neuromodulation platform for closed loop control of neural activities {#sec:f31-aim1}
+#### Implement a library of closed loop modulation protocols with machine-learning algorithms {#sec:f31-aim2}
+#### Systematically evaluate the neural circuit mechanisms underlying DBS therapeutic effect on PD {#sec:f31-aim3}
+### Significance
+#### Justification for This Approach
+#### Shortcomings
+### Research Design and Methods
+#### Neural Interface
+#### LEDs
+#### Figure: PCB schematic for head-mounted carbon fiber electrode array {#pcb-top}
+#### Electrophysiology
+#### Front-end Digitization
+#### Signal Filtering, LFP and MUA
+#### Input/Output
+#### Closed-loop State Estimation and Adaptive Neuromodulation
+#### Generation and Evaluation of Stimulus Paradigm
+#### Machine-Learning & Optimization
+#### Identification of Neural State
+#### Stimulus Sequence Generation
+#### Stimulus Optimization
+### Systematic evaluation of potential DBS targets and mechanisms in PD mouse model:
+#### Metrics of Behavior
+
+CHAPTER: ./02_hw1
+# Microscopy 1
+## Background: Brain Imaging and Microscopy in Neuroscience
+## Fluorescent Proteins Background
+### Fluorescence Microscope Types Background
+### Widefield Microscope COnfiguration
+### Filters
+### Lenses
+### Excitation
+### Emission
+### Emitted Light Collection and Image Formation (emission/collection)
+### Microscopy and Functional Imaging Two core innovations in available
+## Brain Imaging Awake Animals
+## Brain Regions
+## Analysis
+# # ## Cameras for Widefield Microscopy
+### Accelerated Sensor improvement
+#### Sensor Size
+#### Read noise and Speed
+#### Interfaces: Connection
+#### Interfaces: Protocol
+## Computer Workstation
+### Part Selection and Assembly
+### Configuration
+### Package Managment
+### Development Environment
+## Head-Fixation Apparatus for Mice
+
+CHAPTER: ./03_sw1
+# Pipeline overview
+## phases
+### preprocessing
+#### time series analysis
+#### spatial signal deconvolution (unmixing)
+### signal localization and extraction
+### active signal analysis
+#### independent cellular activity measures
+#### network analysis
+## Computing cost:
+## Storage cost:
+# Image Processing
+# Procedures for Calcium Imaging
+# Computer Software Environments for Image Processing
+# Computational Resources for Processing Large Data Sets
+# Method and Approach
+# Image Pre-processing: Contrast Enhancement and Motion Correction
+# Region of Interest (ROI) identification & segmentation:
+# Region of Interest (ROI) merging:
+# Visualization
+# Predicting Activation State & Assessing Network Activity
+# Parallel Processing
+# Managing Continuity -->
+## Procedures for Calcium Imaging
+### Computer Software Environments for Image Processing
+### Computational Resources for Processing Large Data Sets
+## Methods and Approach
+### Image Pre-processing: Contrast Enhancement and Motion Correction
+### Region of Interest (ROI) identification & segmentation
+### Region of Interest (ROI) merging
+### Visualization
+### Predicting Activation State & Assessing Network Activity
+### Parallel Processing
+### Managing Continuity
+#### Computing Power and Connectivity
+#### Image Processing
+#### Motion Correction Two approaches to find displacement
+#### Spatially Homogeneous phase correlation
+#### Image Enhancement
+#### Feature Extraction
+#### Acceleration and Optimization Procedures for Online Video Processing
+#### Incremental Update of Statistics
+##### central moments
+##### Extract Features
+#### Simple Processing on GPU
+##### Alternative Libraries
+### Choice of Interface
+#### Procedural Framework: Pipes, Streams, & Graphs
+##### Concurrency: Parallel = Performance?
+##### Scheduling
+##### Adaptive
+#### Choice of Operations
+#### Motion Correction
+##### Motion Compensation & Interpolation
+
+CHAPTER: ./04_hw2
+# Microscopy 2
+## Construction
+### Standards
+## Multispectral Imaging
+### Filter Selection
+### Lenses
+### Mechanics and Positioning
+## Electronics
+### Photosensors
+## Cameras
+### Scientific CMOS (sCMOS)
+### Data-Transfer (Camera Interfaces)
+## Image Acquisition
+## Image Data Management
+## Sensors
+# Abstract
+# Introduction
+# Results
+## Cranial Window **[System]{.smallcaps}**
+### Headplate
+### Chamber
+### Optical Insert
+## Installation and Usage
+## Evaluation of System Performance
+### Experimental Batches
+### Sustained Optical Quality Extended over a Year
+### Direct Observation of Cranial Chamber
+###
+### In vivo Tracking of Transplanted Stem Cells over Long Term
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+## Adaptability
+##
+# Discussion
+# Materials and Methods
+## Device development and fabrication
+## Window casting procedure
+## Surgical procedures
+## Headplate installation and craniotomy
+## Optical insert attachment
+## Window detachment and replacement
+## Injection
+## Wide-field in vivo imaging and microscope setup
+## Figure 1 Design, assembly and installation of the polymeric optical window.
+## Figure 2 Flexible experimental timeline for surgery, injection and imaging.
+## Figure 3 Extended optical clarity by biocompatible design of the system.
+
+CHAPTER: ./05_sw2
+# Video Processing
+## Continuous Online Video Processing
+## Introduction
+## Method and Approach
+### Benchmarking & General Performance
+### Buffered Operations
+### Image Pre-Processing & Motion Correction
+### Sequential Statistics
+### Non-Stationarity & Differential Moments
+### Surface Classification: Peaks, Edges, Curvature
+### Online Cell Segmentation & Tracking
+### Signal Extraction from Subcellular Compartments
+### User Interface for Parameter Tuning
+## Compression: as a Tool, a Goal, as an Explanation
+## Data Management
+## Data Scaling
+## Distributed Dataflow and Streaming
+### Language: Is MATLAB the best tool for this job?
+### Alternatives Languages
+### Databases
+### Big Data 
+### Computational Models
+# Information and Informativity
+
+CHAPTER: ./06_discussion
+# Discussion
+## Points to Address
+
+CHAPTER: ./generated-figures
