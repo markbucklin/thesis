@@ -18,7 +18,7 @@
     - [Treadmill contstruction](#treadmill-contstruction)
       - [Figure: {#spherical-treadmill}](#figure-spherical-treadmill)
     - [Water Delivery](#water-delivery)
-      - [Figure: {#water-delivery}](#figure-water-delivery)
+      - [Figure: {#figure-water-delivery}](#figure-figure-water-delivery)
     - [Motion Sensors](#motion-sensors)
       - [Generic USB Computer Mouse with Minimal Linux](#generic-usb-computer-mouse-with-minimal-linux)
       - [Navigation Sensor Chip with Arduino](#navigation-sensor-chip-with-arduino)
@@ -35,7 +35,6 @@
     - [Research Design and Methods](#research-design-and-methods)
       - [Neural Interface](#neural-interface)
       - [LEDs](#leds)
-      - [Figure: PCB schematic for head-mounted carbon fiber electrode array {#pcb-top}](#figure-pcb-schematic-for-head-mounted-carbon-fiber-electrode-array-pcb-top)
       - [Electrophysiology](#electrophysiology)
       - [Front-end Digitization](#front-end-digitization)
       - [Signal Filtering, LFP and MUA](#signal-filtering-lfp-and-mua)
@@ -357,7 +356,7 @@ Caption: this treadmill supports behavior.
 
 
 
-#### Figure: {#water-delivery}
+#### Figure: {#figure-water-delivery}
 ![spherical-treadmill-water-delivery/01-water-port ](img/spherical-treadmill-water-delivery/01-water-port.jpg){#spherical-treadmill-water-deliver01-water-port}
 ![spherical-treadmill-water-delivery/02-water-delivery ](img/spherical-treadmill-water-delivery/02-water-delivery.jpg){#spherical-treadmill-water-delivery2-water-delivery}
 ![spherical-treadmill-water-delivery/03-water-delivery-zoom ](img/spherical-treadmill-water-delivery/03-water-delivery-zoom.jpg){#spherical-treadmill-water-delivery3-water-delivery-zoom}
@@ -469,11 +468,11 @@ High-intensity LEDs would be incorporated into the implant in favor of a traditi
 LED arrays, and Digital Micromirror Devices  (DMDs) and Liquid Crystal on Silicon (LcoS) chips have been considered as a means of greater spatial control of light intensity; any of these would be incorporated if the technology improves during the lifetime of the project, but the current state of technology places heavy restrictions on space and/or power requirements to merit incorporation into the implant. Incorporating multiple LEDs (4 to 8) would enable semi-independent activation of neurons in widely-separated brain regions, the proposed project would need to _overlap_ this diffuse control with more precise targeted delivery of opsins (@packer_targeting_2013).
 
 
-#### Figure: PCB schematic for head-mounted carbon fiber electrode array {#pcb-top}
-![top 1](/images/pcb/pcb_top1.png){#pcb-top1 height="1.0in"}
-![top 2](/images/pcb/pcb_top2.png){#pcb-top2   height="1.0in"}
-![top 3](/images/pcb/pcb_top3.png){#pcb-top3  height="1.0in"}
-Caption: Circuit Board for connection to carbon-fiber electrodes and LEDs
+<!-- #### Figure: PCB schematic for head-mounted carbon fiber electrode array {#pcb-top} -->
+<!-- ![top 1](/img/pcb/1pcb_top1.png){#pcb-top1 height="1.0in"} -->
+<!-- ![top 2](/img/pcb/2pcb_top2.png){#pcb-top2   height="1.0in"} -->
+<!-- ![top 3](/img/pcb/3pcb_top3.png){#pcb-top3  height="1.0in"} -->
+<!-- Caption: Circuit Board for connection to carbon-fiber electrodes and LEDs -->
 
 
 Here I describe the design strategy for the physical implant outlined above that would provide pathways to and from the mouse brain for the the electrodes and LEDs described above, as well as the circuit board that sits within this implant and consolidates all _input/output_ signals for connection with a computer. This project would strive to ensure the bidirectional chronic neural implant is _resilient_ to the abuse it would surely endure over the weeks to months of service _affixed to the cranium_ of a laboratory mouse. The outcome we wish to avoid is _movement_ of the penetrating electrodes within the brain tissue when external forces act on the implant, or when internal forces cause the animals brain to move relative to its skull. Moreover, if the electrode is unable to move with the brain there is substantial risk of electrode breakage.
@@ -734,12 +733,12 @@ Must configure bios to optimize for high-throughput writes to disk.
 
 Whether using a microscope or electrophysiology apparatus with the spherical treadmill, the requirements for a rigid connection to the animal's cranium are critical.
 
-![VR headplate holder in progress](/images/VR%20headplate%20holder%20in%20progress.PNG)
-![VR headplate holder in progress3](/images/VR%20headplate%20holder%20in%20progress3.PNG)
-![VR headplate holder in progress4](/images/VR%20headplate%20holder%20in%20progress4.PNG)
-![head-fixed-mouse-stationary-front](/images/head-fixed-mouse-stationary-front.jpg)
-![head-fixed-mouse-stationary-side](/images/head-fixed-mouse-stationary-side.jpg)
-![headplate_holder_VR_v2](/images/headplate_holder_VR_v2.PDF)
+<!-- ![VR headplate holder in progress](/img/VR%20headplate%20holder%20in%20progress.png) -->
+<!-- ![VR headplate holder in progress3](/img/VR%20headplate%20holder%20in%20progress3.png) -->
+<!-- ![VR headplate holder in progress4](/img/VR%20headplate%20holder%20in%20progress4.png) -->
+<!-- ![head-fixed-mouse-stationary-front](/img/head-fixed-mouse-stationary-front.jpg) -->
+<!-- ![head-fixed-mouse-stationary-side](/img/head-fixed-mouse-stationary-side.jpg) -->
+<!-- ![headplate_holder_VR_v2](/img/headplate_holder_VR_v2.PDF) -->
 
 
 # Pipeline overview
