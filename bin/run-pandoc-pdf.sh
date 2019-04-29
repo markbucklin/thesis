@@ -1,15 +1,20 @@
 #!/bin/bash
 
+FILENAME="bucklin_dissertation"
+
+
 pandoc                                                                      \
   -s                                                                        \
-  -o ./output/projectname.pdf                                               \
-  --data-dir=$HOME/path/to/your/projects/projectname/                       \
+  -o "${FILENAME}.pdf"
+  --data-dir=./build
   --filter pandoc-crossref                                                  \
   --filter pandoc-citeproc                                                  \
   --pdf-engine=xelatex                                                      \
   --top-level-division=chapter                                              \
   --number-sections                                                         \
-  --template $HOME/path/to/your/projects/projectname/controls/arabica.latex \
-  ./core/*.md                                                               \
+  ./content/*.md                                                               \
   ./settings/*.yaml                                                         \
   ./metadata/*.yaml
+
+
+  # --template $HOME/path/to/your/projects/projectname/controls/arabica.latex \
