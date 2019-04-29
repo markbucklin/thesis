@@ -8,5 +8,30 @@
 				"label": ""
 			}
 		]
+	},
+	{
+		"path": "/home/mark/.config/Code - Insiders/User/settings.json",
+		"bookmarks": [
+			{
+				"line": 125,
+				"column": 64,
+				"label": ""
+			},
+			{
+				"line": 127,
+				"column": 71,
+				"label": ""
+			},
+			{
+				"line": 268,
+				"column": 10,
+				"label": ""
+			},
+			{
+				"line": 303,
+				"column": 38,
+				"label": ""
+			}
+		]
 	}
 ]

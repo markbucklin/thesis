@@ -47,14 +47,14 @@ A webcam-based motion tracking box constructed to analyze the movement of our un
 
 
 <div id="fig:animal-tracking-bowl">
-![raw](../../../img/animal-tracking/01raw.jpg){#fig:animal-tracking-bowl-raw}
-![black-and-white](../../../img/animal-tracking/02black-and-white.jpg){#fig:animal-tracking-bowl-black-and-white}
-![twoframes](../../../img/animal-tracking/03twoframes.jpg){#fig:animal-tracking-bowl-twoframes}
-![tail_ID](../../../img/animal-tracking/05tail_ID.jpg){#fig:animal-tracking-bowl-tail_ID}
-![mousedata1](../../../img/animal-tracking/06mousedata1.jpg){#fig:animal-tracking-bowl-mousedata1}
-![mousedata1close](../../../img/animal-tracking/07mousedata1close.jpg){#fig:animal-tracking-bowl-mousedata1close}
-![mousedata2](../../../img/animal-tracking/08mousedata2.jpg){#fig:animal-tracking-bowl-mousedata2}
-![mousedata1fiberon1](../../../img/animal-tracking/09mousedata1fiberon1.jpg){#fig:animal-tracking-bowl-mousedata1fiberon1}
+![raw](img/animal-tracking/01raw.jpg){#fig:animal-tracking-bowl-raw}
+![black-and-white](img/animal-tracking/02black-and-white.jpg){#fig:animal-tracking-bowl-black-and-white}
+![twoframes](img/animal-tracking/03twoframes.jpg){#fig:animal-tracking-bowl-twoframes}
+![tail_ID](img/animal-tracking/05tail_ID.jpg){#fig:animal-tracking-bowl-tail_ID}
+![mousedata1](img/animal-tracking/06mousedata1.jpg){#fig:animal-tracking-bowl-mousedata1}
+![mousedata1close](img/animal-tracking/07mousedata1close.jpg){#fig:animal-tracking-bowl-mousedata1close}
+![mousedata2](img/animal-tracking/08mousedata2.jpg){#fig:animal-tracking-bowl-mousedata2}
+![mousedata1fiberon1](img/animal-tracking/09mousedata1fiberon1.jpg){#fig:animal-tracking-bowl-mousedata1fiberon1}
 <!-- Caption: Processing steps for automated rotation counting procedure used in hemiparkinsonian mouse study -->
 </div>
 ## Spherical Treadmill & Virtual-Reality
@@ -79,9 +79,9 @@ Caption: this treadmill supports behavior.
 
 
 #### Figure: {#water-delivery}
-![spherical-treadmill-water-delivery/01-water-port ](../../../img/0spherical-treadmill-water-delivery/01-water-port.jpg){#spherical-treadmill-water-deliver01-water-port}
-![spherical-treadmill-water-delivery/02-water-delivery ](../../../img/0spherical-treadmill-water-delivery/02-water-delivery.jpg){#spherical-treadmill-water-delivery2-water-delivery}
-![spherical-treadmill-water-delivery/03-water-delivery-zoom ](../../../img/0spherical-treadmill-water-delivery/03-water-delivery-zoom.jpg){#spherical-treadmill-water-delivery3-water-delivery-zoom}
+![spherical-treadmill-water-delivery/01-water-port ](img/0spherical-treadmill-water-delivery/01-water-port.jpg){#spherical-treadmill-water-deliver01-water-port}
+![spherical-treadmill-water-delivery/02-water-delivery ](img/0spherical-treadmill-water-delivery/02-water-delivery.jpg){#spherical-treadmill-water-delivery2-water-delivery}
+![spherical-treadmill-water-delivery/03-water-delivery-zoom ](img/0spherical-treadmill-water-delivery/03-water-delivery-zoom.jpg){#spherical-treadmill-water-delivery3-water-delivery-zoom}
 Caption: waterport
 
 
@@ -119,8 +119,8 @@ Works with ADNS library (Mark Bucklin) to pass \[dx,dy\] measurements from two A
 
 
 #### Figure: {#motion-sensors}
-![spherical-treadmill-motion-sensors/01-motion-sensors-installed ](../../../img/0spherical-treadmill-motion-sensors/01-motion-sensors-installed.jpg){#spherical-treadmill-motion-sensors-motion-sensors-installed}
-![spherical-treadmill-motion-sensors/02-motion-sensors ](../../../img/0spherical-treadmill-motion-sensors/02-motion-sensors.jpg){#spherical-treadmill-motion-sensors-motion-sensors}
+![spherical-treadmill-motion-sensors/01-motion-sensors-installed ](img/0spherical-treadmill-motion-sensors/01-motion-sensors-installed.jpg){#spherical-treadmill-motion-sensors-motion-sensors-installed}
+![spherical-treadmill-motion-sensors/02-motion-sensors ](img/0spherical-treadmill-motion-sensors/02-motion-sensors.jpg){#spherical-treadmill-motion-sensors-motion-sensors}
 Caption: Motion Sensors for tracking ball movement. can be used to control and record speed and direction of mouse movement within the VR world.
 ## Closed-Loop Diffuse Optogenetic Neuromodulation
 
@@ -191,9 +191,9 @@ LED arrays, and Digital Micromirror Devices  (DMDs) and Liquid Crystal on Silico
 
 
 #### Figure: PCB schematic for head-mounted carbon fiber electrode array {#pcb-top}
-![top 1](/images/pcb/pcb_top1.png){#pcb-top1 height="1.0in"}
-![top 2](/images/pcb/pcb_top2.png){#pcb-top2   height="1.0in"}
-![top 3](/images/pcb/pcb_top3.png){#pcb-top3  height="1.0in"}
+![top 1](img/pcb/pcb_top1.png){#pcb-top1 height="1.0in"}
+![top 2](img/pcb/pcb_top2.png){#pcb-top2   height="1.0in"}
+![top 3](img/pcb/pcb_top3.png){#pcb-top3  height="1.0in"}
 Caption: Circuit Board for connection to carbon-fiber electrodes and LEDs
 
 
