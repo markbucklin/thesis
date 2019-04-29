@@ -67,9 +67,9 @@ LED arrays, and Digital Micromirror Devices  (DMDs) and Liquid Crystal on Silico
 
 
 #### Figure: PCB schematic for head-mounted carbon fiber electrode array {#pcb-top}
-![top 1](/images/pcb/pcb_top1.png){#pcb-top1 height="1.0in"}
-![top 2](/images/pcb/pcb_top2.png){#pcb-top2   height="1.0in"}
-![top 3](/images/pcb/pcb_top3.png){#pcb-top3  height="1.0in"}
+![top 1](img/pcb/pcb_top1.png){#pcb-top1 height="1.0in"}
+![top 2](img/pcb/pcb_top2.png){#pcb-top2   height="1.0in"}
+![top 3](img/pcb/pcb_top3.png){#pcb-top3  height="1.0in"}
 Caption: Circuit Board for connection to carbon-fiber electrodes and LEDs
 
 
