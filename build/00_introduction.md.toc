@@ -1,7 +1,0 @@
-- [Forward](#forward)
-- [Abstract](#abstract)
-- [Introduction](#introduction)
-  - [Optical Imaging of Neural Activity](#optical-imaging-of-neural-activity)
-  - [Procedures for Calcium Imaging](#procedures-for-calcium-imaging)
-  - [Computer Software Environments for Image Processing](#computer-software-environments-for-image-processing)
-  - [Computational Resources for Processing Large Data Sets](#computational-resources-for-processing-large-data-sets)
