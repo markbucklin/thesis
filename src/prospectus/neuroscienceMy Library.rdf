@@ -67,7 +67,7 @@
     </z:Attachment>
     <bib:Article rdf:about="http://link.springer.com/article/10.1007/s10439-011-0426-y">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:0090-6964,%201573-9686"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:0090-6964,_1573-9686"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -156,7 +156,7 @@
         <dc:title>Confocal Endomicroscopy: Instrumentation and Medical Applications</dc:title>
         <z:shortTitle>Confocal Endomicroscopy</z:shortTitle>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:0090-6964,%201573-9686">
+    <bib:Journal rdf:about="urn:issn:0090-6964,_1573-9686">
         <prism:volume>40</prism:volume>
         <prism:number>2</prism:number>
         <dc:title>Annals of Biomedical Engineering</dc:title>
@@ -756,7 +756,7 @@
         <dcterms:dateSubmitted>2014-02-19 09:28:06</dcterms:dateSubmitted>
         <dc:title>ScienceDirect Snapshot</dc:title>
     </z:Attachment>
-    <bib:Article rdf:about="http://neurosurgerytoday.org/runn/2008/278-Subcallosal%20cingulate%20gyrus%20deep%20brain.pdf">
+    <bib:Article rdf:about="http://neurosurgerytoday.org/runn/2008/278-Subcallosal_cingulate_gyrus_deep_brain.pdf">
         <z:itemType>journalArticle</z:itemType>
         <dcterms:isPartOf>
             <bib:Journal>
@@ -808,7 +808,7 @@
         <link:link rdf:resource="#item_853"/>
         <dc:identifier>
             <dcterms:URI>
-                <rdf:value>http://neurosurgerytoday.org/runn/2008/278-Subcallosal%20cingulate%20gyrus%20deep%20brain.pdf</rdf:value>
+                <rdf:value>http://neurosurgerytoday.org/runn/2008/278-Subcallosal_cingulate_gyrus_deep_brain.pdf</rdf:value>
             </dcterms:URI>
         </dc:identifier>
         <bib:pages>461–467</bib:pages>
@@ -822,7 +822,7 @@
         <rdf:resource rdf:resource="storage:Lozano et al. - 2008 - Subcallosal cingulate gyrus deep brain stimulation.pdf"/>
         <dc:identifier>
             <dcterms:URI>
-                <rdf:value>http://neurosurgerytoday.org/runn/2008/278-Subcallosal%20cingulate%20gyrus%20deep%20brain.pdf</rdf:value>
+                <rdf:value>http://neurosurgerytoday.org/runn/2008/278-Subcallosal_cingulate_gyrus_deep_brain.pdf</rdf:value>
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2013-02-21 00:22:27</dcterms:dateSubmitted>
@@ -1138,7 +1138,7 @@ PMCID: 2912029</dc:description>
         <dcterms:dateSubmitted>2014-03-26 17:01:48</dcterms:dateSubmitted>
         <dc:title>Snapshot</dc:title>
     </z:Attachment>
-    <bib:BookSection rdf:about="urn:isbn:978-1-60761-933-8%20978-1-60761-934-5">
+    <bib:BookSection rdf:about="urn:isbn:978-1-60761-933-8_978-1-60761-934-5">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
             <bib:Book>
@@ -2027,7 +2027,7 @@ PMCID: PMC2940414</dc:description>
         <dcterms:dateSubmitted>2014-02-03 15:45:41</dcterms:dateSubmitted>
         <dc:title>IEEE Xplore Full Text PDF</dc:title>
     </z:Attachment>
-    <bib:BookSection rdf:about="urn:isbn:978-1-4020-9085-1%20978-1-4020-9086-8">
+    <bib:BookSection rdf:about="urn:isbn:978-1-4020-9085-1_978-1-4020-9086-8">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
             <bib:Book>
@@ -3652,7 +3652,7 @@ PMCID: PMC2940414</dc:description>
         <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
         <dcterms:abstract>RÃ©sumÃ©
 L'atteinte cardiaque dans la maladie de Lyme est relativement rare. Elle survient en moyenne trois semaines aprÃ¨s la contamination, et rÃ©sulte alors d'une atteinte directe par la Borrelia, que l'on a pu isoler dans le myocarde et le pÃ©ricarde. Elle peut persister ou Ãªtre plus tardive, le mÃ©canisme de ces formes tardives est discutÃ©, atteinte directe du myocarde par BorreliaÂ burgdorferi ou plus vraisemblablement mÃ©canisme auto-immun. Elle se rÃ©sume le plus souvent Ã  une myocardite a minima s'exprimant par des troubles de conduction bÃ©nins et rÃ©gressifs, n'amenant pas Ã  l'implantation d'un stimulateur dÃ©finitif. Plus rarement, il s'agit de myocardite ou myopÃ©ricardite Ã  expression plus globale avec douleurs, troubles de repolarisation, pouvant simuler un infarctus du myocarde, donner des troubles du rythme, des anomalies Ã©chographiques ventriculaires et/ou pÃ©ricardiques, et mÃªme une insuffisance cardiaque, et Ã©voluant le plus souvent vers la guÃ©rison spontanÃ©e, le rÃ´le de l'antibiothÃ©rapie dans l'obtention de la guÃ©rison est suggÃ©rÃ©. Des formes plus graves avec myocardiopathie sÃ©vÃ¨re sont trÃ¨s rares. Le diagnostic de maladie de Lyme repose sur la mÃªme combinaison d'Ã©lÃ©ments cliniques et de tests de laboratoires que dans les formes sans atteinte cardiaque, mais la constatation de troubles de conduction aigus chez un sujet jeune est particuliÃ¨rement Ã©vocatrice et doit faire rechercher la maladie. Le traitement est le mÃªme que pour les autres atteintes de la maladie.
- 
+
 Cardiac manifestations of Lyme Borreliosis are relatively infrequent, occurring within weeks after the infectious tick bite (median of 21Â days), and resulting at this stage from a direct borrelial infection of the myocardium, as indicated by reports of spirochete isolation from pericardium and myocardium. They may persist or appear in the late, tertiary phase of the illness, being then more likely due to infection-triggered autoimmunity. Lyme carditis typically presents with a fluctuating degree of atrioventricular block that spontaneously resolves in several days. Rarely, myocarditis may occur with or without pericardial involvement, in patients presenting with chest pain, ST depression or T wave inversion, mimicking an acute myocardial infarction, and various arrhythmias are reported, as well as pericardial effusion or heart failure. A complete recovery is usually observed, spontaneous or after antibiotherapy. Severe myocarditis or Pericarditis leading to death is exceptional. The diagnosis of Lyme carditis is based on the same association of clinical and laboratory features as in Lyme disease without cardiac involvement. But the occurrence of conduction disturbances in healthy young people suggests screening for other criteria of Lyme disease. The management of Lyme carditis does not differ from the treatment of Lyme disease without carditis and is mainly based upon the use of doxycycline or ceftriaxone.</dcterms:abstract>
         <dc:title>Atteinte cardiaque dansÂ laÂ maladie deÂ Lyme</dc:title>
     </bib:Article>
@@ -5542,7 +5542,7 @@ Correlating patterned neuronal activity to defined animal behaviors is a core go
     </z:Attachment>
     <bib:Article rdf:about="http://xlink.rsc.org/?DOI=b907394a">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:1473-0197,%201473-0189"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:1473-0197,_1473-0189"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -5600,7 +5600,7 @@ Correlating patterned neuronal activity to defined animal behaviors is a core go
         <z:libraryCatalog>CrossRef</z:libraryCatalog>
         <dc:title>Active pixel sensor array for high spatio-temporal resolution electrophysiological recordings from single cell to large scale neuronal networks</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:1473-0197,%201473-0189">
+    <bib:Journal rdf:about="urn:issn:1473-0197,_1473-0189">
         <prism:volume>9</prism:volume>
         <prism:number>18</prism:number>
         <dc:title>Lab on a Chip</dc:title>
@@ -5966,7 +5966,7 @@ Correlating patterned neuronal activity to defined animal behaviors is a core go
     </z:Attachment>
     <bib:Article rdf:about="http://www.sciencemag.org.ezproxy.bu.edu/content/324/5925/354">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:0036-8075,%201095-9203"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:0036-8075,_1095-9203"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -6016,7 +6016,7 @@ Correlating patterned neuronal activity to defined animal behaviors is a core go
         <dcterms:abstract>Deep brain stimulation (DBS) is a therapeutic option for intractable neurological and psychiatric disorders, including Parkinson's disease and major depression. Because of the heterogeneity of brain tissues where electrodes are placed, it has been challenging to elucidate the relevant target cell types or underlying mechanisms of DBS. We used optogenetics and solid-state optics to systematically drive or inhibit an array of distinct circuit elements in freely moving parkinsonian rodents and found that therapeutic effects within the subthalamic nucleus can be accounted for by direct selective stimulation of afferent axons projecting to this region. In addition to providing insight into DBS mechanisms, these results demonstrate an optical approach for dissection of disease circuitry and define the technological toolbox needed for systematic deconstruction of disease circuits by selectively controlling individual components.</dcterms:abstract>
         <dc:title>Optical Deconstruction of Parkinsonian Neural Circuitry</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:0036-8075,%201095-9203">
+    <bib:Journal rdf:about="urn:issn:0036-8075,_1095-9203">
         <prism:volume>324</prism:volume>
         <prism:number>5925</prism:number>
         <dc:title>Science</dc:title>
@@ -6048,7 +6048,7 @@ Correlating patterned neuronal activity to defined animal behaviors is a core go
     </z:Attachment>
     <bib:Article rdf:about="http://cer.sagepub.com/content/16/3/221">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:1063-293X,%201531-2003"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:1063-293X,_1531-2003"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -6105,7 +6105,7 @@ Correlating patterned neuronal activity to defined animal behaviors is a core go
         <dcterms:abstract>Adaptable design is a new design paradigm to create designs and products that can be easily changed to satisfy different requirements. Adaptable design aims at identifying the designs and products considering functionality, manufacturing efforts, customization, and environment friendliness. This research focuses on adaptable design considering product adaptability. In this work, product adaptability is evaluated by three measures including extendibility of functions, upgradeability of modules, and customizability of components. Various design candidates created in adaptable design are evaluated by different life-cycle evaluation measures including product adaptability of design, part and assembly costs of manufacturing, and operationability of customers. Since different evaluation measures are modeled in different units, the grey relational analysis method is employed to integrate these measures for prioritizing different design candidates. A case study is given to demonstrate the effectiveness of the introduced adaptable design approach.</dcterms:abstract>
         <dc:title>Design for Product Adaptability</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:1063-293X,%201531-2003">
+    <bib:Journal rdf:about="urn:issn:1063-293X,_1531-2003">
         <prism:volume>16</prism:volume>
         <prism:number>3</prism:number>
         <dc:title>Concurrent Engineering</dc:title>
@@ -6601,7 +6601,7 @@ Correlating patterned neuronal activity to defined animal behaviors is a core go
     </bib:Journal>
     <bib:Article rdf:about="http://jn.physiology.org/content/104/6/3691">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:0022-3077,%201522-1598"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:0022-3077,_1522-1598"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -6666,7 +6666,7 @@ Correlating patterned neuronal activity to defined animal behaviors is a core go
         <dcterms:abstract>Fluorescent calcium indicators are becoming increasingly popular as a means for observing the spiking activity of large neuronal populations. Unfortunately, extracting the spike train of each neuron from a raw fluorescence movie is a nontrivial problem. This work presents a fast nonnegative deconvolution filter to infer the approximately most likely spike train of each neuron, given the fluorescence observations. This algorithm outperforms optimal linear deconvolution (Wiener filtering) on both simulated and biological data. The performance gains come from restricting the inferred spike trains to be positive (using an interior-point method), unlike the Wiener filter. The algorithm runs in linear time, and is fast enough that even when simultaneously imaging &gt;100 neurons, inference can be performed on the set of all observed traces faster than real time. Performing optimal spatial filtering on the images further refines the inferred spike train estimates. Importantly, all the parameters required to perform the inference can be estimated using only the fluorescence data, obviating the need to perform joint electrophysiological and imaging calibration experiments.</dcterms:abstract>
         <dc:title>Fast Nonnegative Deconvolution for Spike Train Inference From Population Calcium Imaging</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:0022-3077,%201522-1598">
+    <bib:Journal rdf:about="urn:issn:0022-3077,_1522-1598">
         <prism:volume>104</prism:volume>
         <prism:number>6</prism:number>
         <dc:title>Journal of Neurophysiology</dc:title>
@@ -8234,7 +8234,7 @@ Correlating patterned neuronal activity to defined animal behaviors is a core go
     </z:Attachment>
     <bib:Article rdf:about="http://link.springer.com.ezproxy.bu.edu/article/10.1007/s11671-008-9227-0">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:1931-7573,%201556-276X"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:1931-7573,_1556-276X"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -8318,7 +8318,7 @@ Correlating patterned neuronal activity to defined animal behaviors is a core go
         <dcterms:abstract>A sensitive amperometric biosensor based on gold nanoelectrode array (NEA) was investigated. The gold nanoelectrode array was fabricated by template-assisted electrodeposition on general electrodes, which shows an ordered well-defined 3D structure of nanowires. The sensitivity of the gold NEA to hydrogen peroxide is 37 times higher than that of the conventional electrode. The linear range of the platinum NEA toward H2O2 is from 1 × 10−6 to 1 × 10−2 M, covering four orders of magnitudes with detection limit of 1 × 10−7 M and a single noise ratio (S/N) of four. The enzyme electrode exhibits an excellent response performance to glucose with linear range from 1 × 10−5 to 1 × 10−2 M and a fast response time within 8 s. The Michaelis–Menten constant km and the maximum current density i max of the enzyme electrode were 4.97 mM and 84.60 μA cm−2, respectively. This special nanoelectrode may find potential application in other biosensors based on amperometric signals.</dcterms:abstract>
         <dc:title>An Effective Amperometric Biosensor Based on Gold Nanoelectrode Arrays</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:1931-7573,%201556-276X">
+    <bib:Journal rdf:about="urn:issn:1931-7573,_1556-276X">
         <prism:volume>4</prism:volume>
         <prism:number>3</prism:number>
         <dc:title>Nanoscale Research Letters</dc:title>
@@ -8991,7 +8991,7 @@ Correlating patterned neuronal activity to defined animal behaviors is a core go
         <dc:date>September 25, 2012</dc:date>
         <dcterms:dateSubmitted>2013-04-06 20:35:25</dcterms:dateSubmitted>
         <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
-        <dcterms:abstract>Summary 
+        <dcterms:abstract>Summary
 Optogenetics is currently the state-of-the-art method for causal-oriented brain research. Despite an increasingly large number of invertebrate and rodent studies showing profound electrophysiological and behavioral effects induced by optogenetics [1, 2], only two primate studies have reported modulation of local single-cell activity but with no behavioral effects [3, 4]. Here, we show that optogenetic stimulation of cortical neurons within rhesus monkey arcuate sulcus, during the execution of a visually guided saccade task, evoked significant and reproducible changes in saccade latencies as a function of target position. Moreover, using concurrent optogenetic stimulation and opto-fMRI [5, 6]), we observed optogenetically induced changes in fMRI activity in specific functional cortical networks throughout the monkey brain. This is critical information for the advancement of optogenetic primate research models and for initiating the development of optogenetically based cell-specific therapies with which to treat neurological diseases in humans.</dcterms:abstract>
         <dc:title>Optogenetically Induced Behavioral and Functional Network Changes in Primates</dc:title>
     </bib:Article>
@@ -9298,7 +9298,7 @@ Optogenetics is currently the state-of-the-art method for causal-oriented brain 
     </z:Attachment>
     <bib:Article rdf:about="http://www.jbc.org/content/260/6/3440">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:0021-9258,%201083-351X"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:0021-9258,_1083-351X"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -9337,7 +9337,7 @@ Optogenetics is currently the state-of-the-art method for causal-oriented brain 
         <z:language>en</z:language>
         <dc:title>A new generation of Ca2+ indicators with greatly improved fluorescence properties.</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:0021-9258,%201083-351X">
+    <bib:Journal rdf:about="urn:issn:0021-9258,_1083-351X">
         <prism:volume>260</prism:volume>
         <prism:number>6</prism:number>
         <dc:title>Journal of Biological Chemistry</dc:title>
@@ -9544,7 +9544,7 @@ real-time video image encryption.</dc:description>
     </z:Attachment>
     <bib:Article rdf:about="https://www.osapublishing.org/abstract.cfm?URI=ol-33-2-156">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:0146-9592,%201539-4794"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:0146-9592,_1539-4794"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -9579,7 +9579,7 @@ real-time video image encryption.</dc:description>
         <z:language>en</z:language>
         <dc:title>Efficient subpixel image registration algorithms</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:0146-9592,%201539-4794">
+    <bib:Journal rdf:about="urn:issn:0146-9592,_1539-4794">
         <prism:volume>33</prism:volume>
         <prism:number>2</prism:number>
         <dc:title>Optics Letters</dc:title>
@@ -9588,7 +9588,7 @@ real-time video image encryption.</dc:description>
     </bib:Journal>
     <bib:Article rdf:about="http://mbio.asm.org.ezproxy.bu.edu/content/2/3/e00115-11">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:,%202150-7511"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:,_2150-7511"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -9638,7 +9638,7 @@ real-time video image encryption.</dc:description>
 IMPORTANCE Channelrhodopsins that function as phototaxis receptors in flagellate algae have recently come into the spotlight as genetically encoded single-molecule optical switches for turning on neuronal firing or other cellular processes, a technique called “optogenetics.” Only one of four currently known channelrhodopsins is widely used in optogenetics, although electrical currents recorded in diverse flagellates suggest the existence of a large variety of such proteins. We applied a strategy for the search for new channelrhodopsins with desirable characteristics by measuring rhodopsin-mediated photocurrents in microalgae, which helped us identify MChR1, a new member of the channelrhodopsin family. MChR1 exhibits several sought-after characteristics and thus expands the available optogenetic toolbox. The divergence of the MChR1 sequence from those of the four known channelrhodopsins contributes to our understanding of diversity in the primary structures of this subfamily of sensory rhodopsins.</dcterms:abstract>
         <dc:title>New Channelrhodopsin with a Red-Shifted Spectrum and Rapid Kinetics from Mesostigma viride</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:,%202150-7511">
+    <bib:Journal rdf:about="urn:issn:,_2150-7511">
         <prism:volume>2</prism:volume>
         <prism:number>3</prism:number>
         <dc:title>mBio</dc:title>
@@ -10887,7 +10887,7 @@ The fabricated prototype, coupled with a commercial Micro-Electrode Array (MEA),
     </z:Attachment>
     <bib:Article rdf:about="http://cshprotocols.cshlp.org/content/2012/10/pdb.top071464">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:1940-3402,%201559-6095"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:1940-3402,_1559-6095"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -10921,7 +10921,7 @@ The fabricated prototype, coupled with a commercial Micro-Electrode Array (MEA),
         <dcterms:abstract>Although in vivo microscopy has been pivotal in enabling studies of neuronal structure and function in the intact mammalian brain, conventional intravital microscopy has generally been limited to superficial brain areas such as the olfactory bulb, the neocortex, or the cerebellar cortex. For imaging cells in deeper areas, this article discusses in vivo optical microendoscopy using gradient refractive index (GRIN) microlenses that can be inserted into tissue. Our general methodology is broadly applicable to many deep brain regions and areas of the body. Microendoscopes are available in a wide variety of optical designs, allowing imaging across a range of spatial scales and with spatial resolution that can now closely approach that offered by standard water-immersion microscope objectives. The incorporation of microendoscope probes into portable miniaturized microscopes allows imaging in freely behaving animals. When combined with the broad sets of available fluorescent markers, animal preparations, and genetically modified mice, microendoscopic methods enable sophisticated experimental designs for probing how cellular characteristics may underlie or reflect animal behavior and life experience, in healthy animals and animal models of disease.</dcterms:abstract>
         <dc:title>In Vivo Optical Microendoscopy for Imaging Cells Lying Deep within Live Tissue</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:1940-3402,%201559-6095">
+    <bib:Journal rdf:about="urn:issn:1940-3402,_1559-6095">
         <prism:volume>2012</prism:volume>
         <prism:number>10</prism:number>
         <dc:title>Cold Spring Harbor Protocols</dc:title>
@@ -12392,7 +12392,7 @@ PMCID: PMC3386709</dc:description>
     </bib:Article>
     <bib:Article rdf:about="http://www.pnas.org/content/100/24/13940">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:0027-8424,%201091-6490"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:0027-8424,_1091-6490"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -12485,7 +12485,7 @@ PMCID: PMC3386709</dc:description>
         <dcterms:abstract>Microbial-type rhodopsins are found in archaea, prokaryotes, and eukaryotes. Some of them represent membrane ion transport proteins such as bacteriorhodopsin, a light-driven proton pump, or channelrhodopsin-1 (ChR1), a recently identified light-gated proton channel from the green alga Chlamydomonas reinhardtii. ChR1 and ChR2, a related microbial-type rhodopsin from C. reinhardtii, were shown to be involved in generation of photocurrents of this green alga. We demonstrate by functional expression, both in oocytes of Xenopus laevis and mammalian cells, that ChR2 is a directly light-switched cation-selective ion channel. This channel opens rapidly after absorption of a photon to generate a large permeability for monovalent and divalent cations. ChR2 desensitizes in continuous light to a smaller steady-state conductance. Recovery from desensitization is accelerated by extracellular H+ and negative membrane potential, whereas closing of the ChR2 ion channel is decelerated by intracellular H+. ChR2 is expressed mainly in C. reinhardtii under low-light conditions, suggesting involvement in photoreception in dark-adapted cells. The predicted seven-transmembrane α helices of ChR2 are characteristic for G protein-coupled receptors but reflect a different motif for a cation-selective ion channel. Finally, we demonstrate that ChR2 may be used to depolarize small or large cells, simply by illumination.</dcterms:abstract>
         <dc:title>Channelrhodopsin-2, a directly light-gated cation-selective membrane channel</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:0027-8424,%201091-6490">
+    <bib:Journal rdf:about="urn:issn:0027-8424,_1091-6490">
         <prism:volume>100</prism:volume>
         <prism:number>24</prism:number>
         <dc:title>Proceedings of the National Academy of Sciences</dc:title>
@@ -14964,7 +14964,7 @@ PMCID: PMC3386709</dc:description>
     </z:Attachment>
     <bib:Article rdf:about="http://content.karger.com.ezproxy.bu.edu/produktedb/produkte.asp?doi=338087">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:1423-0372,%201011-6125"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:1423-0372,_1011-6125"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -15011,7 +15011,7 @@ PMCID: PMC3386709</dc:description>
         <z:libraryCatalog>CrossRef</z:libraryCatalog>
         <dc:title>Hypothalamic Deep Brain Stimulation Influences Autonomic and Limbic Circuitry Involved in the Regulation of Aggression and Cardiocerebrovascular Control in the Göttingen Minipig</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:1423-0372,%201011-6125">
+    <bib:Journal rdf:about="urn:issn:1423-0372,_1011-6125">
         <prism:volume>90</prism:volume>
         <prism:number>5</prism:number>
         <dc:title>Stereotactic and Functional Neurosurgery</dc:title>
@@ -15371,10 +15371,10 @@ PMCID: PMC3386709</dc:description>
         <dc:date>September 1, 2009</dc:date>
         <dcterms:dateSubmitted>2013-02-21 00:20:25</dcterms:dateSubmitted>
         <z:libraryCatalog>Silverchair</z:libraryCatalog>
-        <dcterms:abstract>Context  
-    A 2-day consensus conference was held to examine scientific and ethical issues in the application of deep brain stimulation for treating mood and behavioral disorders, such as major depression, obsessive-compulsive disorder, and Tourette syndrome.Objectives  
-    The primary objectives of the conference were to (1) establish consensus among participants about the design of future clinical trials of deep brain stimulation for disorders of mood, behavior, and thought and (2) develop standards for the protection of human subjects participating in such studies.Results  
-    Conference participants identified 16 key points for guiding research in this growing field.Conclusions  
+        <dcterms:abstract>Context 
+    A 2-day consensus conference was held to examine scientific and ethical issues in the application of deep brain stimulation for treating mood and behavioral disorders, such as major depression, obsessive-compulsive disorder, and Tourette syndrome.Objectives 
+    The primary objectives of the conference were to (1) establish consensus among participants about the design of future clinical trials of deep brain stimulation for disorders of mood, behavior, and thought and (2) develop standards for the protection of human subjects participating in such studies.Results 
+    Conference participants identified 16 key points for guiding research in this growing field.Conclusions 
     The adoption of the described guidelines would help to protect the safety and rights of research subjects who participate in clinical trials of deep brain stimulation for disorders of mood, behavior, and thought and have further potential to benefit other stakeholders in the research process, including clinical researchers and device manufactures. That said, the adoption of the guidelines will require broad and substantial commitment from many of these same stakeholders.</dcterms:abstract>
         <dc:title>SCientific and ethical issues related to deep brain stimulation for disorders of mood, behavior, and thought</dc:title>
     </bib:Article>
@@ -15792,7 +15792,7 @@ PMCID: PMC3386709</dc:description>
     </z:Attachment>
     <bib:Article rdf:about="http://www.nature.com/doifinder/10.1038/nmeth.3214">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:1548-7091,%201548-7105"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:1548-7091,_1548-7105"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -15826,7 +15826,7 @@ PMCID: PMC3386709</dc:description>
         <z:libraryCatalog>CrossRef</z:libraryCatalog>
         <dc:title>Light-sheet imaging for systems neuroscience</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:1548-7091,%201548-7105">
+    <bib:Journal rdf:about="urn:issn:1548-7091,_1548-7105">
         <prism:volume>12</prism:volume>
         <prism:number>1</prism:number>
         <dc:title>Nature Methods</dc:title>
@@ -17004,7 +17004,7 @@ The local field potential (LFP) reflects activity of many neurons in the vicini
     </z:Attachment>
     <bib:Article rdf:about="http://bioinformatics.oxfordjournals.org/content/24/14/1647">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:1367-4803,%201460-2059"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:1367-4803,_1460-2059"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -17048,7 +17048,7 @@ Contact: sacan@cse.ohio-state.edu</dcterms:abstract>
         <dc:title>CellTrack: an open-source software for cell tracking and motility analysis</dc:title>
         <z:shortTitle>CellTrack</z:shortTitle>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:1367-4803,%201460-2059">
+    <bib:Journal rdf:about="urn:issn:1367-4803,_1460-2059">
         <prism:volume>24</prism:volume>
         <prism:number>14</prism:number>
         <dc:title>Bioinformatics</dc:title>
@@ -17780,7 +17780,7 @@ Contact: sacan@cse.ohio-state.edu</dcterms:abstract>
     </z:Attachment>
     <bib:Article rdf:about="http://www.opticsinfobase.org/vjbo/fulltext.cfm?uri=ao-51-26-6343&amp;id=241239#&amp;slider1=6">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:0003-6935,%201539-4522"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:0003-6935,_1539-4522"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -17827,7 +17827,7 @@ Contact: sacan@cse.ohio-state.edu</dcterms:abstract>
         <z:libraryCatalog>CrossRef</z:libraryCatalog>
         <dc:title>Modeling of fiber-optic fluorescence probes for strongly absorbing samples</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:0003-6935,%201539-4522">
+    <bib:Journal rdf:about="urn:issn:0003-6935,_1539-4522">
         <prism:volume>51</prism:volume>
         <prism:number>26</prism:number>
         <dc:title>Applied Optics</dc:title>
@@ -19398,7 +19398,7 @@ Preliminary results suggest that DBS in psychiatric disorders does not lead to c
     </bib:Article>
     <bib:Article rdf:about="http://www.springerlink.com/index/10.1007/s00704-011-0452-6">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:0177-798X,%201434-4483"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:0177-798X,_1434-4483"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -19420,7 +19420,7 @@ Preliminary results suggest that DBS in psychiatric disorders does not lead to c
         <z:libraryCatalog>CrossRef</z:libraryCatalog>
         <dc:title>Evaporation estimates from the Dead Sea and their implications on its water balance</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:0177-798X,%201434-4483">
+    <bib:Journal rdf:about="urn:issn:0177-798X,_1434-4483">
         <prism:volume>106</prism:volume>
         <prism:number>3-4</prism:number>
         <dc:title>Theoretical and Applied Climatology</dc:title>
@@ -19813,7 +19813,7 @@ Recent advances in fluorescence imaging permit studies of Ca2+ dynamics in large
     </z:Attachment>
     <bib:Article rdf:about="http://www.tandfonline.com/doi/abs/10.1198/jcgs.2009.07098">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:1061-8600,%201537-2715"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:1061-8600,_1537-2715"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -19836,7 +19836,7 @@ Recent advances in fluorescence imaging permit studies of Ca2+ dynamics in large
         <z:language>en</z:language>
         <dc:title>A Layered Grammar of Graphics</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:1061-8600,%201537-2715">
+    <bib:Journal rdf:about="urn:issn:1061-8600,_1537-2715">
         <prism:volume>19</prism:volume>
         <prism:number>1</prism:number>
         <dc:title>Journal of Computational and Graphical Statistics</dc:title>
@@ -20511,7 +20511,7 @@ PMID: 18272880</dc:description>
     </z:Attachment>
     <bib:Article rdf:about="http://link.springer.com/article/10.1007/s10827-012-0425-5">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:0929-5313,%201573-6873"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:0929-5313,_1573-6873"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -20575,7 +20575,7 @@ PMID: 18272880</dc:description>
         <dcterms:abstract>Activity of neurons in the pre-Bötzinger complex (pre-BötC) within the mammalian brainstem drives the inspiratory phase of the respiratory rhythm. Experimental results have suggested that multiple bursting mechanisms based on a calcium-activated nonspecific cationic (CAN) current, a persistent sodium (NaP) current, and calcium dynamics may be incorporated within the pre-BötC. Previous modeling works have incorporated representations of some or all of these mechanisms. In this study, we consider a single-compartment model of a pre-BötC inspiratory neuron that encompasses particular aspects of all of these features. We present a novel mathematical analysis of the interaction of the corresponding rhythmic mechanisms arising in the model, including square-wave bursting and autonomous calcium oscillations, which requires treatment of a system of differential equations incorporating three slow variables.</dcterms:abstract>
         <dc:title>Cooperation of intrinsic bursting and calcium oscillations underlying activity patterns of model pre-Bötzinger complex neurons</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:0929-5313,%201573-6873">
+    <bib:Journal rdf:about="urn:issn:0929-5313,_1573-6873">
         <prism:volume>34</prism:volume>
         <prism:number>2</prism:number>
         <dc:title>Journal of Computational Neuroscience</dc:title>
@@ -22057,7 +22057,7 @@ PMID: 18272880</dc:description>
         <dc:date>October 20, 2011</dc:date>
         <dcterms:dateSubmitted>2013-03-19 13:03:28</dcterms:dateSubmitted>
         <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
-        <dcterms:abstract>Summary 
+        <dcterms:abstract>Summary
 Continuous high-frequency deep brain stimulation (DBS) is a widely used therapy for advanced Parkinson's disease (PD) management. However, the mechanisms underlying DBS effects remain enigmatic and are the subject of an ongoing debate. Here, we present and test a closed-loop stimulation strategy for PD in the 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP) primate model of PD. Application of pallidal closed-loop stimulation leads to dissociation between changes in basal ganglia (BG) discharge rates and patterns, providing insights into PD pathophysiology. Furthermore, cortico-pallidal closed-loop stimulation has a significantly greater effect on akinesia and on cortical and pallidal discharge patterns than standard open-loop DBS and matched control stimulation paradigms. Thus, closed-loop DBS paradigms, by modulating pathological oscillatory activity rather than the discharge rate of the BG-cortical networks, may afford more effective management of advanced PD. Such strategies have the potential to be effective in additional brain disorders in which a pathological neuronal discharge pattern can be recognized.</dcterms:abstract>
         <dc:title>Closed-Loop Deep Brain Stimulation Is Superior in Ameliorating Parkinsonism</dc:title>
     </bib:Article>
@@ -24444,7 +24444,7 @@ PMCID: PMC2781858</dc:description>
     </z:Attachment>
     <bib:Article rdf:about="http://www.jneurosci.org/content/31/49/17772">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:0270-6474,%201529-2401"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:0270-6474,_1529-2401"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -24476,7 +24476,7 @@ PMCID: PMC2781858</dc:description>
         <dcterms:abstract>Learning can be motivated by unanticipated success or unexpected failure. The former encourages us to repeat an action or activity, whereas the latter leads us to find an alternative strategy. Understanding the neural representation of these unexpected events is therefore critical to elucidate learning-related circuits. We examined the activity of neurons in the lateral prefrontal cortex (PFC) and caudate nucleus of monkeys as they performed a trial-and-error learning task. Unexpected outcomes were widely represented in both structures, and neurons driven by unexpectedly negative outcomes were as frequent as those activated by unexpectedly positive outcomes. Moreover, both positive and negative reward prediction errors (RPEs) were represented primarily by increases in firing rate, unlike the manner in which dopamine neurons have been observed to reflect these values. Interestingly, positive RPEs tended to appear with shorter latency than negative RPEs, perhaps reflecting the mechanism of their generation. Last, in the PFC but not the caudate, trial-by-trial variations in outcome-related activity were linked to the animals' subsequent behavioral decisions. More broadly, the robustness of RPE signaling by these neurons suggests that actor-critic models of reinforcement learning in which the PFC and particularly the caudate are considered primarily to be “actors” rather than “critics,” should be reconsidered to include a prominent evaluative role for these structures.</dcterms:abstract>
         <dc:title>Encoding of Both Positive and Negative Reward Prediction Errors by Neurons of the Primate Lateral Prefrontal Cortex and Caudate Nucleus</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:0270-6474,%201529-2401">
+    <bib:Journal rdf:about="urn:issn:0270-6474,_1529-2401">
         <prism:volume>31</prism:volume>
         <prism:number>49</prism:number>
         <dc:title>The Journal of Neuroscience</dc:title>
@@ -24983,7 +24983,7 @@ PMCID: PMC3146038</dc:description>
         <dcterms:dateSubmitted>2013-12-18 05:06:02</dcterms:dateSubmitted>
         <dc:title>Snapshot</dc:title>
     </z:Attachment>
-    <bib:BookSection rdf:about="urn:isbn:978-3-211-33080-7%20978-3-211-33081-4">
+    <bib:BookSection rdf:about="urn:isbn:978-3-211-33080-7_978-3-211-33081-4">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
             <bib:Book>
@@ -27114,7 +27114,7 @@ PMCID: 2630513</dc:description>
     </z:Attachment>
     <bib:Article rdf:about="http://www.nature.com/neuro/journal/v16/n7/fig_tab/nn.3427_T1.html">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:1097-6256,%201546-1726"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:1097-6256,_1546-1726"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -27149,7 +27149,7 @@ PMCID: 2630513</dc:description>
         <z:libraryCatalog>CrossRef</z:libraryCatalog>
         <dc:title>Targeting neurons and photons for optogenetics</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:1097-6256,%201546-1726">
+    <bib:Journal rdf:about="urn:issn:1097-6256,_1546-1726">
         <prism:volume>16</prism:volume>
         <prism:number>7</prism:number>
         <dc:title>Nature Neuroscience</dc:title>
@@ -28351,13 +28351,13 @@ PMCID: 2630513</dc:description>
         </dc:identifier>
         <dcterms:dateSubmitted>2012-12-15 18:10:47</dcterms:dateSubmitted>
         <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
-        <dcterms:abstract>Objective 
-To review the use of deep brain stimulation (DBS) for treatment of dementia. 
-Methods 
-A PubMed literature search was conducted to identify all studies that have investigated the use of DBS for treatment of dementia. 
-Results 
-Three studies examined the use of DBS for dementia. One study involved fornix DBS for Alzheimer disease (AD), and two studies involved DBS of the nucleus basalis of Meynert, one to treat AD and one to treat Parkinson disease dementia. 
-Conclusuions 
+        <dcterms:abstract>Objective
+To review the use of deep brain stimulation (DBS) for treatment of dementia.
+Methods
+A PubMed literature search was conducted to identify all studies that have investigated the use of DBS for treatment of dementia.
+Results
+Three studies examined the use of DBS for dementia. One study involved fornix DBS for Alzheimer disease (AD), and two studies involved DBS of the nucleus basalis of Meynert, one to treat AD and one to treat Parkinson disease dementia.
+Conclusuions
 Evidence for the use of DBS to treat dementia is preliminary and limited. Fornix and nucleus basalis of Meynert DBS can influence activity in the pathologic neural circuits that underlie AD and Parkinson disease dementia. Further investigation into the potential clinical effects of DBS for dementia is warranted.</dcterms:abstract>
         <dc:title>Deep Brain Stimulation for the Treatment of Alzheimer Disease and Dementias</dc:title>
     </bib:Article>
@@ -28482,7 +28482,7 @@ Evidence for the use of DBS to treat dementia is preliminary and limited. Fornix
     </z:Attachment>
     <bib:Article rdf:about="http://link.springer.com/article/10.1007/s11548-012-0768-4">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:1861-6410,%201861-6429"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:1861-6410,_1861-6429"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -28580,7 +28580,7 @@ Evidence for the use of DBS to treat dementia is preliminary and limited. Fornix
         <dcterms:abstract>Purpose Both frame-based and frameless approaches to deep brain stimulation (DBS) require planning of insertion trajectories that mitigate hemorrhagic risk and loss of neurological function. Currently, this is done by manual inspection of multiple potential electrode trajectories on MR-imaging data. We propose and validate a method for computer-assisted DBS trajectory planning. Method Our framework integrates multi-modal MRI analysis (T1w, SWI, TOF-MRA) to compute suitable DBS trajectories that optimize the avoidance of specific critical brain structures. A cylinder model is used to process each trajectory and to evaluate complex surgical constraints described via a combination of binary and fuzzy segmented datasets. The framework automatically aggregates the multiple constraints into a unique ranking of recommended low-risk trajectories. Candidate trajectories are represented as a few well-defined cortical entry patches of best-ranked trajectories and presented to the neurosurgeon for final trajectory selection. Results The proposed algorithm permits a search space containing over 8,000 possible trajectories to be processed in less than 20 s. A retrospective analysis on 14 DBS cases of patients with severe Parkinson’s disease reveals that our framework can improve the simultaneous optimization of many pre-formulated surgical constraints. Furthermore, all automatically computed trajectories were evaluated by two neurosurgeons, were judged suitable for surgery and, in many cases, were judged preferable or equivalent to the manually planned trajectories used during the operation. Conclusions This work provides neurosurgeons with an intuitive and flexible decision-support system that allows objective and patient-specific optimization of DBS lead trajectories, which should improve insertion safety and reduce surgical time.</dcterms:abstract>
         <dc:title>A multi-modal approach to computer-assisted deep brain stimulation trajectory planning</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:1861-6410,%201861-6429">
+    <bib:Journal rdf:about="urn:issn:1861-6410,_1861-6429">
         <prism:volume>7</prism:volume>
         <prism:number>5</prism:number>
         <dc:title>International Journal of Computer Assisted Radiology and Surgery</dc:title>
@@ -29067,7 +29067,7 @@ Evidence for the use of DBS to treat dementia is preliminary and limited. Fornix
     </z:Attachment>
     <bib:Article rdf:about="http://syntheticneurobiology.org/publications/publicationdetail/141/25">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:1741-2560,%201741-2552"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:1741-2560,_1741-2552"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -29120,7 +29120,7 @@ Evidence for the use of DBS to treat dementia is preliminary and limited. Fornix
         <z:libraryCatalog>CrossRef</z:libraryCatalog>
         <dc:title>A wirelessly powered and controlled device for optical neural control of freely-behaving animals</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:1741-2560,%201741-2552">
+    <bib:Journal rdf:about="urn:issn:1741-2560,_1741-2552">
         <prism:volume>8</prism:volume>
         <dc:title>Journal of Neural Engineering</dc:title>
         <dc:identifier>ISSN 1741-2560, 1741-2552</dc:identifier>
@@ -30673,7 +30673,7 @@ PMCID: PMC2719465</dc:description>
         <dcterms:dateSubmitted>2013-11-25 06:39:33</dcterms:dateSubmitted>
         <dc:title>ScienceDirect Snapshot</dc:title>
     </z:Attachment>
-    <bib:BookSection rdf:about="urn:isbn:978-3-642-23622-8%20978-3-642-23623-5">
+    <bib:BookSection rdf:about="urn:isbn:978-3-642-23622-8_978-3-642-23623-5">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
             <bib:Book>
@@ -34071,7 +34071,7 @@ Mahotas is released under a liberal open source license (MIT License) and is ava
         <rdf:resource rdf:resource="storage:zhang nprot 2010.pdf"/>
         <dc:identifier>
             <dcterms:URI>
-                <rdf:value>http://www.stanford.edu/group/dlab/papers/zhang%20nprot%202010.pdf</rdf:value>
+                <rdf:value>http://www.stanford.edu/group/dlab/papers/zhang_nprot_2010.pdf</rdf:value>
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2013-12-08 21:38:20</dcterms:dateSubmitted>
@@ -34079,7 +34079,7 @@ Mahotas is released under a liberal open source license (MIT License) and is ava
     </z:Attachment>
     <bib:Article rdf:about="http://www.opticsinfobase.org/boe/fulltext.cfm?uri=boe-4-7-995&amp;id=256400">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:2156-7085,%202156-7085"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:2156-7085,_2156-7085"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -34133,7 +34133,7 @@ Mahotas is released under a liberal open source license (MIT License) and is ava
         <z:language>en</z:language>
         <dc:title>Improvement of axial resolution and contrast in temporally focused widefield two-photon microscopy with structured light illumination</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:2156-7085,%202156-7085">
+    <bib:Journal rdf:about="urn:issn:2156-7085,_2156-7085">
         <prism:volume>4</prism:volume>
         <prism:number>7</prism:number>
         <dc:title>Biomedical Optics Express</dc:title>
@@ -34659,7 +34659,7 @@ PMCID: PMC2941890</dc:description>
     </z:Attachment>
     <bib:Article rdf:about="http://www.nature.com/doifinder/10.1038/526032a">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:0028-0836,%201476-4687"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:0028-0836,_1476-4687"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -34682,7 +34682,7 @@ PMCID: PMC2941890</dc:description>
         <dc:title>Modelling: Build imprecise supercomputers</dc:title>
         <z:shortTitle>Modelling</z:shortTitle>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:0028-0836,%201476-4687">
+    <bib:Journal rdf:about="urn:issn:0028-0836,_1476-4687">
         <prism:volume>526</prism:volume>
         <prism:number>7571</prism:number>
         <dc:title>Nature</dc:title>
@@ -35411,7 +35411,7 @@ PMCID: PMC2941890</dc:description>
         <rdf:resource rdf:resource="storage:view_article.html"/>
         <dc:identifier>
             <dcterms:URI>
-                <rdf:value>http://www.opticsinfobase.org/view_article.cfm?gotourl=http%3A%2F%2Fwww%2Eopticsinfobase%2Eorg%2FDirectPDFAccess%2F3A50E8BB%2D9192%2D8906%2DC60E1A38E8BFD7A4%5F88491%2Epdf%3Fda%3D1%26id%3D88491%26seq%3D0%26mobile%3Dno&amp;org=Boston%20University</rdf:value>
+                <rdf:value>http://www.opticsinfobase.org/view_article.cfm?gotourl=http%3A%2F%2Fwww%2Eopticsinfobase%2Eorg%2FDirectPDFAccess%2F3A50E8BB%2D9192%2D8906%2DC60E1A38E8BFD7A4%5F88491%2Epdf%3Fda%3D1%26id%3D88491%26seq%3D0%26mobile%3Dno&amp;org=Boston_University</rdf:value>
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2011-07-22 16:17:34</dcterms:dateSubmitted>
@@ -35570,13 +35570,13 @@ PMCID: PMC2941890</dc:description>
         <dc:date>October 2009</dc:date>
         <dcterms:dateSubmitted>2013-03-19 13:08:38</dcterms:dateSubmitted>
         <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
-        <dcterms:abstract>Background 
-Since the first deep brain stimulation (DBS) performed for movement disorder more than a decade ago, DBS has become a standard operation for advanced Parkinson's disease. Its indications are expanding to areas of dystonia, psychiatric conditions and refractory epilepsy. Additionally, a new set of DBS-related complications have arisen. Many teams found a slow learning curve from this complication-prone operation. We would like to investigate complications arising from 100 DBS electrode insertions and its prevention. 
-Methods 
-We performed an audit in all DBS patients for operation-related complications in our centre from 1997 to 2008. Complications were classified into operation-related, hardware-related and stimulation-related. Operation-related complications included intracranial haemorrhages and electrode malposition. Hardware-related complications included fracture of electrodes, electrode migration, infection and erosion. Stimulation-related complications included sensorimotor conditions, psychiatric conditions and life-threatening conditions. 
-Results 
-From 1997 to the end of 2008, 100 DBS electrodes were inserted in 55 patients for movement disorders, mostly for Parkinson's disease (50 patients). There was one symptomatic cerebral haemorrhage (1%) and two electrode malpositions (2%). Meticulous surgical planning, use of microdriver and a reliable electrode anchorage device would minimise this group of complications. There were two electrode fractures, one electrode migration and one pulse-generator infection which contributed to the hardware-related complication rate of 5%. There was no sensorimotor or life-threatening complications in our group. However, three patients suffered from reversible psychiatric symptoms after DBS. 
-Conclusion 
+        <dcterms:abstract>Background
+Since the first deep brain stimulation (DBS) performed for movement disorder more than a decade ago, DBS has become a standard operation for advanced Parkinson's disease. Its indications are expanding to areas of dystonia, psychiatric conditions and refractory epilepsy. Additionally, a new set of DBS-related complications have arisen. Many teams found a slow learning curve from this complication-prone operation. We would like to investigate complications arising from 100 DBS electrode insertions and its prevention.
+Methods
+We performed an audit in all DBS patients for operation-related complications in our centre from 1997 to 2008. Complications were classified into operation-related, hardware-related and stimulation-related. Operation-related complications included intracranial haemorrhages and electrode malposition. Hardware-related complications included fracture of electrodes, electrode migration, infection and erosion. Stimulation-related complications included sensorimotor conditions, psychiatric conditions and life-threatening conditions.
+Results
+From 1997 to the end of 2008, 100 DBS electrodes were inserted in 55 patients for movement disorders, mostly for Parkinson's disease (50 patients). There was one symptomatic cerebral haemorrhage (1%) and two electrode malpositions (2%). Meticulous surgical planning, use of microdriver and a reliable electrode anchorage device would minimise this group of complications. There were two electrode fractures, one electrode migration and one pulse-generator infection which contributed to the hardware-related complication rate of 5%. There was no sensorimotor or life-threatening complications in our group. However, three patients suffered from reversible psychiatric symptoms after DBS.
+Conclusion
 DBS is, on the one hand, an effective surgical treatment for movement disorders. On the other hand, it is a complication-prone operation. A dedicated “Movement Disorder Team” consisting of neurologists, neurophysiologists, functional neurosurgeons, neuropsychologists and nursing specialists is essential. Liaison among team members in perioperative periods and postoperative care is the key to avoiding complications and having a successful patient outcome.</dcterms:abstract>
         <dc:title>Complications of Deep Brain Stimulation: A Collective Review</dc:title>
         <z:shortTitle>Complications of Deep Brain Stimulation</z:shortTitle>
@@ -36007,13 +36007,13 @@ DBS is, on the one hand, an effective surgical treatment for movement disorders.
         <dc:date>February 15, 2009</dc:date>
         <dcterms:dateSubmitted>2012-09-20 20:19:49</dcterms:dateSubmitted>
         <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
-        <dcterms:abstract>Background 
-We investigated the use of deep brain stimulation (DBS) of the ventral capsule/ventral striatum (VC/VS) for treatment refractory depression. 
-Methods 
-Fifteen patients with chronic, severe, highly refractory depression received open-label DBS at three collaborating clinical sites. Electrodes were implanted bilaterally in the VC/VS region. Stimulation was titrated to therapeutic benefit and the absence of adverse effects. All patients received continuous stimulation and were followed for a minimum of 6 months to longer than 4 years. Outcome measures included the Hamilton Depression Rating Scale—24 item (HDRS), the Montgomery-Asberg Depression Rating Scale (MADRS), and the Global Assessment of Function Scale (GAF). 
-Results 
-Significant improvements in depressive symptoms were observed during DBS treatment. Mean HDRS scores declined from 33.1 at baseline to 17.5 at 6 months and 14.3 at last follow-up. Similar improvements were seen with the MADRS (34.8, 17.9, and 15.7, respectively) and the GAF (43.4, 55.5, and 61.8, respectively). Responder rates with the HDRS were 40% at 6 months and 53.3% at last follow-up (MADRS: 46.7% and 53.3%, respectively). Remission rates were 20% at 6 months and 40% at last follow-up with the HDRS (MADRS: 26.6% and 33.3%, respectively). The DBS was well-tolerated in this group. 
-Conclusions 
+        <dcterms:abstract>Background
+We investigated the use of deep brain stimulation (DBS) of the ventral capsule/ventral striatum (VC/VS) for treatment refractory depression.
+Methods
+Fifteen patients with chronic, severe, highly refractory depression received open-label DBS at three collaborating clinical sites. Electrodes were implanted bilaterally in the VC/VS region. Stimulation was titrated to therapeutic benefit and the absence of adverse effects. All patients received continuous stimulation and were followed for a minimum of 6 months to longer than 4 years. Outcome measures included the Hamilton Depression Rating Scale—24 item (HDRS), the Montgomery-Asberg Depression Rating Scale (MADRS), and the Global Assessment of Function Scale (GAF).
+Results
+Significant improvements in depressive symptoms were observed during DBS treatment. Mean HDRS scores declined from 33.1 at baseline to 17.5 at 6 months and 14.3 at last follow-up. Similar improvements were seen with the MADRS (34.8, 17.9, and 15.7, respectively) and the GAF (43.4, 55.5, and 61.8, respectively). Responder rates with the HDRS were 40% at 6 months and 53.3% at last follow-up (MADRS: 46.7% and 53.3%, respectively). Remission rates were 20% at 6 months and 40% at last follow-up with the HDRS (MADRS: 26.6% and 33.3%, respectively). The DBS was well-tolerated in this group.
+Conclusions
 Deep brain stimulation of the VC/VS offers promise for the treatment of refractory major depression.</dcterms:abstract>
         <dc:title>Deep Brain Stimulation of the Ventral Capsule/Ventral Striatum for Treatment-Resistant Depression</dc:title>
         <z:shortTitle>Deep Brain Stimulation for Depression: Emerging Targets and Differing Approaches</z:shortTitle>
@@ -37501,7 +37501,7 @@ PMCID: PMC2908254</dc:description>
         <dc:date>March 3, 2005</dc:date>
         <dcterms:dateSubmitted>2013-02-21 00:24:33</dcterms:dateSubmitted>
         <z:libraryCatalog>ScienceDirect</z:libraryCatalog>
-        <dcterms:abstract>Summary 
+        <dcterms:abstract>Summary
 Treatment-resistant depression is a severely disabling disorder with no proven treatment options once multiple medications, psychotherapy, and electroconvulsive therapy have failed. Based on our preliminary observation that the subgenual cingulate region (Brodmann area 25) is metabolically overactive in treatment-resistant depression, we studied whether the application of chronic deep brain stimulation to modulate BA25 could reduce this elevated activity and produce clinical benefit in six patients with refractory depression. Chronic stimulation of white matter tracts adjacent to the subgenual cingulate gyrus was associated with a striking and sustained remission of depression in four of six patients. Antidepressant effects were associated with a marked reduction in local cerebral blood flow as well as changes in downstream limbic and cortical sites, measured using positron emission tomography. These results suggest that disrupting focal pathological activity in limbic-cortical circuits using electrical stimulation of the subgenual cingulate white matter can effectively reverse symptoms in otherwise treatment-resistant depression.</dcterms:abstract>
         <dc:title>Deep Brain Stimulation for Treatment-Resistant Depression</dc:title>
     </bib:Article>
@@ -37604,7 +37604,7 @@ Treatment-resistant depression is a severely disabling disorder with no proven t
     </z:Attachment>
     <bib:Article rdf:about="http://scitation.aip.org/content/aip/journal/apl/106/8/10.1063/1.4909508">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:0003-6951,%201077-3118"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:0003-6951,_1077-3118"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -37692,7 +37692,7 @@ Treatment-resistant depression is a severely disabling disorder with no proven t
         <dcterms:abstract>A radio frequency (RF)/ultrasound hybrid imaging system using airborne capacitive micromachined ultrasonic transducers (CMUTs) is proposed for the remote detection of embedded objects in highly dispersive media (e.g., water, soil, and tissue). RF excitation provides permittivity contrast, and ultra-sensitive airborne-ultrasound detection measures thermoacoustic-generated acoustic waves that initiate at the boundaries of the embedded target, go through the medium-air interface, and finally reach the transducer. Vented wideband CMUTs interface to 0.18 μm CMOS low-noise amplifiers to provide displacement detection sensitivity of 1.3 pm at the transducer surface. The carefully designed vented CMUT structure provides a fractional bandwidth of 3.5% utilizing the squeeze-film damping of the air in the cavity.</dcterms:abstract>
         <dc:title>Non-contact thermoacoustic detection of embedded targets using airborne-capacitive micromachined ultrasonic transducers</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:0003-6951,%201077-3118">
+    <bib:Journal rdf:about="urn:issn:0003-6951,_1077-3118">
         <prism:volume>106</prism:volume>
         <prism:number>8</prism:number>
         <dc:title>Applied Physics Letters</dc:title>
@@ -38874,7 +38874,7 @@ We report a scalable method to monolithically integrate microscopic light emitti
         <dcterms:dateSubmitted>2011-06-08 17:17:20</dcterms:dateSubmitted>
         <dc:title>SpringerLink - Journal of Neuro-Oncology, Volume 67, Numbers 1-2</dc:title>
     </z:Attachment>
-    <bib:BookSection rdf:about="urn:isbn:978-0-387-25492-0%20978-0-387-30742-8">
+    <bib:BookSection rdf:about="urn:isbn:978-0-387-25492-0_978-0-387-30742-8">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
             <bib:Book>
@@ -42365,7 +42365,7 @@ PMCID: 2581819</dc:description>
         <dcterms:dateSubmitted>2013-06-04 00:16:44</dcterms:dateSubmitted>
         <dc:title>Frontiers | Optogenetic inhibition of D1R containing nucleus accumbens neurons alters cocaine-mediated regulation of Tiam1 | Frontiers in Molecular Neuroscience</dc:title>
     </z:Attachment>
-    <bib:BookSection rdf:about="urn:isbn:978-3-7051-0002-2%20978-3-642-51461-6">
+    <bib:BookSection rdf:about="urn:isbn:978-3-7051-0002-2_978-3-642-51461-6">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
             <bib:Book>
@@ -43102,10 +43102,10 @@ PMCID: PMC2366937</dc:description>
         <dc:date>May 1, 2011</dc:date>
         <dcterms:dateSubmitted>2013-02-21 00:27:03</dcterms:dateSubmitted>
         <z:libraryCatalog>Silverchair</z:libraryCatalog>
-        <dcterms:abstract>Objective:  
-  A prevalence of at least 30% for treatment-resistant depression has prompted the investigation of alternative treatment strategies. Deep brain stimulation (DBS) is a promising targeted approach involving the bilateral placement of electrodes at specific neuroanatomical sites. Given the invasive and experimental nature of DBS for treatment-resistant depression, it is important to obtain both short-term and long-term effectiveness and safety data. This report represents an extended follow-up of 20 patients with treatment-resistant depression who received DBS to the subcallosal cingulate gyrus (Brodmann's area 25).Method:  
-  After an initial 12-month study of DBS, patients were seen annually and at a last follow-up visit to assess depression severity, functional outcomes, and adverse events.Results:  
-  The average response rates 1, 2, and 3 years after DBS implantation were 62.5%, 46.2%, and 75%, respectively. At the last follow-up visit (range=3—6 years), the average response rate was 64.3%. Functional impairment in the areas of physical health and social functioning progressively improved up to the last follow-up visit. No significant adverse events were reported during this follow-up, although two patients died by suicide during depressive relapses.Conclusions:  
+        <dcterms:abstract>Objective: 
+  A prevalence of at least 30% for treatment-resistant depression has prompted the investigation of alternative treatment strategies. Deep brain stimulation (DBS) is a promising targeted approach involving the bilateral placement of electrodes at specific neuroanatomical sites. Given the invasive and experimental nature of DBS for treatment-resistant depression, it is important to obtain both short-term and long-term effectiveness and safety data. This report represents an extended follow-up of 20 patients with treatment-resistant depression who received DBS to the subcallosal cingulate gyrus (Brodmann's area 25).Method: 
+  After an initial 12-month study of DBS, patients were seen annually and at a last follow-up visit to assess depression severity, functional outcomes, and adverse events.Results: 
+  The average response rates 1, 2, and 3 years after DBS implantation were 62.5%, 46.2%, and 75%, respectively. At the last follow-up visit (range=3—6 years), the average response rate was 64.3%. Functional impairment in the areas of physical health and social functioning progressively improved up to the last follow-up visit. No significant adverse events were reported during this follow-up, although two patients died by suicide during depressive relapses.Conclusions: 
   These data suggest that in the long term, DBS remains a safe and effective treatment for treatment-resistant depression. Additional trials with larger samples are needed to confirm these findings.Abstract Teaser</dcterms:abstract>
         <dc:title>Deep Brain Stimulation for Treatment-Resistant Depression: Follow-Up After 3 to 6 Years</dc:title>
         <z:shortTitle>Deep Brain Stimulation for Treatment-Resistant Depression</z:shortTitle>
@@ -45541,7 +45541,7 @@ PMCID: PMC2366937</dc:description>
     </z:Attachment>
     <bib:Article rdf:about="http://doi.wiley.com/10.1002/acs.1077">
         <z:itemType>journalArticle</z:itemType>
-        <dcterms:isPartOf rdf:resource="urn:issn:08906327,%2010991115"/>
+        <dcterms:isPartOf rdf:resource="urn:issn:08906327,_10991115"/>
         <bib:authors>
             <rdf:Seq>
                 <rdf:li>
@@ -45599,7 +45599,7 @@ PMCID: PMC2366937</dc:description>
         <z:libraryCatalog>CrossRef</z:libraryCatalog>
         <dc:title>Real-time signal processing for high-density microelectrode array systems</dc:title>
     </bib:Article>
-    <bib:Journal rdf:about="urn:issn:08906327,%2010991115">
+    <bib:Journal rdf:about="urn:issn:08906327,_10991115">
         <prism:volume>23</prism:volume>
         <prism:number>11</prism:number>
         <dc:title>International Journal of Adaptive Control and Signal Processing</dc:title>
@@ -47598,7 +47598,7 @@ CONCLUSION: We have designed multielectrodes wireless implants to open the way f
         <rdf:resource rdf:resource="storage:view_article.html"/>
         <dc:identifier>
             <dcterms:URI>
-                <rdf:value>http://www.opticsinfobase.org/view_article.cfm?gotourl=http%3A%2F%2Fwww%2Eopticsinfobase%2Eorg%2FDirectPDFAccess%2F2EBC7DD7%2DFEC9%2D438F%2D5156178B709F379B%5F61312%2Epdf%3Fda%3D1%26id%3D61312%26seq%3D0%26mobile%3Dno&amp;org=Boston%20University</rdf:value>
+                <rdf:value>http://www.opticsinfobase.org/view_article.cfm?gotourl=http%3A%2F%2Fwww%2Eopticsinfobase%2Eorg%2FDirectPDFAccess%2F2EBC7DD7%2DFEC9%2D438F%2D5156178B709F379B%5F61312%2Epdf%3Fda%3D1%26id%3D61312%26seq%3D0%26mobile%3Dno&amp;org=Boston_University</rdf:value>
             </dcterms:URI>
         </dc:identifier>
         <dcterms:dateSubmitted>2011-06-17 15:44:39</dcterms:dateSubmitted>
@@ -48491,7 +48491,7 @@ PMCID: PMC3799684</dc:description>
         </dc:subject>
         <bib:pages>98</bib:pages>
         <dc:date>2012</dc:date>
-        <dc:description>PMID: 22889003 
+        <dc:description>PMID: 22889003
 PMCID: PMC3502368</dc:description>
         <z:libraryCatalog>NCBI PubMed</z:libraryCatalog>
         <z:language>eng</z:language>
@@ -49485,7 +49485,7 @@ VIRTUAL SLIDES: The virtual slide(s) for this article can be found here: http://
         <dc:identifier>ISSN 0099-2240</dc:identifier>
         <dc:identifier>DOI 10.1128/AEM.01868-10</dc:identifier>
     </bib:Journal>
-    <bib:BookSection rdf:about="urn:isbn:978-1-84996-168-4%20978-1-84996-169-1">
+    <bib:BookSection rdf:about="urn:isbn:978-1-84996-168-4_978-1-84996-169-1">
         <z:itemType>bookSection</z:itemType>
         <dcterms:isPartOf>
             <bib:Book>
@@ -52684,7 +52684,7 @@ PMCID: PMC2781858</dc:description>
         <dc:title>BMI/DBS</dc:title>
         <dcterms:hasPart rdf:resource="http://thejns.org/doi/pdf/10.3171/2008.10.JNS08763"/>
         <dcterms:hasPart rdf:resource="http://www.frontiersin.org/human_neuroscience/10.3389/fnhum.2013.00065/abstract?utm_source=newsletter&amp;utm_medium=email&amp;utm_campaign=Neuroscience-w11-2013"/>
-        <dcterms:hasPart rdf:resource="http://neurosurgerytoday.org/runn/2008/278-Subcallosal%20cingulate%20gyrus%20deep%20brain.pdf"/>
+        <dcterms:hasPart rdf:resource="http://neurosurgerytoday.org/runn/2008/278-Subcallosal_cingulate_gyrus_deep_brain.pdf"/>
         <dcterms:hasPart rdf:resource="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2940414/"/>
         <dcterms:hasPart rdf:resource="#item_29"/>
         <dcterms:hasPart rdf:resource="http://cat.inist.fr/?aModele=afficheN&amp;cpsidt=21896140"/>
@@ -52725,7 +52725,7 @@ PMCID: PMC2781858</dc:description>
         <dcterms:hasPart rdf:resource="http://www.sciencedirect.com/science/article/pii/S138824571200716X"/>
         <dcterms:hasPart rdf:resource="http://www.jneurosci.org/content/31/49/17772"/>
         <dcterms:hasPart rdf:resource="http://www.sciencedirect.com/science/article/pii/S089662730500156X"/>
-        <dcterms:hasPart rdf:resource="urn:isbn:978-3-211-33080-7%20978-3-211-33081-4"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-3-211-33080-7_978-3-211-33081-4"/>
         <dcterms:hasPart rdf:resource="#item_299"/>
         <dcterms:hasPart rdf:resource="http://www.sjmneuropro.com/Products/US/Eon-Rechargeable-IPG-System.aspx"/>
         <dcterms:hasPart rdf:resource="#item_312"/>
@@ -52922,7 +52922,7 @@ PMCID: PMC2781858</dc:description>
         <dcterms:hasPart rdf:resource="#item_443"/>
         <dcterms:hasPart rdf:resource="http://openoptogeneticsblog.org/?p=282"/>
         <dcterms:hasPart rdf:resource="http://www.springerlink.com/content/v2k5866nr08r8112/"/>
-        <dcterms:hasPart rdf:resource="urn:isbn:978-0-387-25492-0%20978-0-387-30742-8"/>
+        <dcterms:hasPart rdf:resource="urn:isbn:978-0-387-25492-0_978-0-387-30742-8"/>
         <dcterms:hasPart rdf:resource="#item_468"/>
         <dcterms:hasPart rdf:resource="#item_491"/>
         <dcterms:hasPart rdf:resource="#item_493"/>
