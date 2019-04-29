@@ -1,3 +1,4 @@
 [submodule "img"]
 	path = img
-	url = git@bitbucket.org:markbucklin/images
+	url = https://github.com/markbucklin/images.git
+	branch = master
