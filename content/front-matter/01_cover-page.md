@@ -1,11 +1,9 @@
-# Cover Page
+# Cover Page {.unnumbered}
 
 <!--
-Development and Application
+Development and Application of a Closed-Loop Continuous Optical Neural Interface
 
-of a Closed-Loop Continuous Optical Neural Interface
-
-*Procedures for real-time image processing, neural signal extraction,*
+Procedures for real-time image processing, neural signal extraction,
 
 *and application to closed-loop control using wide-field Ca2+
 fluorescence*
