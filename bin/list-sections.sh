@@ -15,3 +15,5 @@ for f in ./*.md
     grep -h -E '^#+\s*.*$' "$f"
     markdown-toc --bullets='-' "$f" > "${f}.toc"
 done
+
+# fd -t f -e md | xargs markdown-toc --bullets='-'
