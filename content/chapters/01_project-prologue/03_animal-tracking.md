@@ -15,7 +15,7 @@ A webcam-based motion tracking box constructed to analyze the movement of our un
  -->
 
 
-<div id="fig:animal-tracking-bowl">
+<!-- <div id="fig:animal-tracking-bowl">
 ![raw](img/animal-tracking/01raw.jpg){#fig:animal-tracking-bowl-raw}
 ![black-and-white](img/animal-tracking/02black-and-white.jpg){#fig:animal-tracking-bowl-black-and-white}
 ![twoframes](img/animal-tracking/03twoframes.jpg){#fig:animal-tracking-bowl-twoframes}
@@ -25,4 +25,4 @@ A webcam-based motion tracking box constructed to analyze the movement of our un
 ![mousedata2](img/animal-tracking/08mousedata2.jpg){#fig:animal-tracking-bowl-mousedata2}
 ![mousedata1fiberon1](img/animal-tracking/09mousedata1fiberon1.jpg){#fig:animal-tracking-bowl-mousedata1fiberon1}
 <!-- Caption: Processing steps for automated rotation counting procedure used in hemiparkinsonian mouse study -->
-</div>
+</div> -->
