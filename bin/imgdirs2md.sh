@@ -1,14 +1,15 @@
 #!/usr/bin/env zsh
 
 SRC="$1"
-DEST="$2"
+DST="$2"
 
+# find "$SRC" -type f -regex '.*\(png\|jpg\|gif\|svg\|eps\|webp\|tif\)' -print0 | xargs -0 -r dirname | uniq | sort
 
-imgdirs=( $(find "$SRC" -type f -regex '.*\(png\|jpg\|gif\|svg\|eps\)' -print0 | xargs -0 -r dirname | uniq | sort ) )
+imgdirs=( $(find "$SRC" -type f -regex '.*\(png\|jpg\|gif\|svg\|eps\|webp\|tif\)' -print0 | xargs -0 -r dirname | uniq | sort ) )
 
 for d in "${imgdirs[@]}"
 do
-    imgfiles=( $(find "$d" -type f -regex '.*\(png\|jpg\|gif\|svg\|eps\)' -print | sort ) )
+    imgfiles=( $(find "$d" -type f -regex '.*\(png\|jpg\|gif\|svg\|eps\|webp\|tif\)' -print | sort ) )
     # todo: select imgfiles interactively
 
     # get number of figures in this folder -> combine multiple into figure with subfigures
@@ -29,9 +30,9 @@ do
 
     # initialie string to write to file
     mdfig_filename="${fig_id}.fig.md"
-    if [ -n "$DEST" ]; then
-        [[ -e "$DEST" ]] || mkdir -p "$DEST"
-        mdfig_path="$DEST/$mdfig_filename"
+    if [ -n "$DST" ]; then
+        [[ -e "$DST" ]] || mkdir -p "$DST"
+        mdfig_path="$DST/$mdfig_filename"
     else
             mdfig_path="./$mdfig_filename"
     fi
@@ -51,6 +52,7 @@ do
     subfig_txt=()
     for f in "${imgfiles[@]}"
     do
+    # ![caption text](img/fig/path.ext){#fig:ref_id width=xx%}
         subfig_filepath="$f"
         subfig_filename="$(basename "$f" )"
         subfig_id="${fig_id}:${subfig_filename%.*}"
@@ -58,7 +60,7 @@ do
         subfig_width="${fig_width_percent}"
         # todo interactively approve caption or pause for editing (and subfig_width)
 
-        subfig_txt+=( "$( printf '![%s](%s){#fig:%s width=%s%% }\n\n' "${subfig_id}" "${subfig_filepath}" "${subfig_id}" "${subfig_width}" )" )
+        subfig_txt+=( "$( printf '\n![%s](%s){#fig:%s width=%s%% }\n\n' "${subfig_caption}" "${subfig_filepath}" "${subfig_id}" "${subfig_width}" )" )
     done
     fig_txt=$( printf '\n%s' "${subfig_txt[@]}" )
     fig_close=$( printf '\n%s\n</div>\n%s\n\n' "${fig_caption}" "${mdfig_close}" )
