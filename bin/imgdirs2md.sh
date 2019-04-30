@@ -37,6 +37,11 @@ do
             mdfig_path="./$mdfig_filename"
     fi
 
+    # make symlink if necessary
+    # TODO make symlink for img paths
+    # srcrelpath="$DST/$( basename $SRC )"
+    # [[ -e "$srcrelpath" ]] || ln -s $SRC "${srcrelpath}"
+
 
     # caption text for figure (figure title?)
     fig_caption=$( printf '{{ figcaption(%s) }}' ${fig_id} )
@@ -55,12 +60,12 @@ do
     # ![caption text](img/fig/path.ext){#fig:ref_id width=xx%}
         subfig_filepath="$f"
         subfig_filename="$(basename "$f" )"
-        subfig_id="${fig_id}:${subfig_filename%.*}"
+        subfig_id="${fig_id}_${subfig_filename%.*}"
         subfig_caption="$( printf '{{ subfigcaption(%s) }}' "$subfig_id" )"
         subfig_width="${fig_width_percent}"
         # todo interactively approve caption or pause for editing (and subfig_width)
 
-        subfig_txt+=( "$( printf '\n![%s](%s){#fig:%s width=%s%% }\n\n' "${subfig_caption}" "${subfig_filepath}" "${subfig_id}" "${subfig_width}" )" )
+        subfig_txt+=( "$( printf '![%s](%s){#fig:%s width=%s%% }\n\n' "${subfig_caption}" "${subfig_filepath}" "${subfig_id}" "${subfig_width}" )" )
     done
     fig_txt=$( printf '\n%s' "${subfig_txt[@]}" )
     fig_close=$( printf '\n%s\n</div>\n%s\n\n' "${fig_caption}" "${mdfig_close}" )
