@@ -69,8 +69,8 @@ Using [script from](https://github.com/markbucklin/thesis/blob/draft/bin/imgdirs
 - [ ] templates
 - [ ] fix build procedure
 - [ ] fix content
-    - [ ] assign proper section levels
-    - [ ] indicate/ensure all non-body section headers get {.unnumbered} tag
+	- [ ] assign proper section levels
+	- [ ] indicate/ensure all non-body section headers get {.unnumbered} tag
 	- [ ] move incomplete sections out
 	- [ ] indicate sections needing more work
 	- [ ] add figure titles/descriptions
