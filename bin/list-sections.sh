@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
 
-src="$1"
+# src="$1"
 
 # Chapters
-cd build
+# cd build
 # slfile="section_list.txt"
 
 # echo /dev/null > "$slfile"
-for f in ./*.md
+for f in "$@"
  do
-    printf '\nCHAPTER: %s\n' "${f%.md}"
+    printf '\nFILE: %s\n' "${f%.md}"
     #grep -h -E '^#+\s*.*$' "$f" >> "$slfile"
     grep -h -E '^#+\s*.*$' "$f"
     markdown-toc --bullets='-' "$f" > "${f}.toc"
