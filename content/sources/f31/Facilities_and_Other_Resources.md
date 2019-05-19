@@ -1,4 +1,4 @@
-**Facilities and Other Resources**
+### Facilities and Other Resources
 
 Dr. Xue Han's laboratory and the associated machine-shops to which I have access provide all major equipment necessary to construct the device described in aim \#1. We've been using a 3D printer on the first floor, but there are others on campus and we have purchase from vendors as well. All equipment for surgery and optogenetic stimulation is available, including many lasers and LEDs and optical fiber. We are using carbon fiber and silicon probes which are also available. Tungsten electrodes are also available
 
