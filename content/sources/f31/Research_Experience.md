@@ -8,7 +8,7 @@ f31
 
 # Research Experience
 
-**December 2003 -- September 2005: Intern at Jackson Laboratory, Bar Harbor, ME**
+### December 2003 -- September 2005: Intern at Jackson Laboratory, Bar Harbor, ME
 
 The kind folks at the Jackson Lab introduced me to biomedical research. The lab has an internship program for students at the *Mount Desert Island High School*, which I applied for in my junior year. I began work in David Harrison\'s hematology and gerontology lab in winter 2004, supervised by Mike Astle. Three or more times each week I drove to the lab and used PCR to genotype a perpetual flood of DNA from a freezer full of tail-tips; I didn\'t know for what purpose until several months after I started. The goal was to map *Quantitative Trait Loci* that regulate expression of the B220 isoform of CD45 (a.k.a. leukocyte common antigen or protein tyrosine phosphatase B-cell surface receptor). As one might expect there was an extremely low likelihood that this project would generate interesting results, at least not to a 17-year old. In fact, it generated no results; I was told the matching phenotype data that were necessary to run the correlation analysis was lost. Nevertheless, I enjoyed learning the *genomics* techniques used in the lab, and finished the year by giving a presentation on PCR-genotyping that turned into a teaching tool for the program in subsequent years. I happily agreed to work in the same lab over the following year.
 
