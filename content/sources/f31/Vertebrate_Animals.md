@@ -14,13 +14,13 @@ f31
 
 # Vertebrate Animals:
 
-**Proposed procedure:**
+### Proposed procedure:
 
 Each of the 100-200 total mice that will be used in this project will independently progress through 4 phases, depicted in **Figure 1** below, with each color representing a distinct phase. The 2^nd^ phase, Animal Preparation & Implantation (red outline), is expanded to show the sequence of individual steps; the specific implementation of the procedures used in each of these steps will be established upon completion of the design process described in **Aim 1**. Every phase has been carefully planned with the utmost concern for the welfare of animals used. Each component of the sequence, from selection to sacrifice, is described in detail below.
 
 Figure 1 - Sequence of stages involved in preparing each mouse for behavioral testing and \'treatment\' with estimated duration of each stage. BLUE: postnatal/pre-adulthood; RED: preparation; GREEN: automated daily 'treatment' (Aim 2 and Aim 3, details in Research Strategy); BLACK: animal sacrifice and perfusion of the brain for histology.
 
-**Species, strains, ages, sex, and numbers:**
+### Species, strains, ages, sex, and numbers:
 
 All procedures described in this proposal will use male and female adult transgenic mice from *optogenetic* and *Cre-lox* strains, in addition to wild-type C57BL/6 mice. These mice come from a variety of sources, including vendors (The Jackson Laboratory, MMRRC, Taconic), collaborators (Allen Institute for Brain Science, VA Boston Healthcare System, University of Oregon) and from in-house breeding in the Boston University Laboratory Animal Care Facility (LACF) where they are housed. Animal subjects will be *selected* for the first preparation stage (Acclimation & Observation) based on *age* and *genotype*. Subject age at the start of testing must be between 2 and 12months. This lab breeds several Cre-dependent optogenetic and Cre-expressing transgenic strains in-house (see **table below**). The proposed project will select animal subjects from 3 genotype categories (see table) with two categories contributing positive and negative *control subjects*. The third genotype will depend on the pre-trial selection of brain areas targeted for stimulation in each individual mouse.
 
@@ -66,13 +66,13 @@ The number of animals used over the course of this project is an estimate that b
 
 -   *Total: \~200*
 
-**Surgery**
+### Surgery
 
 Mice will be anaesthetized prior to survival surgeries with a steady flow of 1-4% islofluorane in pure oxygen and depth of breathing will be monitored continuously. Once under, body temperature will be monitored and controlled with a heating pad and rectal thermometer. Prior to surgical incision, mice will be given a subcutaneous injection of 0.2 mg/kg buprenorphine. Hair removal and topical antiseptic (betadine and 70% alcohol) will be applied over the implantation site. The skull will then be stabilized with ear bars and an incision will be made in the caudal to rostral direction over the midline of the skull. With the use of a 2-dimensional template, positions for chronic electrodes will be marked on the skull with ink. A dental drill will be used to drill 16 small craniotomies (8 in each hemisphere) and injections will be made into brain regions underlying each craniotomy. 32 electrodes (2 in each craniotomy) will be inserted into the brain with a stereotaxic apparatus, and surgical lubricant will be placed over the surface of each craniotomy. Three bone screws will be inserted into the skull to stabilize the implant once it is in place. A custom head plate will be placed around the implanted electrodes and bone screws and cemented to the skull with bone cement.
 
 All surgical implants and equipment will be autoclaved prior to surgery and kept clean with 10% bleach or chlorhexidine. Mice will be kept warm with a heating lamp during recover.
 
-**Behavioral Training**
+### Behavioral Training
 
 We expect that very few implantations will be successfully performed early in the project. The implant and circuitry design will almost certainly need revision, as will the surgical procedures and the software. However, once a functional design is settled on it will be trivial to scale the project so that several mice may be started (fitted with implants) each week. These mice will be observed in a bowl with a camera.
 
