@@ -77,9 +77,7 @@ A systems neuroscience experiment will benefit from online feedback in one or bo
 
 Streaming processing addresses the issues of processing and storing for sufficient learning from large networks possible. Additionally, I propose a strategy in the methods section by which incorporating this online processing stream into stimulus-response-type experiments could help correct *limited sampling bias*, enabling neural coding analysis in large populations of neurons [@ince_presence_2009].
 
-Overall, however, the third goal of this project will focus on the ability to use the expanded information made available by the first two project components to train an encoder that predicts intended motor states from one healthy mouse, and uses the predictions to direct neuromodulatory control of another mouse. This setup will simulate pathologic disconnection in a brain, and will test the ability to distinguish intention to start or stop running, and apply that in a way that performance is easily measureable.
-
-# Pipeline overview
+Overall, however, the third goal of this project will focus on the ability to use the expanded information made available by the first two project components to train an encoder that predicts intended motor states from one healthy mouse, and uses the predictions to direct neuromodulatory control of another mouse. This setup will simulate pathologic disconnection in a brain, and will test the ability to distinguish intention to start or stop running, and apply that in a way that performance is easily measureable. \# Pipeline overview
 
 ## phases
 
@@ -496,7 +494,7 @@ This section describes the reality of how data scales as more and more sensors a
 
 ### Big Data
 
--   not exactly...
+-   not exactly\...
 -   disparate simple queries across
 
 ### Computational Models
@@ -1336,4 +1334,10 @@ This is a draft of the discussion dictated on my phone in a small notes program.
 
 ### unintentionally neuromorphic
 
-I wish to discuss a few other parallels that aren't as obvious for as relevant to the planning and approach of the software, which is why they have not been brought up before but included here because they're interesting regardless, especially from a neuroscience perspective.
+I wish to discuss a few other parallels that aren't as obvious for as relevant to the planning and approach of the software, which is why they have not been brought up before but included here because they're interesting regardless, especially from a neuroscience perspective. \#\#\#\# Figure: PCB schematic for head-mounted carbon fiber electrode array {\#pcb-top}
+
+![top 1](img/pcb/pcb_top1.png){#pcb-top1 height="1.0in"} ![top 2](img/pcb/pcb_top2.png){#pcb-top2 height="1.0in"} ![top 3](img/pcb/pcb_top3.png){#pcb-top3 height="1.0in"} Caption: Circuit Board for connection to carbon-fiber electrodes and LEDs
+
+Here I describe the design strategy for the physical implant outlined above that would provide pathways to and from the mouse brain for the the electrodes and LEDs described above, as well as the circuit board that sits within this implant and consolidates all *input/output* signals for connection with a computer. This project would strive to ensure the bidirectional chronic neural implant is *resilient* to the abuse it would surely endure over the weeks to months of service *affixed to the cranium* of a laboratory mouse. The outcome we wish to avoid is *movement* of the penetrating electrodes within the brain tissue when external forces act on the implant, or when internal forces cause the animals brain to move relative to its skull. Moreover, if the electrode is unable to move with the brain there is substantial risk of electrode breakage.
+
+We are designing the implant to address this potential issue from two directions: the first strategy is to make the implant as *tolerable* for the animal as possible by minimizing its weight, rounding all edges, and fabricating with a bioinert material such as polymethylmethacrylate (PMMA), polyetheretherketone (PEEK), and silicone elastomer. Elastomer or functionally similar material would be used to encase the printed circuit board (PCB) once electrodes are driven to their prescribed depth and electrical connections made. The encasement would cover the entirety of the board with the exception of two connectors for electrophysiology readout and LED power, and a heatsink connector for each LED . Heatsinks for the LEDs would either be copper tube or carbon fiber. The second strategy for minimizing electrode movement involves *floating* the connection between the electrodes and the PCB. The goal of this procedure is to allow the electrode -- with one end in the brain and the other in a plated through-hole -- to move vertically and laterally relative to the PCB while maintaining electrical contact with the pad. The method for accomplishing this is still being developed; fortunately its success is not critical to the project, but merely an improvement.
