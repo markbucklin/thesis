@@ -1,0 +1,53 @@
+---
+
+title: 'Cranial window title TBD'
+subtitle:
+author:
+
+- name: Susie S. Cha
+  affiliation: Boston University, Department of Biomedical Engineering, Boston, MA 02215
+- name: Mark E Bucklin
+  affiliation: Boston University, Department of Biomedical Engineering, Boston, MA 02215
+  affiliation: Boston University, School of Medicine, Boston, MA 02118
+- name: Xue Han
+  affiliation: Boston University, Department of Biomedical Engineering, Boston, MA 02215
+
+keywords: [wide-field optical imaging, in vivo, silicone elastomer, cranial window]
+description:
+category:
+subject:
+abstract: |
+Wide-field epifluorescence imaging of a living brain has substantially expanded our ability to perform high-throughput detection of neural activity at a spatial and temporal resolution sufficient to capture rich cellular dynamics of large interconnected networks of neurons. Yet optical signals are highly sensitive to light scattering, and the preservation of optical clarity through craniotomies is critically important for high-resolution imaging. Longitudinal imaging in cortex, however, is often limited due to granulation tissue growth between the brain and the imaging access window, and its inhomogeneous structure induces a significant level of optical scattering, thus severely compromising spatial resolution. To address this concern, we report the design of a polydimethylsiloxane (PDMS)-based cranial window system that can faithfully prevent the optically obstructive tissue from growing under the craniotomy. Additionally, the two-part system is constructed to allow for continued full tissue access after its initial installation. Utilizing the system, we demonstrate a year-long course of wide-field imaging recording the simultaneous activity in thousands of cortical neurons in awake mice.
+
+        1.  Cranial window system that provides more functionalities to extend our capability using in vivo optical imaging to probe the complexity of the brain
+
+        a. Long-term maintenance of optical quality
+        b. Easy and repeatable tissue accessibility
+
+        2.  Goal of the project was to design a system that
+
+        a. Performs reliably
+        b. Easily adaptable
+        c. Easily adoptable
+
+        3.  To achieve, used silicone elastomer (vs. convention &ndash; glass)
+
+        a. Major advantage &ndash; can easily incorporate shapes and features to develop a system that can adapt to various experimental requirements
+        b. Provide equivalent optical quality to glass
+
+        4.  Achieved by developing a multi-stage system composed of a headplate with an integrated chamber and a cranial window
+
+        a. Window was casted incorporating features to block tissue growth within image field
+
+                i.  Achieve image durations extending beyond a year to record calcium dynamics of hundreds of individual neurons using wide-field epifluorescence microscope
+
+        b. Headplate provided the base for window installation which can be temporarily detached to perform acute manipulation on the underlying tissue
+
+        5.  Easily adaptable, demonstrated through providing an example of two systems with similar design concepts but incorporated distinct design features
+
+        a. Bilateral hemispheric windows
+        b. Whole-brain window
+
+        6.  Designs of the reported system are available in open source and can be easily adopted by developing the parts through rapid prototyping
+
+...
