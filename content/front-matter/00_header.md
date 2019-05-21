@@ -48,7 +48,7 @@ lot: True
 
 numbersections: true
 
-# for pandoc-fignos
+<!-- for pandoc-fignos -->
 header-includes:
     - \usepackage{appendix}
     - \usepackage{caption}
@@ -60,6 +60,6 @@ header-includes:
     - \setstretch{1}
     - \setlength{\parskip}{9pt}
 
-bibliography: bibliography.bib
+bibliography:[ minimal.bib,  bibliography.bib ]
 
 ...
