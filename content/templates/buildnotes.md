@@ -1,7 +1,7 @@
-README.md
+# Build Notes
 
 
-
+## Implementing Sub-Figures
 
 ### pandoc-crossref subfigure groupwrapping
 ```markdown
