@@ -2,7 +2,7 @@
 
 This section borrows from AIM-1 and AIM-2 of the prospectus.
 
-<!-- # Introduction
+<!-- H Introduction
 # Procedures for Calcium Imaging
 # Computer Software Environments for Image Processing
 # Computational Resources for Processing Large Data Sets
