@@ -1,0 +1,8 @@
+[
+  {"type":"GenericHeading","value":"#"},
+  {"type":"Text","value":" Introduction and Background\n\u003c!-- "},
+  {"type":"GenericHeading","value":"#"},
+  {"type":"Text","value":"include body/00_introduction/00_forward.md --\u003e\n\u003c!-- "},
+  {"type":"GenericHeading","value":"#"},
+  {"type":"Text","value":"include body/00_introduction/02_introduction.md --\u003e\n"}
+]
