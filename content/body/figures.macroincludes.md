@@ -16,35 +16,35 @@ Using [script from](https://github.com/markbucklin/thesis/blob/draft/bin/imgdirs
 
 
 ### Introduction and Background Chapter
-<!-- #include "monkey-related.fig.md" -->
-<!-- #include "neuromodulation-implant.fig.md" -->
-<!-- #include "neuromodulation-pcb.fig.md" -->
+<!-- #include monkey-related.fig.md -->
+<!-- #include neuromodulation-implant.fig.md -->
+<!-- #include neuromodulation-pcb.fig.md -->
 
 ### Hardware Chapter
-<!-- #include "animal-tracking.fig.md" -->
-<!-- #include "behavior-box.fig.md" -->
-<!-- #include "beveled-fiber-bundle.fig.md" -->
-<!-- #include "headplate-holder.fig.md" -->
-<!-- #include "microscope.fig.md" -->
-<!-- #include "spherical-treadmill-extended.fig.md" -->
-<!-- #include "spherical-treadmill-motion-sensors.fig.md" -->
-<!-- #include "spherical-treadmill-VR.fig.md" -->
-<!-- #include "spherical-treadmill-water-delivery.fig.md" -->
-<!-- #include "cranial-window.fig.md" -->
+<!-- #include animal-tracking.fig.md -->
+<!-- #include behavior-box.fig.md -->
+<!-- #include beveled-fiber-bundle.fig.md -->
+<!-- #include headplate-holder.fig.md -->
+<!-- #include microscope.fig.md -->
+<!-- #include spherical-treadmill-extended.fig.md -->
+<!-- #include spherical-treadmill-motion-sensors.fig.md -->
+<!-- #include spherical-treadmill-VR.fig.md -->
+<!-- #include spherical-treadmill-water-delivery.fig.md -->
+<!-- #include cranial-window.fig.md -->
 
 ### Software Chapter
-<!-- #include "FluoPro.fig.md" -->
-<!-- #include "Pipeline.fig.md" -->
-<!-- #include "Scicadelic.fig.md" -->
-<!-- #include "sfn-poster.fig.md" -->
-<!-- #include "SW-2015-09-image-processing-refinement.fig.md" -->
-<!-- #include "SW-2015-11-batch05-image-processing.fig.md" -->
-<!-- #include "SW-2016-01-batch12-image-processing.fig.md" -->
-<!-- #include "SW-2017-08-roi05.fig.md" -->
-<!-- #include "SW-2018-08-batch02-image-processing.fig.md" -->
+<!-- #include FluoPro.fig.md -->
+<!-- #include Pipeline.fig.md -->
+<!-- #include Scicadelic.fig.md -->
+<!-- #include sfn-poster.fig.md -->
+<!-- #include SW-2015-09-image-processing-refinement.fig.md -->
+<!-- #include SW-2015-11-batch05-image-processing.fig.md -->
+<!-- #include SW-2016-01-batch12-image-processing.fig.md -->
+<!-- #include SW-2017-08-roi05.fig.md -->
+<!-- #include SW-2018-08-batch02-image-processing.fig.md -->
 
 ### Discussion
-<!-- #include "SW-sequence-2015-07-seq02.fig.md" -->
-<!-- #include "SW-sequence-2015-12-seq23.fig.md" -->
-<!-- #include "SW-sequence-2016-01-seq25.fig.md" -->
-<!-- #include "SW-sequence-vlcsnap.fig.md" -->
+<!-- #include SW-sequence-2015-07-seq02.fig.md -->
+<!-- #include SW-sequence-2015-12-seq23.fig.md -->
+<!-- #include SW-sequence-2016-01-seq25.fig.md -->
+<!-- #include SW-sequence-vlcsnap.fig.md -->
