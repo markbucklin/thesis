@@ -2,3 +2,4 @@ _build
 tags
 *.md.toc
 _split*/
+.tags
