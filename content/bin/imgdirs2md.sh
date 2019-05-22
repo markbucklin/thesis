@@ -48,7 +48,7 @@ do
 
     # insert commented code to indicate how to include the generated markdown file
     markdownpp_include="$( printf '!INCLUDE %s' \"$mdfig_filename\")"
-    mdinclude_include="$( printf '<!-- Hinclude %s -->' \"$mdfig_filename\")"
+    mdinclude_include="$( printf '<!-- #include %s -->' \"$mdfig_filename\")"
     mustache_include="$( printf '{{ %s }}' "$mdfig_filename")"
 
 
