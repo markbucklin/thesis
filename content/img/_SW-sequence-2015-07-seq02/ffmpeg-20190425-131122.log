@@ -1,0 +1,150 @@
+ffmpeg started on 2019-04-25 at 13:11:22
+Report written to "ffmpeg-20190425-131122.log"
+Command line:
+ffmpeg -f image2 -pattern_type glob -framerate 10 -i "./frame*.png" -report ../SW-sequence-2015-07-seq02.mp4
+ffmpeg version 3.4.4-0ubuntu0.18.04.1 Copyright (c) 2000-2018 the FFmpeg developers
+  built with gcc 7 (Ubuntu 7.3.0-16ubuntu3)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable  WARNING: library configuration mismatch
+  avcodec     configuration: --prefix=/usr --extra-version=0ubuntu0.18.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --enable-gpl --disable-stripping --enable-avresample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librubberband --enable-librsvg --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-omx --enable-openal --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61  libavutil      55. 78.100 / 55. 78.100
+  libavcodec     57.107.100 / 57.107.100
+  libavformat    57. 83.100 / 57. 83.100
+  libavdevice    57. 10.100 / 57. 10.100
+  libavfilter     6.107.100 /  6.107.100
+  libavresample   3.  7.  0 /  3.  7.  0
+  libswscale      4.  8.100 /  4.  8.100
+  libswresample   2.  9.100 /  2.  9.100
+  libpostproc    54.  7.100 / 54.  7.100
+Splitting the commandline.
+Reading option '-f' ... matched as option 'f' (force format) with argument 'image2'.
+Reading option '-pattern_type' ... matched as AVOption 'pattern_type' with argument 'glob'.
+Reading option '-framerate' ... matched as AVOption 'framerate' with argument '10'.
+Reading option '-i' ... matched as input url with argument './frame*.png'.
+Reading option '-report' ... matched as option 'report' (generate a report) with argument '1'.
+Reading option '../SW-sequence-2015-07-seq02.mp4' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option report (generate a report) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url ./frame*.png.
+Applying option f (force format) with argument image2.
+Successfully parsed a group of options.
+Opening an input file: ./frame*.png.
+[image2 @ 0x5652f3ff8d80] Opening './frame-10.png' for reading
+[file @ 0x5652f3ffcae0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5652f4004d80] Statistics: 306068 bytes read, 0 seeks
+[image2 @ 0x5652f3ff8d80] Opening './frame-13.png' for reading
+[file @ 0x5652f4003460] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5652f40034e0] Statistics: 263300 bytes read, 0 seeks
+[image2 @ 0x5652f3ff8d80] Opening './frame-26.png' for reading
+[file @ 0x5652f4003440] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5652f4003c00] Statistics: 96822 bytes read, 0 seeks
+[image2 @ 0x5652f3ff8d80] Opening './frame-42.png' for reading
+[file @ 0x5652f4004100] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5652f40043c0] Statistics: 47295 bytes read, 0 seeks
+[image2 @ 0x5652f3ff8d80] Opening './frame-45.png' for reading
+[file @ 0x5652f40047e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5652f4004980] Statistics: 46433 bytes read, 0 seeks
+[image2 @ 0x5652f3ff8d80] Opening './frame-46.png' for reading
+[file @ 0x5652f4004160] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5652f3ffd680] Statistics: 46319 bytes read, 0 seeks
+[image2 @ 0x5652f3ff8d80] Opening './frame-47.png' for reading
+[file @ 0x5652f3ffdaa0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5652f3ffdcc0] Statistics: 47564 bytes read, 0 seeks
+[image2 @ 0x5652f3ff8d80] Opening './frame-48.png' for reading
+[file @ 0x5652f3ffe0e0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 0x5652f3ffe300] Statistics: 48384 bytes read, 0 seeks
+Input #0, image2, from './frame*.png':
+  Duration: 00:00:00.80, start: 0.000000, bitrate: N/A
+    Stream #0:0, 8, 1/10: Video: png, rgba(pc), 1281x1281 [SAR 3779:3779 DAR 1:1], 10 fps, 10 tbr, 10 tbn, 10 tbc
+Successfully opened the file.
+Parsing a group of options: output url ../SW-sequence-2015-07-seq02.mp4.
+Successfully parsed a group of options.
+Opening an output file: ../SW-sequence-2015-07-seq02.mp4.
+[file @ 0x5652f4005ca0] Setting default whitelist 'file,crypto'
+Successfully opened the file.
+detected 24 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[graph 0 input from stream 0:0 @ 0x5652f40af900] Setting 'video_size' to value '1281x1281'
+[graph 0 input from stream 0:0 @ 0x5652f40af900] Setting 'pix_fmt' to value '28'
+[graph 0 input from stream 0:0 @ 0x5652f40af900] Setting 'time_base' to value '1/10'
+[graph 0 input from stream 0:0 @ 0x5652f40af900] Setting 'pixel_aspect' to value '3779/3779'
+[graph 0 input from stream 0:0 @ 0x5652f40af900] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 0x5652f40af900] Setting 'frame_rate' to value '10/1'
+[graph 0 input from stream 0:0 @ 0x5652f40af900] w:1281 h:1281 pixfmt:rgba tb:1/10 fr:10/1 sar:3779/3779 sws_param:flags=2
+[format @ 0x5652f40b4640] compat: called with args=[yuv420p|yuvj420p|yuv422p|yuvj422p|yuv444p|yuvj444p|nv12|nv16|nv21]
+[format @ 0x5652f40b4640] Setting 'pix_fmts' to value 'yuv420p|yuvj420p|yuv422p|yuvj422p|yuv444p|yuvj444p|nv12|nv16|nv21'
+[auto_scaler_0 @ 0x5652f40b6820] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 0x5652f40b6820] w:iw h:ih flags:'bicubic' interl:0
+[format @ 0x5652f40b4640] auto-inserting filter 'auto_scaler_0' between the filter 'Parsed_null_0' and the filter 'format'
+[AVFilterGraph @ 0x5652f40afd60] query_formats: 4 queried, 2 merged, 1 already done, 0 delayed
+[auto_scaler_0 @ 0x5652f40b6820] picking yuv444p out of 8 ref:rgba alpha:1
+[auto_scaler_0 @ 0x5652f40b6820] w:1281 h:1281 fmt:rgba sar:3779/3779 -> w:1281 h:1281 fmt:yuv444p sar:1/1 flags:0x4
+[libx264 @ 0x5652f4000360] using mv_range_thread = 24
+[libx264 @ 0x5652f4000360] using SAR=1/1
+[libx264 @ 0x5652f4000360] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX
+[libx264 @ 0x5652f4000360] profile High 4:4:4 Predictive, level 4.0, 4:4:4 8-bit
+[libx264 @ 0x5652f4000360] 264 - core 152 r2854 e9a5903 - H.264/MPEG-4 AVC codec - Copyleft 2003-2017 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x1:0x111 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=0 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=4 threads=36 lookahead_threads=6 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '../SW-sequence-2015-07-seq02.mp4':
+  Metadata:
+    encoder         : Lavf57.83.100
+    Stream #0:0, 0, 1/10240: Video: h264 (libx264) (avc1 / 0x31637661), yuv444p, 1281x1281 [SAR 1:1 DAR 1:1], q=-1--1, 10 fps, 10240 tbn, 10 tbc
+    Metadata:
+      encoder         : Lavc57.107.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+cur_dts is invalid (this is harmless if it occurs once at the start per stream)
+[out_0_0 @ 0x5652f40b3f40] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[libx264 @ 0x5652f4000360] frame=   0 QP=21.21 NAL=3 Slice:I Poc:0   I:6561 P:0    SKIP:0    size=79765 bytes
+[libx264 @ 0x5652f4000360] frame=   1 QP=20.71 NAL=2 Slice:P Poc:2   I:1401 P:4420 SKIP:740  size=47176 bytes
+[libx264 @ 0x5652f4000360] frame=   2 QP=14.25 NAL=2 Slice:P Poc:10  I:6295 P:94   SKIP:172  size=38447 bytes
+[libx264 @ 0x5652f4000360] frame=   3 QP=16.54 NAL=2 Slice:B Poc:6   I:1965 P:1074 SKIP:3461 size=26896 bytes
+[libx264 @ 0x5652f4000360] frame=   4 QP=19.75 NAL=0 Slice:B Poc:4   I:1330 P:2204 SKIP:2976 size=25685 bytes
+[libx264 @ 0x5652f4000360] frame=   5 QP=20.88 NAL=0 Slice:B Poc:8   I:1277 P:1889 SKIP:3300 size=35412 bytes
+[libx264 @ 0x5652f4000360] frame=   6 QP=16.27 NAL=2 Slice:P Poc:14  I:2507 P:416  SKIP:3638 size=22856 bytes
+[libx264 @ 0x5652f4000360] frame=   7 QP=21.59 NAL=0 Slice:B Poc:12  I:712  P:2002 SKIP:3747 size=26698 bytes
+frame=    8 fps=0.0 q=-1.0 Lsize=     297kB time=00:00:00.50 bitrate=4872.1kbits/s speed=1.09x
+video:297kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.310582%
+Input file #0 (./frame*.png):
+  Input stream #0:0 (video): 8 packets read (902185 bytes); 8 frames decoded;
+  Total: 8 packets (902185 bytes) demuxed
+Output file #0 (../SW-sequence-2015-07-seq02.mp4):
+  Output stream #0:0 (video): 8 frames encoded; 8 packets muxed (303624 bytes);
+  Total: 8 packets (303624 bytes) muxed
+8 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 0x5652f4004ec0] Statistics: 2 seeks, 5 writeouts
+[libx264 @ 0x5652f4000360] frame I:1     Avg QP:21.21  size: 79765
+[libx264 @ 0x5652f4000360] frame P:3     Avg QP:17.08  size: 36160
+[libx264 @ 0x5652f4000360] frame B:4     Avg QP:19.69  size: 28673
+[libx264 @ 0x5652f4000360] consecutive B-frames: 25.0% 25.0%  0.0% 50.0%
+[libx264 @ 0x5652f4000360] mb I  I16..4: 28.6%  0.0% 71.4%
+[libx264 @ 0x5652f4000360] mb P  I16..4: 39.0%  0.0% 12.8%  P16..4: 17.1%  5.4%  2.5%  0.0%  0.0%    skip:23.1%
+[libx264 @ 0x5652f4000360] mb B  I16..4: 14.9%  0.0%  5.2%  B16..8: 17.9%  2.6%  0.8%  direct: 7.3%  skip:51.4%  L0:33.1% L1:65.6% BI: 1.3%
+[libx264 @ 0x5652f4000360] coded y,u,v intra: 46.5% 0.0% 0.0% inter: 17.0% 0.0% 0.0%
+[libx264 @ 0x5652f4000360] i16 v,h,dc,p: 67% 19% 11%  3%
+[libx264 @ 0x5652f4000360] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 17% 32%  5%  6%  5%  5%  3%  4%
+[libx264 @ 0x5652f4000360] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x5652f4000360] ref P L0: 96.7%  0.6%  2.6%  0.1%
+[libx264 @ 0x5652f4000360] ref B L0: 86.0% 14.0%
+[libx264 @ 0x5652f4000360] ref B L1: 92.6%  7.4%
+[libx264 @ 0x5652f4000360] kb/s:3029.35
