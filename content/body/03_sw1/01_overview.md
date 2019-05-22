@@ -1,9 +1,9 @@
-# Pipeline overview
+### Pipeline overview
 
 
-## phases
+#### phases
 
-### preprocessing
+##### preprocessing
 Image filtering operations
 Normalization
 Motion estimation and compensation
@@ -12,7 +12,7 @@ Layer classification
   Cell/neuropil/vessel
 
 
-#### time series analysis
+###### time series analysis
 Prediction and factorization of temporal components/contaminants
 Model:
   Unidirectional trend (sources...)
@@ -20,28 +20,28 @@ Model:
   Unpredictable
 
 
-#### spatial signal deconvolution (unmixing)
+###### spatial signal deconvolution (unmixing)
 
-### signal localization and extraction
+##### signal localization and extraction
 Segmentation of cells
 Overlap and "disconnected" regions
 Initial vs incremental cell identification
 
-### active signal analysis
+##### active signal analysis
 Signal statistics
   Shape and stability of probabilistic distribution
 Pixel level vs cell level
 
-#### independent cellular activity measures
+###### independent cellular activity measures
 Quality
 Complexity
 Spatial
 Temporal
 
-#### network analysis
+###### network analysis
 
-## Computing cost:
+#### Computing cost:
   boundary analysis for iOS and config
 
-## Storage cost:
+#### Storage cost:
   compression and imposed boundaries

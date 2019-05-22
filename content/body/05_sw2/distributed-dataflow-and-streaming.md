@@ -1,18 +1,18 @@
-## Distributed Dataflow and Streaming
+#### Distributed Dataflow and Streaming
 
 
 
 
-### Language: Is MATLAB the best tool for this job?
+##### Language: Is MATLAB the best tool for this job?
 - Standard language in many engineering programs
 - Proprietary
 - Performance
 - Compatibility
 - Need for a "SandBox"
 - Lacks modularity
-- 
+-
 
-### Alternatives Languages
+##### Alternatives Languages
 - Python
 - C/C++
 - Java/Scala
@@ -20,20 +20,19 @@
 - GO, Haskell
 
 
-### Databases
+##### Databases
 
 
-### Big Data 
-- not exactly\... 
+##### Big Data
+- not exactly\...
 - disparate simple queries across
 
-### Computational Models
-- Dataflow Processing 
+##### Computational Models
+- Dataflow Processing
 - Actors model
-- Petri Nets 
-- Graph Processing 
+- Petri Nets
+- Graph Processing
       - i.e. Tensorflow
 
-      
-***
 
+***
