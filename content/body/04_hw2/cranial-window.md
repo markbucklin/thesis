@@ -1,4 +1,4 @@
-# Introduction
+### Introduction
 
 In vivo optical imaging provides a means to visualize the structural features and functional dynamics of brain tissue, and to measure how these change over time^1--3^.
 Optical techniques for observing neural activity have advanced due to evolving digital imaging technology, and the development of increasingly effective functional indicators such as the genetically encoded fluorescent calcium sensor GCaMP6f^4^.
@@ -52,14 +52,14 @@ Additionally, the two-part system consisting of a fixed headplate with integrate
 The utility of our design is demonstrated through chronic optical imaging of calcium dynamics in the cortex and acute interventions to the tissue upon detachment and replacement of the window from the headplate.
 Adaptation
 
-# Results
+### Results
 
 Here we report the design for a head-fixation and cranial window device, and the procedures for surgical attachment.
 The sections below describe the features of each component, and also report the critical elements that contribute to the performance and capabilities of our optical imaging window system.
 The following sections provide a detailed report of the system performance observed during evaluation.
 <!-- TODO: adaptation -->
 
-## Cranial Window System
+#### Cranial Window System
 
 Many design features, and procedures for implantation were introduced and developed to mitigate tissue growth for the sustained optical quality of the window.
 Other features were included to enhance imaging performance in awake behaving animals, to facilitate repeatable localization of image fields across sessions and animal subjects.
@@ -68,7 +68,7 @@ The cranial implant system is composed of two parts: a headplate with an integra
 The headplate is bonded to the dorsal surface of the animal's bare skull.
 The optical insert -- sometimes referred to as a "cranial window" -- seals the chamber and establishes an optical interface with the animal's brain through craniotomy sites in the chamber floor (Fig 1a).
 
-### Headplate
+##### Headplate
 
 The bottom surface of the headplate is curved to conform to the dorsal skull surface of a typical mouse.
 This feature aids alignment during installation, and a large surface area enables a strong adhesive bond to the skull surface.
@@ -81,7 +81,7 @@ Additional rigidity is provided by a central support structure that contacts the
 All these features combine to provide a very rigid attachment to the mouse cranium, which drastically reduces its motion relative to the imaging system (Fig 1b).
 Remaining brain motion is then primarily movement relative to the skull, and may originate from physiological forces (i.e. cardiorespiratory) as much as behavioral forces from animal movement; suppressing this intracranial motion is addressed in the design of the silicone window insert described below.
 
-### Chamber
+##### Chamber
 
 The chamber in the headplate center facilitates physical access to neural tissue by protecting the craniotomy sites between interventions.
 Once the headplate is bonded to the animal's skull, the floor of the chamber is formed by the central support structure that traverses and fuses the sagittal suture, the skull surface surrounding each craniotomy, and a flat ledge that extends laterally.
@@ -89,7 +89,7 @@ The joints between the skull surface edges of the central support, anterior and 
 This bottom seal is crucial for maintaining an aseptic environment for the protection of the exposed brain tissue.
 When the dura mater is left intact during the craniotomy, the space within the chamber is continuous with the epidural space.
 
-### Optical Insert
+##### Optical Insert
 
 The insert has optically flat top and bottom rectangular surfaces.
 The bottom brain-facing surfaces are positioned to form a flat interface with the intact dura through each craniotomy.
@@ -110,7 +110,7 @@ For imaging lateral cortical regions (e.g. visual or auditory cortex) the mold 
 For any desired angle, this capability greatly simplifies recording from a consistent image plane across sessions and animals.
 The medial cortical region imaged in the demonstration provided here was square in shape (2 mm X 2 mm), at a horizontal angle of 0 degrees, and extended from 0.83 mm to 2.83 mm symmetrically off the midline (Fig 1a).
 
-## Installation and Usage
+#### Installation and Usage
 
 The surgical installation procedures for this multi-stage implant device were adapted from a combination of procedures in common use for attachment of headplates and cranial windows in mice, and similar devices used for optical imaging in primates.
 The specific protocol evolved during 3 distinct trial runs, and the final protocol is summarized here and detailed in methods and materials below.
@@ -142,7 +142,7 @@ We found that the removal needs to be performed slowly, taking great care to avo
 During each of these procedures, we observed the pattern of granulation tissue growth into the peripheral area of the chambers.
 Photos of the typical growth (as observable with window removed) at day 172 is shown in figure 3-d, and described in more detail below.
 
-## Evaluation of System Performance
+#### Evaluation of System Performance
 
 Throughout development we implanted several prototypes to test the effect of various features and conditions.
 The cranial window design and surgical procedures described in this paper were attempted with 18 mice.
@@ -150,7 +150,7 @@ Cranial window condition was evaluated by direct observation and evaluation of f
 Direct (bright-field) observation with a stereoscopic microscope was useful for evaluating quality of the optical interface with brain tissue, as well as for tracking progression of granulation tissue growth in the surrounding space at the edges of the craniotomy.
 Analysis of cell dynamics measures from processed fluorescence imaging video indicated actual usability of the window for longitudinal studies requiring activity metrics at a cellular level.
 
-### Experimental Batches
+##### Experimental Batches
 
 The first batch served as a short trial-run for the prototype and procedures whose performance in early tests suggested strong potential for long-term reliability.
 We ran the first batch for 4-6 weeks to get a better assessment of what we could expect for long-term viability.
@@ -159,7 +159,7 @@ The first batch of windows was installed in April-May 2017 (N = 7) and was evalu
 Several more were implanted for use in a long-term imaging study beginning with a second batch in June 2017 (N = 6), and a third in October 2017 (N = 5).
 The results of these runs are reported below, summarized in figure 3-b.
 
-### Sustained Optical Quality Extended over a Year
+##### Sustained Optical Quality Extended over a Year
 
 In the first batch of 7 mice, image quality provided by the window was more than sufficient to record cell dynamics across both image regions beginning 4 days after the window-installation and fluorophore-transfection procedure and was sustained for several weeks.
 At 4-6 weeks post-implant this batch of mice was evaluated and 6 of the 7 mice were discontinued and the installation procedure was adjusted for the next batch.
@@ -183,7 +183,7 @@ Figure 3-a presents transfected cells surrounding the initial virus injection si
 In this data set, estimates of cell number ranged from XX to XX with a relatively small variation among few randomly selected days between XX and XX.
 <!-- TODO: replace XX for figure 3 -->
 
-### Direct Observation of Cranial Chamber
+##### Direct Observation of Cranial Chamber
 
 We periodically examined the imaging chamber condition in all implanted mice using a stereoscopic microscope.
 Degradation of the optical interface was found frequently in prototypes/procedures that preceded the one mentioned here.
@@ -198,7 +198,7 @@ Instead, it forms a non-adhesive interface with the vertical walls of the transc
 To further investigate the structure of granulation tissue growth into the peripheral chamber areas we detached the optical insert for unobstructed observation in several mice.
 An especially gnarly example from a 6-month duration window is pictured in figure 3-d.
 
-### In vivo Tracking of Transplanted Stem Cells over Long Term
+##### In vivo Tracking of Transplanted Stem Cells over Long Term
 
 The ability to separate the installation procedure into Stage 1 and 2 was critical to capture the integration process of transplanted stem cells from day 4 and day 563 (figure 4).
 In addition to window installation, the experiment entails dissection of progenitor cells from E13.5 mouse embryos prior to transplantation which sequences require to be carried out in a timely manner.
@@ -207,7 +207,7 @@ Tailored to this specific application, we performed Stage 1 of the installation 
 Figure 4-a shows one of the exceptional mice transplanted with two distinct cellular sources of glutamatergic and GABAergic neurons in left and right hemispheres, respectively.
 The optical interface of the cranial window sustained to
 
-## Adaptability
+#### Adaptability
 
 We also report here an adaptation of the more thoroughly-tested headplate and cranial window design described above.
 The most obvious difference in the newer design is a substantially larger window, which provides optical access to the entire dorsal cortex.
@@ -225,7 +225,7 @@ This method of window attachment provides a vast improvement over the dental cem
 A thin coat of silicone was added to the chamber's inner walls prior to attachment to help seal the upper rim of the chamber with the outer edge of the optical insert.
 The tape that was used previously to protect the top surface of the implant was replaced with a solid flat magnetically-coupled cap.
 
-# Discussion
+### Discussion
 
 The two-stage cranial implant device described here was developed to enable reliable long-term optical access and intermittent physical access to mouse neocortex.
 Our particular application required bilateral cortical windows compatible with wide-field imaging through a fluorescence microscope, and physical access to the underlying tissue for virus-mediated gene delivery and injection of exogenous labeled cells.
@@ -234,7 +234,7 @@ The design focused on addressing the issue common to other window designs meant 
 The elastomer insert is molded to fit the chamber and craniotomy, blocking tissue growth and providing a reliable optical interface for up to one year.
 Additionally, the core design can be rapidly adapted to improve performance or for varying applications.
 
-## Critical Elements
+#### Critical Elements
 
 In assessing the design presented here, we can point to a few critical elements that facilitate the maintenance of the long-term optical quality.
 Refer to the methods section for the specifics of surgical procedures for headplate installation and insert attachment.
@@ -268,7 +268,7 @@ Implementing the procedures as described or something similar should mitigate th
 The need to pre-terminate imaging experiments due to light-path disruption by tissue ingrowth should be substantially reduced.
 This capability will drastically reduce wasted time and resources for experiments of any duration, and will facilitate previously infeasible studies requiring long-term observation such as for research in aging or the progression chronic neurological disorders.
 
-## Staging Implant Installation & Tissue Access
+#### Staging Implant Installation & Tissue Access
 
 Configuring the implant as described, so as to enable a staged installation of multiple parts enables surgical procedures to be spread across multiple days.
 This capability offers a number of advantages.
@@ -286,7 +286,7 @@ Additionallly, the described methods of facilitating tissue access can be advant
 <!-- - the example of a comprehensive recording of the integration process of transplanted stem cells reported in this paper particularly well demonstrates the advantages of the ability -->
 
 
-## Design Adaptation
+#### Design Adaptation
 
 The specific designs described in this report work well and have much to offer; however, the greatest asset of the underlying system is its potential for fast and unrestricted adaptation.
 Most users will find greater utility in adopting components of the design and fabrication process, customized to fit their exact needs.
@@ -303,7 +303,7 @@ We also found that adjusting features to address one aspect of functionality may
 For example, the inclusion of a thin skirt extending below the optical insert, which was incorporated to provide protection against tissue growth within the image field, may also facilitate the brain to conform to the optical interface of the window over time resulting in a flat imaging plane, optimal for wide-field imaging, which was unachievable previously.
 <!-- remove? -->
 
-### Rapid Fabrication
+##### Rapid Fabrication
 
 The rapid iterative process used here was made possible by using widely available rapid prototyping procedures, 3D-printing and laser-cutting.
 <!-- continuous integration?? -->
@@ -317,7 +317,7 @@ In an effort to compare various manufacturing technologies, we explored manufact
 - the CAD designs of the reported systems are accessible in open source and can be modified and extended accordingly to the evolving demands and technologies
 - We, the authors, are calling for replication, adaptation, evaluation (i.e. continued open / shared development).
 
-## Further improvements
+#### Further improvements
 
 - primarily explored the ability to mold precise and complex features using silicone elastomer to discover configurations to improve image performance
 - encapsulate electrodes or optical guides.
@@ -332,16 +332,16 @@ In an effort to compare various manufacturing technologies, we explored manufact
 - kinematic headplate for repeatable positioning
 - new materials for fabrication
 
-## Conclusion
+#### Conclusion
 
 - additionally, we prove the system can be easily adaptable for different applications
 - the develop of such device will eliminate the physical barrier we have to probe the complexity of the brain -- capability to facilitate longitudinal optical imaging experiment in mice
 - we used silicone elastomer to develop the window which provides versatility to add functions:
 [versatility of silicone elastomer]("http://npi-med.com/news/top-5-reasons-consider-sil>i>cone-molding-medical-device-project/")
 
-# Materials and Methods
+### Materials and Methods
 
-## Device development and fabrication
+#### Device development and fabrication
 
 Components were designed using SolidWorks.
 Prototypes were fabricated using CamBam to generate toolpaths in G-code for machining on a CNC mill.
@@ -351,7 +351,7 @@ The middle component was milled from PTFE.
 The outer components were made using a laser-cutter and acrylic sheet (Supplementary).
 CAD files are shared on XXXXX(github?)XXXXX.
 
-## Window casting procedure
+#### Window casting procedure
 
 The PDMS-based windows were fabricated through vacuum casting procedure.
 Prior to casting, window frames and two glass coverslips (Corning, 2947-75x38), prepared in advance through plasma etching (30 sec, Power setting) and silanization using Trichlorosilane (Sigma-Aldrich, 448931-10G), were inserted into the mold.
@@ -364,7 +364,7 @@ Finally, the windows were released from the mold and trimmed using scalpels.
 Windows were handled so as to protect the top and bottom surfaces from damage or debris.
 The completed window was sterilized in an autoclave before use.
 
-## Surgical procedures
+#### Surgical procedures
 
 Animal care for surgical procedures is described below, and the details specific to each procedure are in the sections that follow.
 All procedures were approved by the Institutional Animal Care and Use at Boston University.
@@ -374,7 +374,7 @@ Meloxicam and buprenorphine were continued postoperatively every 12 hours for 48
 Meloxicam was also given before and after procedures where brain tissue was exposed, i.e. those for intracerebral injection and window replacement.
 For all procedures described below, mice were placed under general anesthesia with isoflurane mixed with oxygen.
 
-## Headplate installation and craniotomy
+#### Headplate installation and craniotomy
 
 We shaved the top of the mouse's head and sterilized the skin using 70% alcohol and 7.5% Betadine.
 We made a 1cm midline sagittal incision through the scalp using surgical scissors, and retracted laterally using a self-retaining retractor (WPI, 501968).
@@ -395,7 +395,7 @@ Once separated from the surrounding skull, the bone flap was carefully removed u
 2 Step 1(R)).
 At this point, we either attached the optical window or sealed the area with a layer of non-toxic silicone adhesive (WPI, KWIK-SIL).
 
-## Optical insert attachment
+#### Optical insert attachment
 
 The optical insert attachment can be performed immediately following the craniotomy or deferred to the day of injection as described below (Fig.
 2 Step 4).
@@ -411,14 +411,14 @@ Excess agarose (polymerized overflow from the window insertion step) was aspirat
 The chamber was sealed by filling the joint between headplate and optical insert with dental cement (Stoelting, 51458) using a P200 pipette.
 The window surface was protected by applying a double layer adhesive strip made of gaffers tape over a transparent adhesive film dressing (3M: Tegaderm, 70200749201).
 
-## Window detachment and replacement
+#### Window detachment and replacement
 
 The dental cement connecting the window and headplate was etched away using a dental drill.
 Before removing the window, we thoroughly flushed debris from the surrounding surfaces with sterile saline.
 Replacement windows were installed using the same procedures described above for initial attachment.
 Localizing the replacement window to the same position was aided by the expansion of granulation tissue up to the walls of the prior window.
 
-## Injection
+#### Injection
 
 The exposed brain was flushed with sterile saline before and after each injection.
 Injections were made using pulled glass micropipettes with inner tip diameter ranging from 40 and 80 um (WPI, 504949).
@@ -429,7 +429,7 @@ Injection was performed approximately 500 um deep into the cortex at the rate of
 2 Step 3).
 The micropipette was left to sit for an additional 2 min at the injection site before slow withdrawal.
 
-## Wide-field in vivo imaging and microscope setup
+#### Wide-field in vivo imaging and microscope setup
 
 Wide-field epifluorescence imaging was accomplished using a custom microscope equipped with a sCMOS camera (Hamamatsu, ORCA Flash 4.0XX), 470 nm LED (Thorlabs, M470L3), excitation and emission filters of XX and XX, a dichroic mirror (XX), and a 10x objective lens (Mitutoyo, 378-803-3).
 Mice were positioned under the microscope for imaging using a custom headplate holder (Supplementary) and allowed to run on an air-supported spherical treadmill^18^ as pictured in Figure 2 Step 5.
@@ -441,4 +441,4 @@ A reference image of the selected image was recorded for each site and used late
 Alignment to this reference image relied primarily on using the major blood vessels as landmarks to guide microscope position in the XY plane.
 Image sequences were stored for subsequent processing and analysis.
 
-# Reference
+### Reference
