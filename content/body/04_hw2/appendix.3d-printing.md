@@ -1,4 +1,4 @@
-## 3D-Printing for end-use part fabrication
+#### 3D-Printing for end-use part fabrication
 
 Processes include
 
@@ -8,7 +8,7 @@ Processes include
 - Direct Metal Laser Sintering (DMLS) or Select Laser Melting (SLM)
 - Multi-Jet-Fusion (MJF)
 
-### Material comparison [@i-materialise]
+##### Material comparison [@i-materialise]
 
 | ---                             | Titanium                     | Stainless Steel ("high-detail")           | Stainless Steel (standard) | Aluminum                  |
 | ------------------------------- | ---------------------------- | ----------------------------------------- | -------------------------- | ------------------------- |

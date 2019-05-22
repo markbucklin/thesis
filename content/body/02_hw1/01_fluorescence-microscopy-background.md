@@ -1,4 +1,4 @@
-# Microscopy 1
+### Microscopy 1
 
 This section describes the background in microscopy in the neurosciences, and also how it relates to imaging in healthcare and electrophysiology in neuroscience. It will also describe the basic elements necessary for the construction of a microscope in a laboratory where calcium imaging in an animal is available. It will also refer to later sections which cover the design and construction of mechanical elements for animal handling and optical access (i.e. the headplate and a chronic optical window).
 
@@ -20,15 +20,15 @@ While wide-field imaging lacks the spatial resolution to resolve fine subcellula
 Because a single photon microscope does not rely on scanning features, it can be used to sample a larger field of view without sacrificing sampling rates. Additionally, recording sessions may be less sensitive to fluorophore bleaching than other techniques, which makes it possible to perform sustained illumination and subsequent imaging for an extended period of time - a desired feature for analyzing neural networks during some behavior paradigms (*e.g.,* repeated trial learning paradigms). Thus, wide-field imaging offers an advantage if the objective is to simultaneously recording hundreds of neurons in the brain of a living and behaving animal with high temporal fidelity.
 
 <!-- from the frontiers paper -->
-## Background: Brain Imaging and Microscopy in Neuroscience
+#### Background: Brain Imaging and Microscopy in Neuroscience
 
-## Fluorescent Proteins Background
+#### Fluorescent Proteins Background
 
 -   GCamP
     -   vs dyes
 
 
-### Fluorescence Microscope Types Background
+##### Fluorescence Microscope Types Background
 
 -   2p, confocal, wide-field
     -   tissue scattering
@@ -36,42 +36,47 @@ Because a single photon microscope does not rely on scanning features, it can be
     -   cost & complexity
     -   (address scalability later)
 
-### Widefield Microscope COnfiguration
+##### Widefield Microscope COnfiguration
 
 -   historical trend/shift from *finite* to *infinite* conjugate type
     -   infinite type uses *infinity corrected lenses*
 
-### Filters
+##### Filters
 
 -   excitation
 -   emission
 -   for epifluourescent microscope configuration: dichroic beamsplitter
 
-### Lenses
+##### Lenses
 
 The simplest configuration of infinite wide-field microscope requires an excitation
 
-### Excitation
+##### Excitation
 
-### Emission
+##### Emission
 
-### Emitted Light Collection and Image Formation (emission/collection)
+##### Emitted Light Collection and Image Formation (emission/collection)
 
 -   Lens selection
     -   objectives
     -   SLR
         -   spectral coating characteristics \#\#\# Mechanics
 
-### Microscopy and Functional Imaging Two core innovations in available
+##### Microscopy and Functional Imaging Two core innovations in available
 
 -   technology 1. Synthetic bio (i.e. GCaMP) 2. Cameras
 -   scientific CMOS
 
-## Brain Imaging Awake Animals
+#### Brain Imaging Awake Animals
 
-## Brain Regions
+#### Brain Regions
 
 -hippocampus, cortex, striatum - cell types - cell sparsity
 
+<<<<<<< HEAD
 ## Analysis
 # #
+=======
+#### Analysis
+### #
+>>>>>>> assemble body

@@ -1,13 +1,13 @@
-## Computer Workstation
+#### Computer Workstation
 
 Go to [Puget Systems](http://www.pugetsystems.com) to find a computer configuration that is well tested and uses commercially available components to deliver high performance. If you don't feel like putting a computer together yourself, you could order directly from them.
 
-### Part Selection and Assembly
+##### Part Selection and Assembly
 
 
-Motherboard: | Processing | Expansion Slots: | Memory: | Connections
-------------|----------------|-------|--------|
-ASUS WS C621E SAGE | Socket: 3647 | | |
+| Motherboard:       | Processing   | Expansion Slots: | Memory: | Connections |
+| ------------------ | ------------ | ---------------- | ------- |
+| ASUS WS C621E SAGE | Socket: 3647 |                  |         |
 
 <!-- CPU: Purley
 Form Factor: SSI EEB
@@ -22,10 +22,10 @@ Rear USB 2.0: 2
 Rear USB 3.0: 4
  -->
 
-### Configuration
+##### Configuration
 Must configure bios to optimize for high-throughput writes to disk.
 
-### Package Managment
+##### Package Managment
 - Package Management & Binary Distribution Sites
 - Bintools/JFrog
 - Conan.io
@@ -40,7 +40,7 @@ Must configure bios to optimize for high-throughput writes to disk.
 - NPackd
 - Pypi
 
-### Development Environment
+##### Development Environment
 - Version-Control
     - Github
     - Bitbucket

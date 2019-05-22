@@ -1,16 +1,16 @@
-# Microscopy 2
+### Microscopy 2
 
-## Construction
+#### Construction
 
-### Standards
+##### Standards
 
-## Multispectral Imaging
+#### Multispectral Imaging
 
-### Filter Selection
+##### Filter Selection
 
-### Lenses
+##### Lenses
 
-### Mechanics and Positioning
+##### Mechanics and Positioning
 
 -   Configuration
     -   gantry
@@ -25,22 +25,22 @@
         -   magnet and compressed air
     -   simple teflon slip
 
-## Electronics
+#### Electronics
 
-### Photosensors
+##### Photosensors
 
-## Cameras
+#### Cameras
 
 This section details the evolution of cameras sensors and other sensors that provide bio-relevant data. Emphasis is on
 
-### Scientific CMOS (sCMOS)
+##### Scientific CMOS (sCMOS)
 
 -   Correlated double sampling
 -   HDR
 -   On-sensor Fusion
 -   Commercial availability
 
-### Data-Transfer (Camera Interfaces)
+##### Data-Transfer (Camera Interfaces)
 
 -   USB
 -   CameraLink
@@ -50,14 +50,14 @@ This section details the evolution of cameras sensors and other sensors that pro
     -   x4, x8
     -   copper, fiber
 
-## Image Acquisition
+#### Image Acquisition
 
 -   Libraries
 -   Camera configuration
 -   Windows vs. Linux
 -   Setup and programming <!-- matrix vision has an amazing manual -->
 
-## Image Data Management
+#### Image Data Management
 
 -   Storage format
 -   storage location
