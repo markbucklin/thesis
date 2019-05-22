@@ -1,6 +1,6 @@
-# High speed wide-field fluorescence imaging in awake behaving mice yields data from hundreds of individual neurons over millimeters of tissue with high temporal resolution.  #
+### High speed wide-field fluorescence imaging in awake behaving mice yields data from hundreds of individual neurons over millimeters of tissue with high temporal resolution.  #
 
-## Keywords: ##  calcium imaging, GCaMP, in vivo, hippocampus, behavior
+#### Keywords: ##  calcium imaging, GCaMP, in vivo, hippocampus, behavior
 
 Ali Ibrahim Ali Mohammed^1^, Howard J Gritton^1^, Hua-an Tseng^1^, Mark
 E Bucklin and Xue Han
@@ -8,9 +8,9 @@ E Bucklin and Xue Han
 *Boston University, Department of Biomedical Engineering, Boston, MA
 02215*
 
-## Scientific Reports: ## 
+#### Scientific Reports: ##
 
-## Cover letter ## 
+#### Cover letter ##
 
 All submissions must be accompanied by a cover letter.
 
@@ -18,7 +18,7 @@ Scientific Reports sections and ordering of manuscripts
 
 We recommend that your manuscript is structured as follows.
 
-## Title ## 
+#### Title ##
 
 The title must be no longer than 20 words.
 
@@ -26,7 +26,7 @@ Author list and affiliations
 
 The corresponding author should be identified with an asterisk.
 
-## Abstract (heading not used) ## 
+#### Abstract (heading not used) ##
 
 The abstract must be no longer than 200 words, and must not have a
 heading. The Abstract should serve both as a general introduction to the
@@ -34,7 +34,7 @@ topic and as a brief, non-technical summary of the main results and
 their implications. Abstracts must not contain references or
 subheadings.
 
-## Main body ## 
+#### Main body ##
 
 Scientific Reports has no explicit requirements for section
 organization. According to the authors\' preferences, the main body of
@@ -42,22 +42,22 @@ the text can be organized as best suits the research. In some cases, it
 may be appropriate to combine relevant sections. As a guideline, we
 recommend that your manuscript contains the following sections:
 
-## Introduction ## 
+#### Introduction ##
 
 The introduction section of the main text expands on the background of
 the work (some overlap with the Abstract is acceptable). The background
 should put your paper into context and must be clear so that readers are
 able to understand the aims, purpose and significance of your research.
 
-## Results ## 
+#### Results ##
 
 With topical subheadings
 
-## Discussion ## 
+#### Discussion ##
 
 The Discussion should be succinct and may not contain subheadings.
 
-## Methods ## 
+#### Methods ##
 
 Subheadings are recommended. We recommend that authors limit their
 Methods section to 1,500 words
@@ -65,7 +65,7 @@ Methods section to 1,500 words
 The recommended maximum length for the main body of your manuscript is
 4,500 words.
 
-## References ## 
+#### References ##
 
 We recommend that references are limited to 60. References should be
 numbered sequentially, first throughout the text, then in tables,
@@ -218,7 +218,7 @@ forward.
 Results
 =======
 
-## Design: wide-field Ca2+ imaging of hippocampal CA1 neural network inawake behaving mice  ## 
+#### Design: wide-field Ca2+ imaging of hippocampal CA1 neural network inawake behaving mice  ##
 
 To demonstrate the feasibility of imaging a large neural network using a
 wide-field single-photon technique, we constructed a conventional
@@ -252,7 +252,7 @@ on the animals right eye. The CS is shown in black and consisted of a
 followed by a 250ms stimulus free trace interval, concluded with a 100ms
 air puff shown in red.
 
-## Implantation, imaging, and data storage  ## 
+#### Implantation, imaging, and data storage  ##
 
 21-28 days prior to training, mice were surgically injected with
 AAV-synapsin-GCaMP6f virus into the CA1 pyramidal cell layer, and then
@@ -272,7 +272,7 @@ Imaging data was stored as multi-page tag image file format (mpTIFF's)
 and processed off line. All data presented below comes from the fourth
 day of training and performance is indicative of a well-trained animal.
 
-## Image processing: Movement Correction and ROI characterization ## 
+#### Image processing: Movement Correction and ROI characterization ##
 
 We performed a series of image pre-processing steps -- namely contrast
 enhancement and motion correction -- followed by an automated process
@@ -322,7 +322,7 @@ spatial patterns of activity even amongst neighboring neurons as has
 been previously reported in electrophysiology studies [Redish, Battaglia
 et al. 2001](#_ENREF_31)()
 
-## Ca2+ signals in the hippocampus during eyeblink conditioning representtask related behavior ## 
+#### Ca2+ signals in the hippocampus during eyeblink conditioning representtask related behavior ##
 
 Data from an animal at asymptotic performance (Day 4 of training, see
 methods) was analyzed to determine if calcium responses in the
@@ -415,9 +415,9 @@ that careful consideration of analysis windows is necessary. In this
 case, a large number of task relevant signals emerged from a window that
 could be deemed task inconsequential.
 
-## Hippocampal neurons that respond to task-relevant stimuli have a
+#### Hippocampal neurons that respond to task-relevant stimuli have a
 global distribution throughout the CA1 region and are not co-localized
-## 
+####
 
 One of the benefits of using wide-field imaging is the ability to sample
 over very large areas. In this data set we measured hippocampal activity
@@ -592,13 +592,13 @@ Institutional Animal Care and Use Committee and conducted in
 laboratories and facilities accredited by the Association for Assessment
 and Accreditation of Laboratory Animal Care (AAALAC). 
 
-## Viral vector: ## 
+#### Viral vector: ##
 
 AAV9-Syn-GCaMP6f.WPRE.SV40 virus was obtained from the University of
 Pennsylvania Vector Core (V3862TI-R(37.5); Titer 6.56e12 (GC/ml), Yield
 1.312e12 (GC)).
 
-## Cannula Preparation: ## 
+#### Cannula Preparation: ##
 
 Sterile custom-made cannula were made in house prior to surgery. Cannula
 consisted of a stainless steel tube (OD: 0.317 mm, ID: 2.36; height, 2
@@ -658,9 +658,9 @@ for 48 hours post-surgery buprenorphine (0.05 mg/kg; [ ]###Reckitt Benckiser Pha
 animals to recover from surgery for 4 weeks prior to animal training or
 imaging.
 
-## Animal Behavior: ## 
+#### Animal Behavior: ##
 
-### Trial Configuration ###
+##### Trial Configuration ###
 
 Individual trials consisted of a 350ms 9500Hz pure tone (CS) digitized
 at 100kHz with a 5ms cosine ramp delivered at 80dB SPL. The tone was
@@ -670,7 +670,7 @@ followed by a 250 ms trace interval and then a 100ms long 5psi air puff
 right eye. Trials occurred randomly with an inter-trial interval of
 30-40 seconds.
 
-### Animal training ###
+##### Animal training ###
 
 Mice were trained to criterion on a conditioned trace eyeblink task.
 Training was modified slightly from other previously published paradigms
@@ -709,7 +709,7 @@ approximately 0.5 meters away. Using this configuration, eye lid area
 can be recorded as an increase in reflection that occurs as the eyelid
 closes impinging on the defined eye ROI.
 
-### Behavioral Analysis: ]###
+##### Behavioral Analysis: ]###
 
 Correct trials were characterized as those with changes in reflection
 that surpassed a significance threshold defined by that trials baseline
@@ -726,7 +726,7 @@ Trials were characterized then as correct or incorrect using this
 criterion and that standard was applied in separating ROIs based on
 behavioral outcome.
 
-## Microscope, Camera, and ##  Hippocampal Imaging:
+#### Microscope, Camera, and ##  Hippocampal Imaging:
 
 Image acquisition was performed via a scientific CMOS (sCMOS) camera
 (ORCA-Flash4.0 LT Digital CMOS camera C11440-42U; Hamamatsu , Boston,
@@ -745,7 +745,7 @@ Image Processing:
 After image acquisition, we processed the data with a MatLab toolkit
 developed in our lab.
 
-### Image Pre-processing: Contrast Enhancement, Motion Correction and Data Storage ###
+##### Image Pre-processing: Contrast Enhancement, Motion Correction and Data Storage ###
 
 Image contrast enhancement was performed in the log domain because of
 the multiplicative nature of light. We enhanced the contrast by removing
@@ -758,7 +758,7 @@ correction process. The motion-corrected images were then saved as a new
 video file with 8 bit dynamic range to reduce the file size, with the
 top 1% intensity saturated at 255 and the bottom 1% set at 0.
 
-### Region of Interest (ROI) software detection ###
+##### Region of Interest (ROI) software detection ###
 
 The ROI detection process started with using a dynamic threshold to
 identify the "hot" pixels within each frame. The initial threshold was
@@ -772,7 +772,7 @@ eccentricity is less than 0.93) was discarded. To generate the ROI data
 set of all frames, we then clustered and merged the single-frame ROIs
 from all frames together if their centroid is less than 10 pixels away.
 
-### Regions of Interest Selection for Analysis ###
+##### Regions of Interest Selection for Analysis ###
 
 Following ROI detection described above, we next limited our data set
 only to ROIs with minimal overlapping areas. ROIs were selected based
@@ -786,11 +786,11 @@ $\Delta f = \ \frac{\left( f - f_{\text{avg}} \right)}{f_{\text{avg}}}$
 Where f~avg~ is the averaged value of the trace. The ∆f was than
 rescaled so that the maximal value of the trace equals to 100%.
 
-## Figure Legends: ## 
+#### Figure Legends: ##
 
-## Figure 1:  ## 
+#### Figure 1:  ##
 
-## Figure 2: ## 
+#### Figure 2: ##
 
 Imaging view of recording area and individual ROIs: (Ai) 1343x1343 μm^2^
 area representing the first frame of a standard imaging session. (Aii)
@@ -813,7 +813,7 @@ iv represent periods of no activity with ii representing a first level
 of activity and iii representing presumably summed activity that reach
 maximal measured intensity (100%).
 
-## Figure 3: ## 
+#### Figure 3: ##
 
 []{#_ENREF_1 .anchor}
 

@@ -1,4 +1,4 @@
-# lab gadgets
+### lab gadgets
 
 Motivation:
  - slash costs

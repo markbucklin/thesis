@@ -1,10 +1,10 @@
-## Spherical Treadmill & Virtual-Reality
+#### Spherical Treadmill & Virtual-Reality
 
 <!-- H Spherical Treadmill -->
 
 A virtual reality system was assembled, adopting methods from the Harvey lab lab [@harvey_intracellular_2009]. This system allows placement of a head-restrained mouse on an 8-inch diameter polystyrene foam ball supported by a cushion of compressed air, surrounded by a toroidal projection screen. Ball rotation is tracked with two optical computer mice placed orthogonal to each other. Movement vectors are fed into a virtual-reality engine that updates the image projected onto a toroidal screen surrounding the ball, simulating movement through any arbitrary virtual world. Movement vectors are recorded as an arbitrarily scaled translation in the mouse-relative X and Y axes and rotation around the Z axis, at approximately 30 ms intervals. This behavioral apparatus has the advantage of allowing trivial measurement of the mouse’s movement ability while the mouse is head-fixed. The disadvantage is the time and potential confounds involved with training individual mice to use the system.
 
-### Treadmill contstruction
+##### Treadmill contstruction
 
 <!-- H Figure: {#spherical-treadmill}
 ![spherical-treadmill-VR/01-treadmill-mouse-running ](img/0spherical-treadmill-VR/01-treadmill-mouse-running.jpg){#spherical-treadmill-VR1-treadmill-mouse-running}
@@ -15,7 +15,7 @@ Caption: this treadmill supports behavior. -->
 
 
 
-### Water Delivery
+##### Water Delivery
 
 
 
@@ -29,11 +29,11 @@ Caption: waterport -->
 
 
 
-### Motion Sensors
+##### Motion Sensors
 Motion sensing was implemented using a linux computer and standard mice at first, and later using precision laser navigation sensors for "gaming" mice and custom firmware written to work with any arduino-compatible microcontroller.
 <!-- todo -->
 
-#### Generic USB Computer Mouse with Minimal Linux
+###### Generic USB Computer Mouse with Minimal Linux
 
 Run "mouse_relay.py" on any computer running linux to send xy-data from 2 USB optical computer mice to another computer over an RS-232 serial-port connection. The receiving computer (in this implementation) uses MATLAB to read the values and translate the xy-values from 2 mice on the surface of a sphere into 3 values corresponding to rotation of that sphere around 3 orthogonal axes (XYZ) with their origin at the sphere's center.
 
@@ -53,7 +53,7 @@ For example:
 > s1x34y-3
 ```
 
-#### Navigation Sensor Chip with Arduino
+###### Navigation Sensor Chip with Arduino
 
 Works with ADNS library (Mark Bucklin) to pass \[dx,dy\] measurements from two ADNS-9800 laser mouse sensors (placed 45-degrees apart on surface of styrofoam ball).
 

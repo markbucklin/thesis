@@ -1,5 +1,5 @@
 
-#### Computing Power and Connectivity
+###### Computing Power and Connectivity
 
 - Remote Clusters (AWS)
 - Graphics Processing Units (NVIDIA GTX)
@@ -10,25 +10,25 @@
 - OpenGL
 - Shader
 
-#### Image Processing
+###### Image Processing
 
 - Motion Correction
 - Image Enhancement
 
-#### Motion Correction Two approaches to find displacement
+###### Motion Correction Two approaches to find displacement
 
-#### Spatially Homogeneous phase correlation
+###### Spatially Homogeneous phase correlation
 
 - aka normalized cross correlation - Feature Matching
 - Detect features (i.e. corners) - Triangulate best
 
-#### Image Enhancement
+###### Image Enhancement
 
 1.  Contrast - Linear Scaling - Lookup Tables
 2.  Spatial and Temporal Filtering
 3.  Feature images - Gradients
 
-#### Feature Extraction
+###### Feature Extraction
 
 1.  Feature images (temporally independent)
 
@@ -36,11 +36,11 @@
   - changes (single pixel)
 - Mutual information changes (inter-pixel)
 
-#### Acceleration and Optimization Procedures for Online Video Processing
+###### Acceleration and Optimization Procedures for Online Video Processing
 
-#### Incremental Update of Statistics
+###### Incremental Update of Statistics
 
-##### central moments
+####### central moments
 
 ```matlab
       function [m1,m2,m3,m4,fmin,fmax] = updateStatistics(x,m1,m2,m3,m4))
@@ -67,7 +67,7 @@
       end
 ```
 
-##### Extract Features
+####### Extract Features
 
 ```matlab
 
@@ -86,14 +86,14 @@
       end
 ```
 
-#### Simple Processing on GPU
+###### Simple Processing on GPU
 
 ```matlab
       [dm1,dm2,dm3,dm4] = arrayfun(@getStatisticUpdate(x,m1,m2,m3,m4)
       [dm1,dm2,dm3,dm4] = arrayfun(@getStatisticUpdate(rowidx,colidx)
 ```
 
-##### Alternative Libraries
+####### Alternative Libraries
 
 - [NVIDIA Performance Primitives](https://developer.nvidia.com/npp)
 - [OpenCV](https://developer.nvidia.com/opencv)
@@ -111,19 +111,19 @@
 
 - GStreamer
 
-### Choice of Interface
+##### Choice of Interface
 
-#### Procedural Framework: Pipes, Streams, & Graphs
+###### Procedural Framework: Pipes, Streams, & Graphs
 
-##### Concurrency: Parallel = Performance?
+####### Concurrency: Parallel = Performance?
 
 Not always, no. While concurrent processing of independent tasks or sequentially arriving data elements will almost always increase performance, this is not always the case. At a lower instruction-level than we typically program, synchronous operations can often be optimized in ways that asynchronous operations cannot, typically through strategic register allocation, or by taking cache-hit performance). "Globally Asynchronous Locally Synchronous"
 
-##### Scheduling
+####### Scheduling
 
-##### Adaptive
+####### Adaptive
 
-#### Choice of Operations
+###### Choice of Operations
 
 - What is the goal?
 - Is it effective?
@@ -131,7 +131,7 @@ Not always, no. While concurrent processing of independent tasks or sequentially
 - Are there side-effects or artifacts?
 - Can they be reliably controlled or accounted for?
 
-#### Motion Correction
+###### Motion Correction
 
 In our application, the goal of a motion correction operation is to artificially suppress translation of the brain tissue parallel to the image plane. _Phase-Correlation_ (also referred to as _normalized cross-correlation_) has consistent performance across a range of image sources with varying spatial noise characteristics. However, a large non-uniform change from reference frames - such as occurs when cells with low baseline fluourescence are first activated - can cause drastic errors that must be recognized and corrected by a supervisory procedure. This can induce an undesirable, unpredicatable, and specifically inopportune latency Unfortunately in all the whole pipeline.
 
@@ -141,7 +141,7 @@ as it's In some experimental setups,
 
 The phase correlation method of Motion Estimation - cost: 2-10 ms/frame - Frequently unstable (depending on video content)
 
-##### Motion Compensation & Interpolation
+####### Motion Compensation & Interpolation
 
 - cost: 400-800 us/frame
 - Requires infill with nearby or prior pixel values if frame size is to be maintained
