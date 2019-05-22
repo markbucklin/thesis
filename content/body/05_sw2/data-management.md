@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## Data Management
+=======
+#### Data Management
+>>>>>>> assemble body
 
 Essential to the long-term success of any operation is an effective strategy for the management I've all data coming in and out of the system. Especially important is the insured facility for continued access and translation of data as systems evolve or as data is passed to other infrastructure. Strategies that meet the need of data generators and users often if it's somewhere on a spectrum of strictly defined data structures that minimize errors but are strict and difficult to evolve, versus those that require verbose documentation which hinders performance but are adaptable.
 

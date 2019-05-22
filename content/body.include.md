@@ -1,13 +1,13 @@
-
-
 # Introduction and Background
+
 <!-- #include body/00_introduction/00_forward.md -->
 <!-- #include body/00_introduction/02_introduction.md -->
 <!-- #include figures/monkey-related.fig.md -->
 <!-- #include figures/neuromodulation-implant.fig.md -->
 <!-- #include figures/neuromodulation-pcb.fig.md -->
 
-# See and Hear
+# Hardware
+
 <!-- #include body/01_project-prologue/01_intro.md -->
 <!-- #include body/01_project-prologue/02_behavior-box.md -->
 <!-- #include body/01_project-prologue/03_animal-tracking.md -->
@@ -17,6 +17,7 @@
 <!-- #include body/01_project-prologue/neuromodulation-project-summary.md -->
 <!-- #include body/01_project-prologue/photo-absorption-modeling.md -->
 <!-- #include body/02_hw1/01_fluorescence-microscopy-background.md -->
+<!-- #include body/04_hw2/03_sensors.md -->
 <!-- #include body/02_hw1/02_cameras.md -->
 <!-- #include body/02_hw1/03_computer-workstation-build-and-configuration.md -->
 <!-- #include body/02_hw1/04_headplate-and-holder.md -->
@@ -32,12 +33,12 @@
 <!-- #include figures/spherical-treadmill-water-delivery.fig.md -->
 <!-- #include figures/cranial-window.fig.md -->
 
-# Listen and Examine
+# Software
+
 <!-- #include body/03_sw1/01_overview.md -->
 <!-- #include body/03_sw1/02_image-processing.md -->
 <!-- #include body/03_sw1/03_facets-of-processing.md -->
 <!-- #include body/04_hw2/02_microscopy-2.md -->
-<!-- #include body/04_hw2/03_sensors.md -->
 <!-- #include body/04_hw2/appendix.3d-printing.md -->
 <!-- #include figures/FluoPro.fig.md -->
 <!-- #include figures/Pipeline.fig.md -->
@@ -50,6 +51,7 @@
 <!-- #include figures/SW-2018-08-batch02-image-processing.fig.md -->
 
 # Discussion
+
 <!-- #include body/04_hw2/cranialwindow_figcaptions.md -->
 <!-- #include body/04_hw2/cranial-window.md -->
 <!-- #include body/05_sw2/01_video-processing.md -->
