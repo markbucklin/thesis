@@ -1,4 +1,4 @@
-## Head-Fixation Apparatus for Mice
+#### Head-Fixation Apparatus for Mice
 
 Whether using a microscope or electrophysiology apparatus with the spherical treadmill, the requirements for a rigid connection to the animal's cranium are critical.
 

@@ -1,4 +1,4 @@
-# Information and Informativity
+### Information and Informativity
 
 This section presents a background in information theory in the context of behavior sensors and video streams. I further elaborate on what types of information neuroscientists and healthcare providers would hope to extract from these data, focusing on a larger picture of connecting the process of extraction directly the ultimate application.
 
@@ -8,4 +8,3 @@ Transition into compression by showing that previous attempts were essentially c
 
 
 ***
-

@@ -1,4 +1,4 @@
-# Reference
+### Reference
 
 1.Yang, W. & Yuste, R. In vivo imaging of neural activity. *Nature Methods* (2017). doi:10.1038/nmeth.4230
 
@@ -60,4 +60,4 @@
 
 30.Li, M., Liu, F., Jiang, H., Lee, T. S. & Tang, S. Long-Term Two-Photon Imaging in Awake Macaque Monkey. *Neuron* **93,** 1049&ndash;1057.e3 (2017).
 
-# Figures
+### Figures

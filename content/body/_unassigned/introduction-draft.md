@@ -1,8 +1,8 @@
-# Introduction (draft)
+### Introduction (draft)
 
 I will begin by providing a layered context, summary of the environment that I and any other biomedical engineering student or neuroscience graduate student would find himself in 2012 at the start of my PhD.
 
-Role of  engineer is assisting specialists, physicians and scientist  with focused knowledge and well defined objectives, and also close familiarity with the barriers/difficulties that occasionally or persistently impede their best efforts towards achieving those objectives. 
+Role of  engineer is assisting specialists, physicians and scientist  with focused knowledge and well defined objectives, and also close familiarity with the barriers/difficulties that occasionally or persistently impede their best efforts towards achieving those objectives.
 The unwavering expansion and global distribution of information can Cross fields of study 2 stimulate insight and occasionally fuel sudden and rapid acquisition of profound knowledge that - with luck - will bestow on vigilant specialists who are sufficiently attentive, active and well prepared, a greater capacity and opportunity 2 improve lives and extended future 4 human (and mice).
 
 And while I work knowledge of cause and effect mysteries of the world is substantial and critical to addressing problems that interfere with equally in is the similarly accelerated expansion our technological capability 2 address those problems.
