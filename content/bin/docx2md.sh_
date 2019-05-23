@@ -13,8 +13,3 @@ for docfile in ${DOCFILES} ; do
 	mdfile="${docfile%.docx}.md"
 	pandoc --output="${mdfile}" --from=docx --atx-headers  --wrap=none "${docfile}"
 done
-
-
-
-
-

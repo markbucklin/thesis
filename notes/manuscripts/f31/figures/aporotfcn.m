@@ -60,7 +60,7 @@ mouse_radius = round(max(extentF)/2);
 % [xf,yf] = meshgrid([1:10 20 10:-1:1],[10:-1:1 1 1:10]);
 % xyf90 = int8(hypot(xf,yf)-8);
 % [xf,yf] = meshgrid([10:-1:1 1 1:10],[10:-1:1 1 1:10]);
-% xyf45 = 
+% xyf45 =
 for d=1:180
 	seline(d) = strel('line',tail_filter_size,d);
 end
@@ -71,7 +71,7 @@ try
 	bodySE = strel('disk',3*round(body_size/3));
 % 	x = zeros(batch_max*frame_batches,1,'int16');
 % 	y = zeros(batch_max*frame_batches,1,'int16');
-	
+
 	m=1;
 	PD = struct.empty(frame_batches,0);
 	frameStart = 1:frame_batch_max:frame_batch_max*frame_batches-1;
@@ -110,7 +110,7 @@ try
 					bwhm1 = bwhitmiss(binF,seline(d),translate(seline(d),[tail_translate -tail_translate]));
 					bwhm2 = bwhitmiss(binF,seline(d),translate(seline(d),[-tail_translate tail_translate]));
 					bwhm = bwhm1 & bwhm2;
-					if any(bwhm(:)); 
+					if any(bwhm(:));
 						hmsum(d) = sum(bwhm(:),'double');
 						if(hmsum(d) > hitMax)
 							pd.tail.hitMax = hmsum(d);
@@ -119,7 +119,7 @@ try
 							[yval,ytail] = max(smooth(sum(int16(bwhm),2)));
 							pd.tail.location = [xtail ytail];
 						end
-					end					
+					end
 				end
 				% Find Orientation
 				xVicinity = abs(nonzeros(x-r:x+r));
@@ -127,12 +127,12 @@ try
 				yVicinity = abs(nonzeros(y-r:y+r));	% controlling for index-out-of-bounds
 				yVicinity = yVicinity(yVicinity<size(binF,1));
 % 				radF = radon(binF(yVicinity,xVicinity),0:179);
-				[mval,mdeg] = max(max(radon(bodyF(yVicinity,xVicinity),0:179)));	% previously used binF rather than bodyF				
+				[mval,mdeg] = max(max(radon(bodyF(yVicinity,xVicinity),0:179)));	% previously used binF rather than bodyF
 				pd.orient(fn,1) = mdeg;
 			end
 			PD(n).x = pd.x;
 			PD(n).y = pd.y;
-			PD(n).location = [pd.x pd.y];			
+			PD(n).location = [pd.x pd.y];
 			PD(n).orient = pd.orient;
 			PD(n).tail = pd.tail;
 % 			PD(n).bw = bwData;
@@ -143,7 +143,7 @@ try
 		end
 	end
 	clear rawData
-	
+
 	% SAVE DATA
 	md.x = cat(1,PD(:).x);
 	md.y= cat(1,PD(:).y);
@@ -158,21 +158,3 @@ catch me
 % 	save('failedset','md')
 	keyboard
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
