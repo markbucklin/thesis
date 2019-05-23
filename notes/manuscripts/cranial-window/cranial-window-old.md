@@ -80,7 +80,7 @@ The replacement procedure was attempted 5 times, 4 of which were successful in p
 
 Throughout development we implanted several prototypes to test the effect of various features and conditions. The cranial window design and surgical procedures described in this paper were attempted with 18 mice. Cranial window condition was evaluated by direct observation and evaluation of fluorescence dynamics in processed video recorded during periodic 5-minute imaging sessions. Direct (bright-field) observation with a stereoscopic microscope was useful for evaluating quality of the optical interface with brain tissue, as well as for tracking progression of granulation tissue growth in the surrounding space at the edges of the craniotomy. Analysis of cell dynamics measures from processed fluorescence imaging video indicated actual usability of the window for longitudinal studies requiring activity metrics at a cellular level.
 
-### Experimental Batches and Summation of Sustained Performance Extending a Year 
+### Experimental Batches and Summation of Sustained Performance Extending a Year
 
 The first batch served as a short trial-run for the prototype and procedures whose performance in early tests suggested strong potential for long-term reliability. We ran the first batch for 4-6 weeks to get a better assessment of what we could expect for long-term viability. With this design and minor modifications to the surgical procedure, we felt comfortable using the window in studies with long-term requirements that would also allow for continuous assessment of the window’s performance in parallel.
 
@@ -106,7 +106,7 @@ We periodically examined the imaging chamber condition in all implanted mice usi
 
 Remarkably, but not unexpectedly, tissue growth surrounding the insert was evident in all cases, regardless of window clarity. The tissue appeared highly vascularized, and grew from the craniotomy edge outward along the chamber floor (figure 3-c). This growth is a natural response to the tissue damage inflicted by any craniotomy procedure. The difference observed here is only that the growth does not extend under the window. Instead, it forms a non-adhesive interface with the vertical walls of the transcranial columns and diverges upward into the aseptic chamber, replacing the agarose filling between the optical insert and the adhesive cement covering the skull and chamber floor. To further investigate the structure of granulation tissue growth into the peripheral chamber areas we detached the optical insert for unobstructed observation in several mice. An especially gnarly example from a 6-month duration window is pictured in figure 3-d.
 
-### 
+###
 
 ### In vivo Tracking of Transplanted Stem Cells over Long Term
 
@@ -210,7 +210,7 @@ While the advantage of using silicone elastomer relies on its capacity of flexib
 
 # Materials and Methods
 
-## Device development and fabrication 
+## Device development and fabrication
 
 Components were designed using SolidWorks. Prototypes were fabricated using CamBam to generate toolpaths in G-code for machining on a CNC mill. The headplate and window frame were milled from aluminum plate. The mold for casting PDMS-based windows was designed in three parts. The middle component was milled from PTFE. The outer components were made using a laser-cutter and acrylic sheet (Supplementary). CAD files are shared on XXXXX(github?)XXXXX.
 
@@ -308,14 +308,14 @@ Wide-field epifluorescence imaging was accomplished using a custom microscope eq
 
 # Figures
 
-## Figure 1 Design, assembly and installation of the polymeric optical window. 
+## Figure 1 Design, assembly and installation of the polymeric optical window.
 
 \(a) Schematic of the window system assembled and installed to the animal. Cross section shows the placement of the window as the bottom plane contacts the brain as it extends below the surface of the skull. Side view shows the adjustable height between the window and the headplate to compensate the cavity from skull removal. (b) Top and side view of the polymer window and the headplate. The window frame and the headplate are made of aluminum, and the window is molded in PDMS. Exploded view shows how the two pieces can be assembled. Front side of the headplate includes a feature that avoids hitting the eyes of the animal. (c) Top and (d) side view of the parts. (f) Parts assembled and installed to the animal.
 
-## Figure 2 Flexible experimental timeline for surgery, injection and imaging. 
+## Figure 2 Flexible experimental timeline for surgery, injection and imaging.
 
 Two-part assembly allows flexible timeline to separate the procedure of headplate installation and craniotomy from injection which helps with optical clarity during the early period imaging. On Day -2 which can extend upto Day -7, headplate installation and craniotomy is performed. Step 1 shows the placement of the headplate above the intended craniotomy region (before) and the fixation to the skull using opaque Metabond (after). After at least 48 hours of recovery period, injection and window installation is performed on Day 0. Step 3 shows injection using a micropipette filled with Evans Blue dye for demonstration only. Step 4 shows window installed above headplate using dental cement. Any cavity between the two pieces are filled with sterile 0.5% agarose. Lastly, imaging session can start from Day 4. Step 5 shows a mouse freely running on a treadmill during a imaging session while its head movement is restrained. The microscope is installed above the animal. Step 6 shows after window removal (before) that allows full tissue access, and a new window installed (after) that allows continuation of imaging over the same region.
 
-## Figure 3 Extended optical clarity by biocompatible design of the system. 
+## Figure 3 Extended optical clarity by biocompatible design of the system.
 
 \(a) The space between the window and the skull filled with agarose is progressively replaced by granulation tissue over time. At 6 month, granulation tissue surrounds the polymer window and vasculature formation is visible resembling a wound healing process. By 1 year, the intermediate space is filled with tissue embedded with vasculatures. The figures are from different animal that represent the corresponding time-point from the initially window installation - the window was installed using opaque Metabond on the samples for Day 0 and 1 year and semi-clear Metabond on the sample for 6 month. (b) Snapshots with the field-of-view of 1.3 x 1.3 mm were taken over the same regions on both hemispheres using the major blood vessels as landmarks (circled same regions). The optical clarity maintains over time to detect cellular dynamics of individual cells. Some GCaMP6f labeled cells are visible. In the left hemisphere, vascular remodelings are notable during the early period.

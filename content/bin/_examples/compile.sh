@@ -41,7 +41,7 @@ if [ $# -eq 2 ]
                                 echo "If you want to push to git, please say so... "
                 fi
 	else
-        	echo "Not pushed to git repo!"
+		echo "Not pushed to git repo!"
 fi
 
 # cleanup

@@ -9,7 +9,7 @@ else
 	DOCFILES="$*"
 fi
 
-for docfile in ${DOCFILES} ; do 
+for docfile in ${DOCFILES} ; do
 	mdfile="${docfile%.docx}.md"
 	pandoc --output="${mdfile}" --from=docx --atx-headers --biblatex --wrap=none "${docfile}"
 done
