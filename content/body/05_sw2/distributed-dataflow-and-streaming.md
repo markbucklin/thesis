@@ -23,19 +23,11 @@
 ##### Databases
 
 
-<<<<<<< HEAD
-### Big Data
-- not exactly\...
-- disparate simple queries across
-
-### Computational Models
-=======
 ##### Big Data
 - not exactly\...
 - disparate simple queries across
 
 ##### Computational Models
->>>>>>> assemble body
 - Dataflow Processing
 - Actors model
 - Petri Nets
