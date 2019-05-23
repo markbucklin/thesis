@@ -8,6 +8,7 @@ The current text document (as a markdown file) is in the drafts directory at the
 - [Chapter 3: Hardware](https://github.com/markbucklin/thesis/tree/master/draft/chapters/ch3_hardware.md)
 - [Chapter 4: Discussion](https://github.com/markbucklin/thesis/tree/master/draft/chapters/ch4_discussion.md)
 
+PDF files are also in in this [drafts folder](https://github.com/markbucklin/thesis/blob/master/draft/chapters)
 
 Figures are in [here](https://github.com/markbucklin/thesis/tree/master/draft/figures) in individual pdf form for the time being. Resizing and restructuring is accomplished with fluidity and grace at this juncture. Marginal effort to add, remove, rename or reorganize has been minimized, perhaps overly so.
 

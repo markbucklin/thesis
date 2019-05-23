@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/11ee721d/
+3D-Printing for end-use part fabrication	content/appendix.3d-printing.md	/^## 3D-Printing for end-use part fabrication$/;"	s
+Adaptability	content/cranial-window.md	/^## Adaptability$/;"	s
+Chamber	content/cranial-window.md	/^### Chamber$/;"	S
+Cranial Window **System**	content/cranial-window.md	/^## Cranial Window **System**$/;"	s
+Device development and fabrication	content/cranial-window.md	/^## Device development and fabrication$/;"	s
+Direct Observation of Cranial Chamber	content/cranial-window.md	/^### Direct Observation of Cranial Chamber$/;"	S
+Discussion	content/cranial-window.md	/^# Discussion$/;"	c
+Evaluation of System Performance	content/cranial-window.md	/^## Evaluation of System Performance$/;"	s
+Experimental Batches	content/cranial-window.md	/^### Experimental Batches$/;"	S
+Figure 1 Design, assembly and installation of the polymeric optical window.	content/figcaptions.md	/^## Figure 1 Design, assembly and installation of the polymeric optical window. $/;"	s
+Figure 2 Flexible experimental timeline for surgery, injection and imaging.	content/figcaptions.md	/^## Figure 2 Flexible experimental timeline for surgery, injection and imaging. $/;"	s
+Figure 3 Extended optical clarity by biocompatible design of the system.	content/figcaptions.md	/^## Figure 3 Extended optical clarity by biocompatible design of the system. $/;"	s
+Figures	content/figcaptions.md	/^# Figures$/;"	c
+Figures	content/ref.md	/^# Figures$/;"	c
+Headplate	content/cranial-window.md	/^### Headplate$/;"	S
+Headplate installation and craniotomy	content/cranial-window.md	/^## Headplate installation and craniotomy$/;"	s
+In vivo Tracking of Transplanted Stem Cells over Long Term	content/cranial-window.md	/^### In vivo Tracking of Transplanted Stem Cells over Long Term$/;"	S
+Injection	content/cranial-window.md	/^## Injection$/;"	s
+Installation and Usage	content/cranial-window.md	/^## Installation and Usage$/;"	s
+Introduction	content/cranial-window.md	/^# Introduction$/;"	c
+Material comparison [@i-materialise]	content/appendix.3d-printing.md	/^### Material comparison [@i-materialise]$/;"	S
+Materials and Methods	content/cranial-window.md	/^# Materials and Methods$/;"	c
+Optical Insert	content/cranial-window.md	/^### Optical Insert$/;"	S
+Optical insert attachment	content/cranial-window.md	/^## Optical insert attachment$/;"	s
+Reference	content/cranial-window.md	/^# Reference$/;"	c
+Reference	content/ref.md	/^# Reference$/;"	c
+Results	content/cranial-window.md	/^# Results$/;"	c
+Surgical procedures	content/cranial-window.md	/^## Surgical procedures$/;"	s
+Sustained Optical Quality Extended over a Year	content/cranial-window.md	/^### Sustained Optical Quality Extended over a Year$/;"	S
+Wide-field in vivo imaging and microscope setup	content/cranial-window.md	/^## Wide-field in vivo imaging and microscope setup$/;"	s
+Window casting procedure	content/cranial-window.md	/^## Window casting procedure$/;"	s
+Window detachment and replacement	content/cranial-window.md	/^## Window detachment and replacement$/;"	s
