@@ -47,11 +47,7 @@ pandoc ${DOCUMENT_FILE} \
       --webtex \
       --table-of-contents \
       --bibliography="references.bib" \
-<<<<<<< HEAD
       -o "${OUTDIR}/${DOCUMENT}.html"	
-=======
-      -o "${OUTDIR}/${DOCUMENT}.html"
->>>>>>> master
 
 echo -n "tex.."
 pandoc ${DOCUMENT_FILE} \
