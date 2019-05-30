@@ -12,6 +12,9 @@ PDF files are also in in this [drafts folder](https://github.com/markbucklin/the
 
 Figures are in [here](https://github.com/markbucklin/thesis/tree/master/draft/figures) in individual pdf form for the time being. Resizing and restructuring is accomplished with fluidity and grace at this juncture. Marginal effort to add, remove, rename or reorganize has been minimized, perhaps overly so.
 
+## Presentation
+The presentation is available as html, pdf, and powerpoint. Github will not serve the html version directly, so the PDF version is located in the root of this repo: [here](https://github.com/markbucklin/thesis/blob/master/slides.pdf).
+
 ## Building and Editing
 
 See [setup and management notes](https://github.com/markbucklin/thesis/blob/draft/notes/setup-and-management.md).
