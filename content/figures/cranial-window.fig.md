@@ -1,14 +1,11 @@
 <!-- MDFIGINCLUDE(cranial-window) -->
 <div id="fig:cranial-window">
 
-![{{ subfigcaption(cranial-window_FigureCW1) }}](img/cranial-window/FigureCW1.png){#fig:cranial-window_FigureCW1 width=12% }
-![{{ subfigcaption(cranial-window_FigureCW2_pt2) }}](img/cranial-window/FigureCW2_pt2.png){#fig:cranial-window_FigureCW2_pt2 width=12% }
-![{{ subfigcaption(cranial-window_FigureCW3) }}](img/cranial-window/FigureCW3.png){#fig:cranial-window_FigureCW3 width=12% }
-![{{ subfigcaption(cranial-window_FigureCW4) }}](img/cranial-window/FigureCW4.png){#fig:cranial-window_FigureCW4 width=12% }
-![{{ subfigcaption(cranial-window_FigureCW5) }}](img/cranial-window/FigureCW5.png){#fig:cranial-window_FigureCW5 width=12% }
-![{{ subfigcaption(cranial-window_FigureSS1(2)) }}](img/cranial-window/FigureSS1(2).png){#fig:cranial-window_FigureSS1(2) width=12% }
-![{{ subfigcaption(cranial-window_FigureSS1) }}](img/cranial-window/FigureSS1.png){#fig:cranial-window_FigureSS1 width=12% }
-![{{ subfigcaption(cranial-window_FiguresSCI1) }}](img/cranial-window/FiguresSCI1.png){#fig:cranial-window_FiguresSCI1 width=12% }
+![{{ subfigcaption(cranial-window_bilateral-bw) }}](img/cranial-window/bilateral-bw.png){#fig:cranial-window_bilateral-bw width=20% }
+![{{ subfigcaption(cranial-window_early-vs-late-periodic-imaging-sessions) }}](img/cranial-window/early-vs-late-periodic-imaging-sessions.png){#fig:cranial-window_early-vs-late-periodic-imaging-sessions width=20% }
+![{{ subfigcaption(cranial-window_half-year-bw) }}](img/cranial-window/half-year-bw.png){#fig:cranial-window_half-year-bw width=20% }
+![{{ subfigcaption(cranial-window_prototype-model) }}](img/cranial-window/prototype-model.png){#fig:cranial-window_prototype-model width=20% }
+![{{ subfigcaption(cranial-window_siliskull-over-time) }}](img/cranial-window/siliskull-over-time.png){#fig:cranial-window_siliskull-over-time width=20% }
 
 {{ figcaption(cranial-window) }}
 </div>
