@@ -3,12 +3,12 @@ author: Mark Bucklin
 title: Development & Application of a Closed-Loop Continuous Optical Neural Interface
 date: April 13, 2017
 theme: 'night'
-autoPlayMedia: true,
-width: 960,
-height: 700,
+width: "100%",
+height: "100%",
 margin: 0,
 minScale: 1,
 maxScale: 1,
+autoPlayMedia: true
 ---
 
 <!-- height: 600px
@@ -22,19 +22,21 @@ May 31, 2019
 
 ##### Mark Bucklin
 
+
 ---
 
 #### Lab Contributions & Outline
 
 1. Behavior Box for spatial discrimination study
-
 - Mouse tracking software for Parkinson's model
 - Virtual Reality presentation and motion tracking on spherical treadmill
 - Microscopes for fluorescence imaging
 - Image acquisition software
 - Video processing software
 
+
 ---
+
 
 ### Behavior Box for spatial discrimination study
 
@@ -49,6 +51,7 @@ May 31, 2019
 - FrameSynx Toolbox
   - **DataFile** storage for binary and structured data
 
+
 ---
 
 ##### Using Computer Vision to track Position and Orientation
@@ -56,26 +59,30 @@ May 31, 2019
 #### Mouse Tracking Software for Parkinson's Model
 
 - Using Computer Vision to track Position and Orientation
-  - Webcam (15 fps)
-  - Offline measurement of position and orientation in "the bowl"
+    - Webcam (15 fps)
+    - Offline measurement of position and orientation in "the bowl"
 
 ---
-
 ##### "Mouse in a Bowl" Experiments
 
-![01raw](img/animal-tracking/01raw.jpg)<!-- {_width=10% } -->
+ ![01raw](img/animal-tracking/01raw.jpg)<!-- {_width=10% } -->
 
-![02black-and-white](img/animal-tracking/02black-and-white.jpg)<!-- {_class="reveal stretch"} --> ![03twoframes](img/animal-tracking/03twoframes.jpg)<!-- {_class="reveal stretch"} -->
+ ![02black-and-white](img/animal-tracking/02black-and-white.jpg)<!-- {_class="reveal stretch"} -->
+ ![03twoframes](img/animal-tracking/03twoframes.jpg)<!-- {_class="reveal stretch"} -->
 
-![05tail_ID](img/animal-tracking/05tail_ID.jpg)<!-- {_class="reveal stretch"} --> ![06mousedata1](img/animal-tracking/06mousedata1.jpg)<!-- {_class="reveal stretch"} -->
+
+ ![05tail_ID](img/animal-tracking/05tail_ID.jpg)<!-- {_class="reveal stretch"} -->
+ ![06mousedata1](img/animal-tracking/06mousedata1.jpg)<!-- {_class="reveal stretch"} -->
 
 ---
-
 ##### Position, Pose, Orientation
 
-![07mousedata1close](img/animal-tracking/07mousedata1close.jpg)<!-- {_class="reveal stretch"} --> ![08mousedata2](img/animal-tracking/08mousedata2.jpg)<!-- {_class="reveal stretch"} --> ![09mousedata1fiberon1](img/animal-tracking/09mousedata1fiberon1.jpg)<!-- {_class="reveal stretch"} -->
+ ![07mousedata1close](img/animal-tracking/07mousedata1close.jpg)<!-- {_class="reveal stretch"} -->
+ ![08mousedata2](img/animal-tracking/08mousedata2.jpg)<!-- {_class="reveal stretch"} -->
+ ![09mousedata1fiberon1](img/animal-tracking/09mousedata1fiberon1.jpg)<!-- {_class="reveal stretch"} -->
 
 ---
+
 
 ##### Microscope and Mouse Securing Apparatus (headplate holder)
 
@@ -83,39 +90,38 @@ May 31, 2019
 
 ---
 
-###### Virtual Reality Presentation and Motion Tracking on a _Spherical Treadmill_
+
+
+###### Virtual Reality Presentation and Motion Tracking on a *Spherical Treadmill*
+
 
 ![01-treadmill-mouse-running](img/spherical-treadmill-VR/01-treadmill-mouse-running.jpg)<!-- {_class="reveal stretch"} -->
+
 
 ---
 
 ##### Computer mouse hack for measuring ball's motion
-
-![01-motion-sensors-installed](img/spherical-treadmill-motion-sensors/01-motion-sensors-installed.jpg)<!-- {_class="reveal stretch"} --> Not ideal, but universal compaitibility is a plus
+![01-motion-sensors-installed](img/spherical-treadmill-motion-sensors/01-motion-sensors-installed.jpg)<!-- {_class="reveal stretch"} -->
+Not ideal, but universal compaitibility is a plus
 
 ---
-
 ##### High-Speed High Precision Sensors for "Gaming" Mice
-
 ![02-motion-sensors](img/spherical-treadmill-motion-sensors/02-motion-sensors.jpg)<!-- {_class="reveal stretch"} -->
-
 - 16-bit, 9500Hz
 - https://github.com/markbucklin/NavigationSensor
 
 ---
 
 ##### Simulates Free Movement on Surface
-
-Supported by flow of compressed air: stability perks ![Striatum_Figure2](img/spherical-treadmill-motion-sensors/Striatum_Figure2.png)<!-- {_class="reveal stretch"} -->
+Supported by flow of compressed air: stability perks
+![Striatum_Figure2](img/spherical-treadmill-motion-sensors/Striatum_Figure2.png)<!-- {_class="reveal stretch"} -->
 
 ---
-
 ##### To Motivate Thirsty Mice
 
 ![01-water-port](img/spherical-treadmill-water-delivery/01-water-port.jpg)<!-- {_class="reveal stretch"} -->
 
 ---
-
 ##### Full Service Surround Experience
 
 ![03-water-delivery-zoom](img/spherical-treadmill-water-delivery/03-water-delivery-zoom.jpg)<!-- {_class="reveal stretch"} -->
@@ -123,12 +129,11 @@ Supported by flow of compressed air: stability perks ![Striatum_Figure2](img/sph
 ---
 
 #### Microscopes for Fluorescence Imaging
-
-- Optical and Mechanical requirements
-  - Cameras
-  - LEDs
-  - Control
-- Cranial-Implant
+  - Optical and Mechanical requirements
+    - Cameras
+    - LEDs
+    - Control
+  - Cranial-Implant
 
 ---
 
@@ -139,31 +144,31 @@ Supported by flow of compressed air: stability perks ![Striatum_Figure2](img/sph
 ---
 
 #### Microscope 1
-
 ![setup1](img/microscope/setup1.jpg)<!-- {_class="reveal stretch"} -->
 
 ---
 
 #### Microscopes 2
-
 ![setup2](img/microscope/setup2.jpg)<!-- {_class="reveal stretch"} -->
 
 ---
 
 #### Microscope 3
-
-![setup3-front](img/microscope/setup3-front.jpg)<!-- {_class="reveal stretch"} --> ![setup3-closeup](img/microscope/setup3-closeup.jpg)<!-- {_class="reveal stretch"} --> ![setup3-side](img/microscope/setup3-side.jpg)<!-- {_class="reveal stretch"} -->
+![setup3-front](img/microscope/setup3-front.jpg)<!-- {_class="reveal stretch"} -->
+![setup3-closeup](img/microscope/setup3-closeup.jpg)<!-- {_class="reveal stretch"} -->
+![setup3-side](img/microscope/setup3-side.jpg)<!-- {_class="reveal stretch"} -->
 
 ---
 
 #### Microscope 4
-
-![setup4-front](img/microscope/setup4-front.jpg)<!-- {_class="reveal stretch"} --> ![setup4-closeup](img/microscope/setup4-closeup.jpg)<!-- {_class="reveal stretch"} --> ![setup4-side](img/microscope/setup4-side.jpg)<!-- {_class="reveal stretch"} -->
+![setup4-front](img/microscope/setup4-front.jpg)<!-- {_class="reveal stretch"} -->
+![setup4-closeup](img/microscope/setup4-closeup.jpg)<!-- {_class="reveal stretch"} -->
+![setup4-side](img/microscope/setup4-side.jpg)<!-- {_class="reveal stretch"} -->
 
 ---
 
-### Image acquisition software
 
+### Image acquisition software
 - Sensor: GCaMP
   - fluorescence change when calcium enters cell
 - Virus
@@ -174,7 +179,10 @@ Supported by flow of compressed air: stability perks ![Striatum_Figure2](img/sph
   - excitation filter + dichroic mirror + emission filter
 - Scientific-CMOS Camera
 
+
 ---
+
+
 
 #### Image Processing
 
@@ -182,7 +190,7 @@ Supported by flow of compressed air: stability perks ![Striatum_Figure2](img/sph
 - Motion correction
 - Feature generation
 - Cell segmentation
-- Cell signal extraction: _in manageable size_
+- Cell signal extraction: *in manageable size*
 
 ---
 
@@ -190,109 +198,108 @@ Supported by flow of compressed air: stability perks ![Striatum_Figure2](img/sph
 
 ![Screenshot_20150608180058](img/sw-gui-interactive-parameter-selection-homomorphic-filter/Screenshot_20150608180058.png)<!-- {_class="reveal stretch"} -->
 
+
 ---
 
 ##### Motion Correction
 
 Approaches to find displacement:
-
 - Lucas-Kanade iterative search
 - Phase correlation, aka normalized cross correlation
 - Feature Matching
   - Detect features (i.e., corners)
   - Triangulate best match
 
+
 ---
-
 ##### Test Effect of "Correction"
-
 ![motion Correction](img/sw-fluopro/motion_correction_sample.png)
 
 ---
+
 
 ##### Feature Generation: orthogonal information
 
 ![sw-video-processing-feature-generation](img/sw-video-processing-feature-generation.png)<!-- {_class="reveal stretch"} -->
 
----
 
+---
 ##### Feature Generation
 
-![2](img/2.png)<!-- {_class="reveal stretch"} --> Pixel features are useful for segmentation
+
+![2](img/2.png)<!-- {_class="reveal stretch"} -->
+Pixel features are useful for segmentation
 
 ---
 
 ##### Cell Segmentation
-
 - Adaptive thresholding
 - Morphological condensation
 - Temporal clustering with reduced feature descriptor of cells
-  - "regionprops"
+    - "regionprops"
 
 ---
 
 ##### Segmentation UI:
-
-Patch overlay: result of segmentation procedure ![Screenshot from 2018-08-06 03-53-15](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 03-53-15.png)<!-- {_class="reveal stretch"} -->
-
----
-
-##### Segmentation UI:
-
-Assist visualization of cluster/classifation results ![Screenshot from 2018-08-06 03-54-12](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 03-54-12.png)<!-- {_class="reveal stretch"} -->
+Patch overlay: result of segmentation procedure
+![Screenshot from 2018-08-06 03-53-15](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 03-53-15.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
 ##### Segmentation UI:
+Assist visualization of cluster/classifation results
+![Screenshot from 2018-08-06 03-54-12](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 03-54-12.png)<!-- {_class="reveal stretch"} -->
 
-Assist visualization of cluster/classifation reassignment ![Screenshot from 2018-08-06 04-07-50](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 04-07-50.png)<!-- {_class="reveal stretch"} -->
+---
+
+
+##### Segmentation UI:
+Assist visualization of cluster/classifation reassignment
+![Screenshot from 2018-08-06 04-07-50](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 04-07-50.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
 ##### Segmentation UI:
+Quick alpha-compositing of classification layer with motion stabilized video underneath
+![Screenshot from 2018-08-06 04-20-02](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 04-20-02.png)<!-- {_class="reveal stretch"} -->
 
-Quick alpha-compositing of classification layer with motion stabilized video underneath ![Screenshot from 2018-08-06 04-20-02](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 04-20-02.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
 ##### Segmentation UI:
-
-Optional white borders around each cell!! ![Screenshot from 2018-08-06 04-32-01](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 04-32-01.png)<!-- {_class="reveal stretch"} -->
+Optional white borders around each cell!!
+![Screenshot from 2018-08-06 04-32-01](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 04-32-01.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
 ##### Feature Vector: Pointwise Mutual Information
-
 ![sw-video-processing-feature-pointwise-mutual-information](img/sw-video-processing-feature-pointwise-mutual-information.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
-#### Video processing software
 
+#### Video processing software
 Using incremental statistics to improve pixel-by-pixel sensitivty to activation
 
 ![pixel statistics](img/sw-sequence-bw.png)
-
 - dfferential over time gives measure instantaneous non-stationarity
+
+
 
 ---
 
 ##### Differential/Incremental Change in Pixel- Kurtosis, Skewness, Variance, Mean
-
 ![sw-video-processing-spatially-vs-temporally-adaptive-filter](img/sw-video-processing-spatially-vs-temporally-adaptive-filter.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
 ##### Improving Signal Separation with Automated Reproducible Procedures
-
 ![trgb](vid/trgb-013.png)<!-- {_class="reveal stretch"} -->
 
 ---
-
 #### Summary
 
 1. Automating science lets us all do more!
-
 - Mouse tracking can be used to study movement disorders, e.g., Parkinson's disease
 - Spherical treadmills stabilize in-vivo imaging, and exercise is nice... for mice
 - Microscopes can be inexpensively upgraded to improve fluorescence imaging
@@ -308,23 +315,26 @@ Using incremental statistics to improve pixel-by-pixel sensitivty to activation
 
 - However, the videos of their brains are quite pretty and fun to watch... for the first 40-50 hours... then they not only become boring to watch, but it is increasingly more difficult to do anything with them, because packing them on the university servers leads to progressive IT-panic
 
+
+
 ---
 
 #### Acknowledgements
 
 The support and patience I have received from my committee has gone far beyond what should be expected of anyone. I can't thank you enough.
-
 - Xue Han, Ph.D.
 - Jerome Mertz, Ph.D.
-- Ian Davison, Ph.D.
+- Ian Davis, Ph.D.
 - David Boas, Ph.D.
-- Kamal Sen, Ph.D.
+- Dr. Kamal Sen, Ph.D.
 
-_Special Thanks_
+*Special Thanks*
 
-Dr. Vickery Trinkaus-Randall Dr. Steven Borkan MD/Ph.D. Co-Directors
+Dr. Vickery Trinkaus-Randall
+Dr. Steven Borkan
+MD/Ph.D. Co-Directors
 
-_Susie_
+*Susie*
 
 For unconditional support at all hours!
 
@@ -333,6 +343,11 @@ To My Family
 For believing in me all these years…
 
 ---
+
+
+
+
+
 
 ### Development & Application of a Closed-Loop Continuous Optical Neural Interface
 
@@ -344,12 +359,13 @@ May 31, 2019
 
 ---
 
+
+
 ---
 
 ## APPENDIX
 
 ---
-
 ##### First 4 Central Moments
 
 Incremental update: Normalized and eventually resampled
@@ -357,6 +373,7 @@ Incremental update: Normalized and eventually resampled
 ![central moments](img/sw-video-statistics/statistics_of_128_frames_contrast_enhanced.jpg)
 
 ---
+
 
 #### Functional connectivity network behavior and behavioral relevance
 
@@ -467,6 +484,7 @@ Two core innovations in available technology
 
 ---
 
+
 ##### Incremental Update of Statistics: Algorithm
 
 ```matlab
@@ -520,11 +538,17 @@ end
   [dm1,dm2,dm3,dm4] = arrayfun(@getStatisticUpdate(rowidx,colidx)
 ```
 
+
 ## Generated
 
----
 
 ---
+
+
+
+---
+
+
 
 ![bilateral-bw](img/cranial-window/bilateral-bw.png)<!-- {_class="reveal stretch"} -->
 
@@ -574,9 +598,12 @@ end
 
 ---
 
-![filter-slide-thor-CFH2-F](img/microscope/filter-slide-thor-CFH2-F.jpg)<!-- {_class="reveal stretch"} --> ![nikon-50mm-f1_2-lens](img/microscope/nikon-50mm-f1_2-lens.png)<!-- {_class="reveal stretch"} -->
+![filter-slide-thor-CFH2-F](img/microscope/filter-slide-thor-CFH2-F.jpg)<!-- {_class="reveal stretch"} -->
+![nikon-50mm-f1_2-lens](img/microscope/nikon-50mm-f1_2-lens.png)<!-- {_class="reveal stretch"} -->
 
 ---
+
+
 
 ![widefield_microscope_diagram](img/microscope/widefield_microscope_diagram.png)<!-- {_class="reveal stretch"} -->
 
@@ -616,7 +643,11 @@ end
 
 ![05pcb-top-photo](img/neuromodulation-pcb/05pcb-top-photo.jpg)<!-- {_class="reveal stretch"} -->
 
+
 ---
+
+
+
 
 ![RoiGenerator_snip1](img/sw-fluopro/RoiGenerator_snip1.png)<!-- {_class="reveal stretch"} -->
 
@@ -814,6 +845,7 @@ end
 
 ---
 
+
 ![Screenshot_from_2018-08-04_15-25-55](img/sw-video-processing-segmentation/Screenshot_from_2018-08-04_15-25-55.png)<!-- {_class="reveal stretch"} -->
 
 ---
@@ -838,6 +870,13 @@ end
 
 ---
 
+
+
+
+
+
+
+
 ![sw-video-processing-spatial-peak-activity-metric](img/sw-video-processing-spatial-peak-activity-metric.png)<!-- {_class="reveal stretch"} -->
 
 ---
@@ -854,11 +893,12 @@ end
 
 ---
 
-![Average_Pixel_Displacement_over_Time_(from_MOTION_CORRECTION)](<img/sw-video-statistics/Average_Pixel_Displacement_over_Time_(from_MOTION_CORRECTION).png>)<!-- {_class="reveal stretch"} -->
+
+![Average_Pixel_Displacement_over_Time_(from_MOTION_CORRECTION)](img/sw-video-statistics/Average_Pixel_Displacement_over_Time_(from_MOTION_CORRECTION).png)<!-- {_class="reveal stretch"} -->
 
 ---
 
-![Cell_and_Vessel_(composite)_Label_Initialization_(first_8_frames)](<img/sw-video-statistics/Cell_and_Vessel_(composite)_Label_Initialization_(first_8_frames).jpg>)<!-- {_class="reveal stretch"} -->
+![Cell_and_Vessel_(composite)_Label_Initialization_(first_8_frames)](img/sw-video-statistics/Cell_and_Vessel_(composite)_Label_Initialization_(first_8_frames).jpg)<!-- {_class="reveal stretch"} -->
 
 ---
 
@@ -902,7 +942,7 @@ end
 
 ---
 
-![pUnstable_(mean_gradients_of_fSplit)](<img/sw-video-statistics/pUnstable_(mean_gradients_of_fSplit).jpg>)<!-- {_class="reveal stretch"} -->
+![pUnstable_(mean_gradients_of_fSplit)](img/sw-video-statistics/pUnstable_(mean_gradients_of_fSplit).jpg)<!-- {_class="reveal stretch"} -->
 
 ---
 
@@ -914,11 +954,18 @@ end
 
 ---
 
+
 ## Microscope Construction
+
+
+
 
 ---
 
 ### Standards
+
+
+
 
 ---
 
@@ -940,18 +987,18 @@ end
 
 ### Mechanics and Positioning
 
-- Configuration
-  - gantry
-  - XY table with split Z
-  - AB axial rotation mounts
-    - center of rotation bi-coaxial with image plan
-- Bearings
-  - ball bearing slides vs crossed roller
-  - flexures
-  - air bearings
-    - hybrid vacuum and compressed air
-    - magnet and compressed air
-  - simple teflon slip
+-   Configuration
+    -   gantry
+    -   XY table with split Z
+    -   AB axial rotation mounts
+        -   center of rotation bi-coaxial with image plan
+-   Bearings
+    -   ball bearing slides vs crossed roller
+    -   flexures
+    -   air bearings
+        -   hybrid vacuum and compressed air
+        -   magnet and compressed air
+    -   simple teflon slip
 
 ---
 
@@ -971,46 +1018,44 @@ This section details the evolution of cameras sensors and other sensors that pro
 
 ### Scientific CMOS (sCMOS)
 
-- Correlated double sampling
-- HDR
-- On-sensor Fusion
-- Commercial availability
+-   Correlated double sampling
+-   HDR
+-   On-sensor Fusion
+-   Commercial availability
 
 ---
 
 ### Data-Transfer (Camera Interfaces)
 
-- USB
-- CameraLink
-- COaXPress
-- PCIe
-  - gen2, gen3
-  - x4, x8
-  - copper, fiber
+-   USB
+-   CameraLink
+-   COaXPress
+-   PCIe
+    -   gen2, gen3
+    -   x4, x8
+    -   copper, fiber
 
 ---
 
 ## Image Acquisition
 
-- Libraries
-- Camera configuration
-- Windows vs. Linux
-- Setup and programming <!-- matrix vision has an amazing manual -->
+-   Libraries
+-   Camera configuration
+-   Windows vs. Linux
+-   Setup and programming <!-- matrix vision has an amazing manual -->
 
 ---
 
 ## Image Data Management
 
-Goal: maximize potential for _reuse_
-
+Goal: maximize potential for *reuse*
 1. by other scientists, or other healthcare providers
 2. by **you** in the future
 
 Critical considerations:
-
-- Storage format
-- Storage location
-- Maintaining record of provenance
+-   Storage format
+-   Storage location
+-   Maintaining record of provenance
 
 ...unfortunately no straightforward
 
@@ -1033,12 +1078,12 @@ Critical considerations:
 ### Widely Available
 
 Development boards
-
 - Arduino
 - Launchpad (Texas Instruments)
 - STM32
 - Teensy (ARM Cortex M4)
-  <!-- todo:insert table and pictures -->
+<!-- todo:insert table and pictures -->
+
 
 ---
 
@@ -1061,7 +1106,11 @@ installation. Utilizing the system, we demonstrate a year-long course of
 wide-field imaging recording the simultaneous activity in thousands of
 cortical neurons in awake mice. -->
 
+
 ## Fabricate an Optical Interface
+
+
+
 
 ### Cranial window system
 
@@ -1074,41 +1123,54 @@ Goal:
 
 2.  Goal of the project was to design a system that
 
-    c. Performs reliably
+    c.  Performs reliably
 
-    d. Easily adaptable
+    d.  Easily adaptable
 
-    e. Easily adoptable
+    e.  Easily adoptable
 
 3.  To achieve, used silicone elastomer (vs. convention -- glass)
 
-    f. Major advantage -- can easily incorporate shapes and features to develop a system that can adapt to various experimental requirements
+    f.  Major advantage -- can easily incorporate shapes and features to
+        develop a system that can adapt to various experimental
+        requirements
 
-    g. Provide equivalent optical quality to glass
+    g.  Provide equivalent optical quality to glass
 
-4.  Achieved by developing a multi-stage system composed of a headplate with an integrated chamber and a cranial window
+4.  Achieved by developing a multi-stage system composed of a headplate
+    with an integrated chamber and a cranial window
 
-    h. Window was casted incorporating features to block tissue growth within image field
+    h.  Window was casted incorporating features to block tissue growth
+        within image field
 
         i.  Achieve image durations extending beyond a year to record
             calcium dynamics of hundreds of individual neurons using
             wide-field epifluorescence microscope
 
-    i. Headplate provided the base for window installation which can be temporarily detached to perform acute manipulation on the underlying tissue
+    i.  Headplate provided the base for window installation which can be
+        temporarily detached to perform acute manipulation on the
+        underlying tissue
 
-5.  Easily adaptable, demonstrated through providing an example of two systems with similar design concepts but incorporated distinct design features
+5.  Easily adaptable, demonstrated through providing an example of two
+    systems with similar design concepts but incorporated distinct
+    design features
 
-    j. Bilateral hemispheric windows
+    j.  Bilateral hemispheric windows
 
-    k. Whole-brain window
+    k.  Whole-brain window
 
-6.  Designs of the reported system are available in open source and can be easily adopted by developing the parts through rapid prototyping
+6.  Designs of the reported system are available in open source and can
+    be easily adopted by developing the parts through rapid prototyping
+
+
+
 
 ---
 
 ## Methods and Approach
 
 Image processing is performed offline using MATLAB software. The goal of this procedure is to reduce the raw image sequence to a collection of one-dimensional traces, where each trace indicates the fluorescence intensity of an individual neuron over time, and the collection approximates the distinct activity of each and every neuron in the microscope's field of view. We implement the process in 3 distinct stages as described below. The main novel contribution of this work is the efficient extension of segmented ROIs into the third dimension by clustering features of ROIs segmented separately in two dimensions. Online processing uses a similar approach, and the differences are explained in the next section.
+
 
 ---
 
@@ -1171,5 +1233,6 @@ Standard elementwise operators like _plus_ (+) and _times_ (.\*), as well as com
 ```
 
 This operation passes a function handle as the first argument (denoted by the '@' symbol) indicating the operation to perform. It then passes the entire \[IxJxK\] array of image data as the second argument, and it's temporal mean with size \[IxJx1\] is calculated once and passed as the third. The function efficiently expands the mean argument as needed for fast distribution across parallel threads.
+
 
 ---
