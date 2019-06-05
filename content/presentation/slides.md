@@ -35,27 +35,7 @@ May 31, 2019
 
 ---
 
-#### TESTING SLIDES
-
-<!-- .slide: data-background-color="#ff0000" -->
-blank slide with red background
-
-----
-
-
-#### Test data-background-video
-<!-- .slide: data-backround-video="vid/trgb-013.mp4" -->
-blank slide with video background
-
-----
-
-#### Test data-background-video
-<!-- .slide: data-backround-video="vid/trgb-013.mp4" data-background-size=contain -->
-blank slide with video background and size=contain
-
----
-
-### Behavior Box for spatial discrimination study
+#### Behavior Box for spatial discrimination study
 
 ![behaviorbox-schematic](img/behavior-box/task-schematic.jpg)<!-- {_class="reveal stretch"} -->
 
@@ -68,11 +48,11 @@ blank slide with video background and size=contain
 - FrameSynx Toolbox
   - **DataFile** storage for binary and structured data
 
----
+----
 
 #### Using Computer Vision to track Position and Orientation
 
-#### Mouse Tracking Software for Parkinson's Model
+Mouse Tracking Software for Parkinson's Model
 
 - Using Computer Vision to track Position and Orientation
   - Webcam (15 fps)
@@ -80,7 +60,7 @@ blank slide with video background and size=contain
 
 ---
 
-#### "Mouse in a Bowl" Experiments
+### "Mouse in a Bowl" Experiments
 
 ![01raw](img/animal-tracking/01raw.jpg)<!-- {_class="reveal stretch"} -->
 
@@ -98,15 +78,16 @@ blank slide with video background and size=contain
 
 ----
 
-![06mousedata1](img/animal-tracking/06mousedata1.jpg)<!-- {_class="reveal stretch"} -->
-
----
-
 #### Position, Pose, Orientation
 
 ![07mousedata1close](img/animal-tracking/07mousedata1close.jpg)<!-- {_class="reveal stretch"} -->
 
 ----
+
+![06mousedata1](img/animal-tracking/06mousedata1.jpg)<!-- {_class="reveal stretch"} -->
+
+----
+
 
 ![08mousedata2](img/animal-tracking/08mousedata2.jpg)<!-- {_class="reveal stretch"} -->
 
@@ -346,9 +327,10 @@ Using incremental statistics to improve pixel-by-pixel sensitivty to activation
 
 #### Improving Signal Separation with Automated Reproducible Procedures
 
-![trgb](vid/trgb-013.png)<!-- {_class="reveal stretch"} -->
+![trgb](vid/trgb-013.gif)<!-- {_class="reveal stretch"} -->
 
 ---
+
 
 #### Summary
 
