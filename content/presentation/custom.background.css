@@ -9,3 +9,11 @@
   background-attachment: fixed;
   background-size: cover;
 }
+
+/* .reveal > .backgrounds > div {
+    background-image: url('slide-background.svg');
+  }
+
+  .reveal > .backgrounds > div:first-child {
+    background-image: url('title-background.svg');
+  } */
