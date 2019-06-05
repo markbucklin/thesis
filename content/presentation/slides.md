@@ -4,23 +4,22 @@ title: Development & Application of a Closed-Loop Continuous Optical Neural Inte
 date: April 13, 2017
 theme: 'night'
 autoPlayMedia: true,
-width: 960,
-height: 700,
+width: 1920px,
+height: 1080px,
 margin: 0,
-minScale: 1,
-maxScale: 1,
+minScale: 0.3,
+maxScale: 1.5,
 ---
 
-<!-- height: 600px
-width: 800px -->
+<!-- prettier-ignore -->
 
 ### Development & Application of a Closed-Loop Continuous Optical Neural Interface
 
-###### Procedures for real-time image processing, neural signal extraction, and application to closed-loop control using wide-field Ca2+ fluorescence with awake behaving animals
+##### Procedures for real-time image processing, neural signal extraction, and application to closed-loop control using wide-field Ca2+ fluorescence with awake behaving animals
 
 May 31, 2019
 
-##### Mark Bucklin
+#### Mark Bucklin
 
 ---
 
@@ -36,13 +35,33 @@ May 31, 2019
 
 ---
 
+#### TESTING SLIDES
+
+<!-- .slide: data-background-color="#ff0000" -->
+blank slide with red background
+
+----
+
+
+#### Test data-background-video
+<!-- .slide: data-backround-video="vid/trgb-013.mp4" -->
+blank slide with video background
+
+----
+
+#### Test data-background-video
+<!-- .slide: data-backround-video="vid/trgb-013.mp4" data-background-size=contain -->
+blank slide with video background and size=contain
+
+---
+
 ### Behavior Box for spatial discrimination study
 
 ![behaviorbox-schematic](img/behavior-box/task-schematic.jpg)<!-- {_class="reveal stretch"} -->
 
----
+----
 
-### Behavior Box Method & Software
+#### Behavior Box Method & Software
 
 - 10-inch infrared touchscreen (ITouch Systems) & Monitor
   - **TouchScreenInterface**
@@ -51,7 +70,7 @@ May 31, 2019
 
 ---
 
-##### Using Computer Vision to track Position and Orientation
+#### Using Computer Vision to track Position and Orientation
 
 #### Mouse Tracking Software for Parkinson's Model
 
@@ -61,41 +80,61 @@ May 31, 2019
 
 ---
 
-##### "Mouse in a Bowl" Experiments
+#### "Mouse in a Bowl" Experiments
 
-![01raw](img/animal-tracking/01raw.jpg)<!-- {_width=10% } -->
+![01raw](img/animal-tracking/01raw.jpg)<!-- {_class="reveal stretch"} -->
 
-![02black-and-white](img/animal-tracking/02black-and-white.jpg)<!-- {_class="reveal stretch"} --> ![03twoframes](img/animal-tracking/03twoframes.jpg)<!-- {_class="reveal stretch"} -->
+----
 
-![05tail_ID](img/animal-tracking/05tail_ID.jpg)<!-- {_class="reveal stretch"} --> ![06mousedata1](img/animal-tracking/06mousedata1.jpg)<!-- {_class="reveal stretch"} -->
+![02black-and-white](img/animal-tracking/02black-and-white.jpg)<!-- {_class="reveal stretch"} -->
+
+----
+
+![03twoframes](img/animal-tracking/03twoframes.jpg)<!-- {_class="reveal stretch"} -->
+
+----
+
+![05tail_ID](img/animal-tracking/05tail_ID.jpg)<!-- {_class="reveal stretch"} -->
+
+----
+
+![06mousedata1](img/animal-tracking/06mousedata1.jpg)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### Position, Pose, Orientation
+#### Position, Pose, Orientation
 
-![07mousedata1close](img/animal-tracking/07mousedata1close.jpg)<!-- {_class="reveal stretch"} --> ![08mousedata2](img/animal-tracking/08mousedata2.jpg)<!-- {_class="reveal stretch"} --> ![09mousedata1fiberon1](img/animal-tracking/09mousedata1fiberon1.jpg)<!-- {_class="reveal stretch"} -->
+![07mousedata1close](img/animal-tracking/07mousedata1close.jpg)<!-- {_class="reveal stretch"} -->
+
+----
+
+![08mousedata2](img/animal-tracking/08mousedata2.jpg)<!-- {_class="reveal stretch"} -->
+
+----
+
+![09mousedata1fiberon1](img/animal-tracking/09mousedata1fiberon1.jpg)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### Microscope and Mouse Securing Apparatus (headplate holder)
+#### Microscope and Mouse Securing Apparatus (headplate holder)
 
-![Headplate Holder](img/spherical-treadmill-extended/lightson_withsusie.png)<!-- {_class="reveal stretch"} -->
+![Headplate Holder](img/spherical-treadmill-extended/lightson_withsusie.png)<!-- {_class="reveal img"} -->
 
 ---
 
-###### Virtual Reality Presentation and Motion Tracking on a _Spherical Treadmill_
+##### Virtual Reality Presentation and Motion Tracking on a _Spherical Treadmill_
 
 ![01-treadmill-mouse-running](img/spherical-treadmill-VR/01-treadmill-mouse-running.jpg)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### Computer mouse hack for measuring ball's motion
+#### Computer mouse hack for measuring ball's motion
 
 ![01-motion-sensors-installed](img/spherical-treadmill-motion-sensors/01-motion-sensors-installed.jpg)<!-- {_class="reveal stretch"} --> Not ideal, but universal compaitibility is a plus
 
 ---
 
-##### High-Speed High Precision Sensors for "Gaming" Mice
+#### High-Speed High Precision Sensors for "Gaming" Mice
 
 ![02-motion-sensors](img/spherical-treadmill-motion-sensors/02-motion-sensors.jpg)<!-- {_class="reveal stretch"} -->
 
@@ -104,19 +143,21 @@ May 31, 2019
 
 ---
 
-##### Simulates Free Movement on Surface
+### Simulates Free Movement on Surface
 
-Supported by flow of compressed air: stability perks ![Striatum_Figure2](img/spherical-treadmill-motion-sensors/Striatum_Figure2.png)<!-- {_class="reveal stretch"} -->
+#### Supported by flow of compressed air: stability perks
+
+![Striatum_Figure2](img/spherical-treadmill-motion-sensors/Striatum_Figure2.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### To Motivate Thirsty Mice
+#### To Motivate Thirsty Mice
 
 ![01-water-port](img/spherical-treadmill-water-delivery/01-water-port.jpg)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### Full Service Surround Experience
+#### Full Service Surround Experience
 
 ![03-water-delivery-zoom](img/spherical-treadmill-water-delivery/03-water-delivery-zoom.jpg)<!-- {_class="reveal stretch"} -->
 
@@ -134,7 +175,7 @@ Supported by flow of compressed air: stability perks ![Striatum_Figure2](img/sph
 
 #### Microscope and Mouse Behavioral Apparatus
 
-![Widefield Microscope](img/microscope/widefield_microscope_diagram.png)<!-- {_class="reveal stretch" height="60%"} -->
+![Widefield Microscope](img/microscope/widefield_microscope_diagram.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
@@ -152,15 +193,32 @@ Supported by flow of compressed air: stability perks ![Striatum_Figure2](img/sph
 
 #### Microscope 3
 
-![setup3-front](img/microscope/setup3-front.jpg)<!-- {_class="reveal stretch"} --> ![setup3-closeup](img/microscope/setup3-closeup.jpg)<!-- {_class="reveal stretch"} --> ![setup3-side](img/microscope/setup3-side.jpg)<!-- {_class="reveal stretch"} -->
+![setup3-front](img/microscope/setup3-front.jpg)<!-- {_class="reveal stretch"} -->
 
----
+----
+
+
+![setup3-closeup](img/microscope/setup3-closeup.jpg)<!-- {_class="reveal stretch"} -->
+
+----
+
+![setup3-side](img/microscope/setup3-side.jpg)<!-- {_class="reveal stretch"} -->
+
+----
 
 #### Microscope 4
 
-![setup4-front](img/microscope/setup4-front.jpg)<!-- {_class="reveal stretch"} --> ![setup4-closeup](img/microscope/setup4-closeup.jpg)<!-- {_class="reveal stretch"} --> ![setup4-side](img/microscope/setup4-side.jpg)<!-- {_class="reveal stretch"} -->
+![setup4-front](img/microscope/setup4-front.jpg)<!-- {_class="reveal stretch"} -->
 
----
+----
+
+![setup4-closeup](img/microscope/setup4-closeup.jpg)<!-- {_class="reveal stretch"} -->
+
+----
+
+![setup4-side](img/microscope/setup4-side.jpg)<!-- {_class="reveal stretch"} -->
+
+----
 
 ### Image acquisition software
 
@@ -186,13 +244,13 @@ Supported by flow of compressed air: stability perks ![Striatum_Figure2](img/sph
 
 ---
 
-##### Interactive Filtering & Tone Mapping
+#### Interactive Filtering & Tone Mapping
 
 ![Screenshot_20150608180058](img/sw-gui-interactive-parameter-selection-homomorphic-filter/Screenshot_20150608180058.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### Motion Correction
+#### Motion Correction
 
 Approaches to find displacement:
 
@@ -204,64 +262,67 @@ Approaches to find displacement:
 
 ---
 
-##### Test Effect of "Correction"
+#### Test Effect of "Correction"
 
 ![motion Correction](img/sw-fluopro/motion_correction_sample.png)
 
 ---
 
-##### Feature Generation: orthogonal information
+#### Feature Generation: orthogonal information
 
 ![sw-video-processing-feature-generation](img/sw-video-processing-feature-generation.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### Feature Generation
+#### Feature Generation
 
 ![2](img/2.png)<!-- {_class="reveal stretch"} --> Pixel features are useful for segmentation
 
 ---
 
-##### Cell Segmentation
+#### Cell Segmentation
 
 - Adaptive thresholding
 - Morphological condensation
 - Temporal clustering with reduced feature descriptor of cells
-  - "regionprops"
+
+```matlab
+ propsOut = regionprops( maskIn )
+```
 
 ---
 
-##### Segmentation UI:
+#### Segmentation UI:
 
 Patch overlay: result of segmentation procedure ![Screenshot from 2018-08-06 03-53-15](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 03-53-15.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### Segmentation UI:
+#### Segmentation UI:
 
 Assist visualization of cluster/classifation results ![Screenshot from 2018-08-06 03-54-12](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 03-54-12.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### Segmentation UI:
+#### Segmentation UI:
 
 Assist visualization of cluster/classifation reassignment ![Screenshot from 2018-08-06 04-07-50](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 04-07-50.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### Segmentation UI:
+#### Segmentation UI:
 
 Quick alpha-compositing of classification layer with motion stabilized video underneath ![Screenshot from 2018-08-06 04-20-02](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 04-20-02.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### Segmentation UI:
+#### Segmentation UI:
 
 Optional white borders around each cell!! ![Screenshot from 2018-08-06 04-32-01](img/sw-video-processing-feature-generation-B/Screenshot from 2018-08-06 04-32-01.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### Feature Vector: Pointwise Mutual Information
+#### Feature Vector: Pointwise Mutual Information
 
 ![sw-video-processing-feature-pointwise-mutual-information](img/sw-video-processing-feature-pointwise-mutual-information.png)<!-- {_class="reveal stretch"} -->
 
@@ -273,17 +334,17 @@ Using incremental statistics to improve pixel-by-pixel sensitivty to activation
 
 ![pixel statistics](img/sw-sequence-bw.png)
 
-- dfferential over time gives measure instantaneous non-stationarity
+- differential over time gives measure instantaneous non-stationarity
 
 ---
 
-##### Differential/Incremental Change in Pixel- Kurtosis, Skewness, Variance, Mean
+#### Differential/Incremental Change in Pixel- Kurtosis, Skewness, Variance, Mean
 
 ![sw-video-processing-spatially-vs-temporally-adaptive-filter](img/sw-video-processing-spatially-vs-temporally-adaptive-filter.png)<!-- {_class="reveal stretch"} -->
 
 ---
 
-##### Improving Signal Separation with Automated Reproducible Procedures
+#### Improving Signal Separation with Automated Reproducible Procedures
 
 ![trgb](vid/trgb-013.png)<!-- {_class="reveal stretch"} -->
 
@@ -320,13 +381,17 @@ The support and patience I have received from my committee has gone far beyond w
 - David Boas, Ph.D.
 - Kamal Sen, Ph.D.
 
+---
+
+Esteemed Colleagues
+
 _Special Thanks_
 
 Dr. Vickery Trinkaus-Randall Dr. Steven Borkan MD/Ph.D. Co-Directors
 
 _Susie_
 
-For unconditional support at all hours!
+## For unconditional support at all hours!
 
 To My Family
 
@@ -336,11 +401,11 @@ For believing in me all these years…
 
 ### Development & Application of a Closed-Loop Continuous Optical Neural Interface
 
-###### Procedures for real-time image processing, neural signal extraction, and application to closed-loop control using wide-field Ca2+ fluorescence with awake behaving animals
+##### Procedures for real-time image processing, neural signal extraction, and application to closed-loop control using wide-field Ca2+ fluorescence with awake behaving animals
 
 May 31, 2019
 
-##### Mark Bucklin
+#### Mark Bucklin
 
 ---
 
@@ -350,7 +415,7 @@ May 31, 2019
 
 ---
 
-##### First 4 Central Moments
+#### First 4 Central Moments
 
 Incremental update: Normalized and eventually resampled
 
@@ -467,7 +532,7 @@ Two core innovations in available technology
 
 ---
 
-##### Incremental Update of Statistics: Algorithm
+#### Incremental Update of Statistics: Algorithm
 
 ```matlab
   function [m1,m2,m3,m4,fmin,fmax] = updateStatistics(x,m1,m2,m3,m4))
@@ -496,7 +561,7 @@ end
 
 ---
 
-##### Extract Feature
+#### Extract Feature
 
 ```matlab
   function [dm1,dm2,dm3,dm4] = getStatisticUpdate(x,m1,m2,m3,m4)
