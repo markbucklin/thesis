@@ -1,0 +1,11 @@
+.reveal {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 38px;
+  font-weight: normal;
+  color: #1c98e6;
+  background-image: url('vid/trgb-013.gif');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
