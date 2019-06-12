@@ -40,10 +40,14 @@
 
 <div id="fig:mouse-in-a-bowl" class="subfigures">
 
-|  |
-| :---------------------------------------------: | :---------------------------------------------: | :----------------------------------------: |
-|       ![a](img/animal-tracking/01raw.jpg)       | ![b](img/animal-tracking/02black-and-white.jpg) | ![c](img/animal-tracking/03twoframes.jpg)  |
-| ![d](img/animal-tracking/07mousedata1close.jpg) |   ![e](img/animal-tracking/06mousedata1.jpg)    | ![f](img/animal-tracking/08mousedata2.jpg) |
+![a](img/animal-tracking/01raw.jpg)
+![b](img/animal-tracking/02black-and-white.jpg)
+![c](img/animal-tracking/03twoframes.jpg)
+
+![d](img/animal-tracking/07mousedata1close.jpg)
+![e](img/animal-tracking/06mousedata1.jpg)
+![f](img/animal-tracking/08mousedata2.jpg)
+![g](img/animal-tracking/09mousedata1fiberon1.jpg)
 
 Figure 2.1: Automated animal Tracking for “Mouse in a bowl” type
 experiments. a — Raw frame of video being tacked, b — Area of detected
@@ -58,9 +62,9 @@ points, g — video overlay showing tracked points
 
 <div id="fig:spherical-tradmill" class="subfigures">
 
-|  |
-| :-------------------------------------------------------------: | :------------------------------------------------------------: | :---------------------------------------------------------------------: |
-| ![a](img/spherical-treadmill-VR/01-treadmill-mouse-running.jpg) | ![b](img/spherical-treadmill-water-delivery/01-water-port.jpg) | ![c](img/spherical-treadmill-water-delivery/03-water-delivery-zoom.jpg) |
+![a](img/spherical-treadmill-VR/01-treadmill-mouse-running.jpg)
+![b](img/spherical-treadmill-water-delivery/01-water-port.jpg)
+![c](img/spherical-treadmill-water-delivery/03-water-delivery-zoom.jpg)
 
 Figure 2.2: Spherical treadmill. a — 01-treadmill-mouse-running, b —
 01-water-port, c — 03-water-delivery-zoom
@@ -71,9 +75,9 @@ Figure 2.2: Spherical treadmill. a — 01-treadmill-mouse-running, b —
 
 <div id="fig:headplate-holder" class="subfigures">
 
-|  |
-| :----------------------------------------: | :--------------------------------------: | :-----------------------------------------: |
-| ![a](img/headplate-holder/photo-front.jpg) | ![b](img/headplate-holder/photo-top.jpg) | ![c](img/headplate-holder/photo-bottom.jpg) |
+![a](img/headplate-holder/photo-front.jpg)
+![b](img/headplate-holder/photo-top.jpg)
+![c](img/headplate-holder/photo-bottom.jpg)
 
 Figure 2.3: Headplate holder. a — front, b — top, c — bottom
 
@@ -96,12 +100,17 @@ Motion sensors
 ### Microscope Construction
 &lt;div id=" class="subfigures" fig:widefield-microscope="">
 
-|  |
-| :---------------------------------------------------: |
-| ![a](img/microscope/widefield_microscope_diagram.png) |
-|            ![b](img/microscope/setup1.jpg)            |
-|         ![d](img/microscope/setup3-front.jpg)         |
-|         ![g](img/microscope/setup4-front.jpg)         |
+![a](img/microscope/widefield_microscope_diagram.png)
+
+![b](img/microscope/setup1.jpg) ![c](img/microscope/setup2.jpg)
+
+![d](img/microscope/setup3-front.jpg)
+![e](img/microscope/setup3-closeup.jpg)
+![f](img/microscope/setup3-side.jpg)
+
+![g](img/microscope/setup4-front.jpg)
+![h](img/microscope/setup4-closeup.jpg)
+![i](img/microscope/setup4-side.jpg)
 
 Figure 2.4: Widefield fluorescence microscope. a — schamatic showing
 relation of microscope and mouse on spherical treadmill, b — setup1, c —

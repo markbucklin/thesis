@@ -6,7 +6,7 @@ numberSections: True
 listings: True
 codeBlockCaptions: True
 autoSectionLabels: true
-subfigGrid: True
+# subfigGrid: True
 linkReferences: True
 
 ---
