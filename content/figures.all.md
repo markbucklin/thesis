@@ -6,22 +6,37 @@
 
 
 ## Neural Interface Construction: Fabrication, programming, and assembly of of an automated system to open the channel to your mouses mind.
+
 ![behaviorbox-schematic](img/behavior-box/task-schematic.jpg)
-![01raw](img/animal-tracking/01raw.jpg)
-![02black-and-white](img/animal-tracking/02black-and-white.jpg)
-![03twoframes](img/animal-tracking/03twoframes.jpg)
-![05tail_ID](img/animal-tracking/05tail_ID.jpg)
-![07mousedata1close](img/animal-tracking/07mousedata1close.jpg)
-![06mousedata1](img/animal-tracking/06mousedata1.jpg)
-![08mousedata2](img/animal-tracking/08mousedata2.jpg)
-![09mousedata1fiberon1](img/animal-tracking/09mousedata1fiberon1.jpg)
-![Headplate Holder](img/spherical-treadmill-extended/lightson_withsusie.png)
+
+
+<div id="fig:animal-tracking">
+![Raw frame of video being tacked](img/animal-tracking/01raw.jpg)
+
+![Area of detected mouse](img/animal-tracking/02black-and-white.jpg){ width=40%}
+![Overlay of 3 consecutive frames showing movement of mouse between each](img/animal-tracking/03twoframes.jpg){ width=40%}
+
+![video overlay showing tracked points](img/animal-tracking/07mousedata1close.jpg){ width=20% }
+![video overlay showing tracked points](img/animal-tracking/06mousedata1.jpg){ width=20% }
+![video overlay showing tracked points](img/animal-tracking/08mousedata2.jpg){ width=20% }
+![video overlay showing tracked points](img/animal-tracking/09mousedata1fiberon1.jpg){ width=20% }
+
+Automated animal Tracking for "Mouse in a bowl" type experiments
+</div>
+
+<!-- Headplate Holder -->
+![Headplate Holder](img/sphericai-treadmill-extended/lightson_withsusie.png)
+
+
+<!-- Spherical Treadmill -->
 ![01-treadmill-mouse-running](img/spherical-treadmill-VR/01-treadmill-mouse-running.jpg)
 ![01-motion-sensors-installed](img/spherical-treadmill-motion-sensors/01-motion-sensors-installed.jpg) Not ideal, but universal compaitibility is a plus
 ![02-motion-sensors](img/spherical-treadmill-motion-sensors/02-motion-sensors.jpg)
 ![Striatum_Figure2](img/spherical-treadmill-motion-sensors/Striatum_Figure2.png)
 ![01-water-port](img/spherical-treadmill-water-delivery/01-water-port.jpg)
 ![03-water-delivery-zoom](img/spherical-treadmill-water-delivery/03-water-delivery-zoom.jpg)
+
+<!-- Microscopes -->
 ![Widefield Microscope](img/microscope/widefield_microscope_diagram.png)
 ![setup1](img/microscope/setup1.jpg)
 ![setup2](img/microscope/setup2.jpg)
