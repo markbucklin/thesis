@@ -11,6 +11,8 @@
           - [Spherical Treadmill](#sec:spherical-treadmill)
           - [Headplate Holder](#sec:headplate-holder)
           - [Motion Sensors](#sec:motion-sensors)
+      - [Microscopes](#sec:microscopes)
+          - [Microscope Construction](#sec:microscope-construction)
   - [3 Neural Analytics: Computational considerations and approaches to
     manage the continuous flow of neural imaging data… and if not making
     sense of it, perhaps making use of
@@ -79,26 +81,29 @@ Figure 2.2: Spherical treadmill. a — 01-treadmill-mouse-running, b —
 ![b](img/headplate-holder/photo-top.jpg)
 ![c](img/headplate-holder/photo-bottom.jpg)
 
-Figure 2.3: Headplate holder. a — front, b — top, c — bottom
+Figure 2.3: Headplate holder. a — front, b — top, c —
+bottom
 
 </div>
 
 ### Motion Sensors
 
-<div id="fig:motion-sensors&gt;
+<div id="fig:motion-sensors" class="subfigures">
 
-![01-motion-sensors-installed](img/spherical-treadmill-motion-sensors/01-motion-sensors-installed.jpg){ width=30% }
-![02-motion-sensors](img/spherical-treadmill-motion-sensors/02-motion-sensors.jpg){ width=30% }
-![Striatum_Figure2](img/spherical-treadmill-motion-sensors/Striatum_Figure2.png){ width=30% }
+![a](img/spherical-treadmill-motion-sensors/01-motion-sensors-installed.jpg)
+![b](img/spherical-treadmill-motion-sensors/02-motion-sensors.jpg)
+![c](img/spherical-treadmill-motion-sensors/Striatum_Figure2.png)
 
-Motion sensors
-&lt;/div&gt;
+Figure 2.4: Motion sensors. a — 01-motion-sensors-installed, b —
+02-motion-sensors, c — Striatum\_Figure2
 
+</div>
 
 ## Microscopes
 
 ### Microscope Construction
-&lt;div id=" class="subfigures" fig:widefield-microscope="">
+
+<div id="fig:widefield-microscope" class="subfigures">
 
 ![a](img/microscope/widefield_microscope_diagram.png)
 
@@ -112,7 +117,7 @@ Motion sensors
 ![h](img/microscope/setup4-closeup.jpg)
 ![i](img/microscope/setup4-side.jpg)
 
-Figure 2.4: Widefield fluorescence microscope. a — schamatic showing
+Figure 2.5: Widefield fluorescence microscope. a — schamatic showing
 relation of microscope and mouse on spherical treadmill, b — setup1, c —
 setup2, d — setup3-front, e — setup3-closeup, f — setup3-side, g —
 setup4-front, h — setup4-closeup, i —

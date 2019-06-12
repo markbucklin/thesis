@@ -28,6 +28,7 @@ linkReferences: True
 ![behaviorbox schematic](img/behavior-box/task-schematic.jpg){ width=50% }
 
 ### Mouse in a Bowl
+
 <div id="fig:mouse-in-a-bowl">
 
 ![Raw frame of video being tacked](img/animal-tracking/01raw.jpg){ width=30% }
@@ -68,7 +69,7 @@ Headplate holder
 
 ### Motion Sensors
 
-<div id="fig:motion-sensors>
+<div id="fig:motion-sensors">
 
 ![01-motion-sensors-installed](img/spherical-treadmill-motion-sensors/01-motion-sensors-installed.jpg){ width=30% }
 ![02-motion-sensors](img/spherical-treadmill-motion-sensors/02-motion-sensors.jpg){ width=30% }
@@ -81,7 +82,7 @@ Motion sensors
 ## Microscopes
 
 ### Microscope Construction
-<div id="fig:widefield-microscope>
+<div id="fig:widefield-microscope">
 
 ![schamatic showing relation of microscope and mouse on spherical treadmill](img/microscope/widefield_microscope_diagram.png){ width=50% }
 
