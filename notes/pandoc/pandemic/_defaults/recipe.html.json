@@ -1,8 +1,0 @@
-{
-  "options": "--self-contained --css=./template.css",
-  "filters": [
-    "pandoc-fignos",
-    "pandoc-eqnos",
-    "pandoc-tablenos"
-  ]
-}
