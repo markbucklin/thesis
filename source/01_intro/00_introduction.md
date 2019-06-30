@@ -35,11 +35,9 @@ Expanding the fraction of the observable neurons in an interconnected network co
 Additionally, feeding a large set of neural response information to a machine learning algorithm in a neuroprosthetic application may provide improved predictive performance even when the exact mechanism of prediction is difficult to discern.
 However, several major challenges currently antagonize the potential benefits of these new technologies:
 
-    1. The increased size of raw data from a single imaging session can easily overwhelm the computational resources typically used to process similar but smaller sets of data.
-
-    2. The accumulation of raw data on disk over multiple imaging sessions quickly exceeds the data-storage capacity of most lab-scale servers, forcing researchers to halt data collection to process and delete, potentially creating a “nightmare scenario”.
-
-    3. The experimental design and data analysis procedures familiar to neuroscientists for network activity data for 5 to 10 cells produce highly biased spurious results in the absence of numerous stimulus-response repetitions, i.e., trials. The number of repeated trials sufficient to produce an accurate description of the neural response to any stimulus is on the order of 2N, where N is the number of neurons being measured.
+1. The increased size of raw data from a single imaging session can easily overwhelm the computational resources typically used to process similar but smaller sets of data.
+2. The accumulation of raw data on disk over multiple imaging sessions quickly exceeds the data-storage capacity of most lab-scale servers, forcing researchers to halt data collection to process and delete, potentially creating a “nightmare scenario”.
+3. The experimental design and data analysis procedures familiar to neuroscientists for network activity data for 5 to 10 cells produce highly biased spurious results in the absence of numerous stimulus-response repetitions, i.e., trials. The number of repeated trials sufficient to produce an accurate description of the neural response to any stimulus is on the order of 2N, where N is the number of neurons being measured.
 
 In the chapters that follow I provide background on the general procedure for offline video processing.
 I also discuss some of the issues that limit execution of these procedures on a large dataset, and the variety of approaches that I and others have attempted to address this issue.
@@ -80,7 +78,7 @@ I mention these issues inherent to PCA not because this project addresses them b
 The widespread usage of MATLAB in neuroscience communities lends potential for greater usability and easier adaptation to software developed in this environment.
 While software development environments focused on “ease-of-use” traditionally presume crippling sacrifices to computational performance, this assumption is now less accurate.
 
-Standard programs include ImageJ, the built-in routines in MATLAB’s Image Processing Toolbox, Mosaic from Inscopix that are merely a compiled version of MATLAB routines employing the MATLAB engine, Sci-Kits Image for Python, and a remarkable diversity of miscellaneous applications.
+Standard programs include ImageJ, the built-in routines in MATLAB’s Image Processing Toolbox, Sci-Kits Image for Python, and a remarkable diversity of miscellaneous applications.
 MATLAB is a commercial software development platform that is geared toward fast production and the prototyping of data processing routines in a high-level programming language.
 It implements several core libraries (LINPACK, BLAS, etc.) that make multi-threaded operations on matrix type data highly efficient.
 While MATLAB has traditionally been considered the standard across neuroscience research labs, it is well recognized that its performance was lackluster for “vectorized” routines as compared to applications developed using lower-level languages like FORTRAN, C, and C++.
@@ -109,31 +107,32 @@ However, this strategy imposes harsh limitations for a neuroscientist engaged in
 Unfortunately, storage on the cloud is not so unlimited that it can manage an accumulated collection of imaging data generated that approximates the rate that at which sCMOS cameras operate.
 This rate imbalance is a central motivating issue in this project and is discussed in detail below.
 
-The current generation of sCMOS cameras capture full-frame resolution video at either 30 fps or 100 fps depending on the data interface between camera and computer (USB3.0 or CameraLink).
+The generation of sCMOS cameras available at the start of this work capture full-frame resolution video at either 30 fps or 100 fps depending on the data interface between camera and computer (USB3.0 or CameraLink).
 At 16-bits per pixel and 2048x2048 pixels, the maximum data rate for the USB3.0 camera is 240 MB/s.
 Imaging sessions typically last 30-minutes or less.
-However, pixels are typically binned down 2x2, and frame rate is often reduced as motivated by the constraints of processing speed and storage.
+Pixels are typically binned down 2x2, and frame rate is often reduced to work within the constraints our laboratory workstations impose on processing speed and storage.
 However, the effect of doubling resolution on processing time when using the graphics card is virtually negligible.
-Identifying ROIs online and extracting the traces of neural activity allows us to discard acquired images and instead, only store the traces or feed them into an encoder for online analysis.
+Identifying ROIs online and extracting the traces of neural activity allows us to discard acquired images and instead, only store the relevant pixels for later analysis.
 
+### Graphics Processing Units for Video Processing
 Graphics Processing Units were traditionally developed for the consumer gaming market.
 They are optimized for the process that involves translating a continuous stream of information into a two-dimensional image format for transfer to a computer monitor.
 In the context of gaming, the stream of information received by a GPU describes the state of objects in a dynamic virtual environment and is typically produced by a video game engine.
 These processors are highly optimized for this task.
 However, they are equally efficient at performing the same procedure type in reverse, reducing a stream of images to structured streams of information about dynamic objects in the image.
- These features render them popular for video processing and computer vision applications.
+These features render them popular for video processing and computer vision applications.
 
-All GPU architecture consists of a hierarchy of parallel processing elements.
+All GPU architectures consists of a hierarchy of parallel processing elements.
 NVIDIA’s CUDA architecture refers to the lowest level processing element as “CUDA Cores” and the highest level as “Symmetric Multiprocessors.” Typically, data is distributed across cores and multiprocessors by specifying a layout in C-code using different terminology, “threads” and “blocks.” Blocks are then termed to be organized in a “grid.” Adapting traditional image processing or computer vision algorithms to quickly run on a GPU involves efficiently distributing threads and ideally minimizes communication between blocks.
 
 MATLAB makes processing data using the GPU seemingly trivial by overloading a large number of built in functions.
 Performance varies however.
- Writing a kernel-type subfunction is often the fastest way to implement a routine written as if it operates on single (scalar) element only that can be called on all pixels at once or employs all pixel-subscripts used by the function to retrieve the pixel value at a given subscript.
+Writing a kernel-type subfunction is often the fastest way to implement a routine written as if it operates on single (scalar) element only that can be called on all pixels at once or employs all pixel-subscripts used by the function to retrieve the pixel value at a given subscript.
 The kernel-type function is compiled into a CUDA kernel the first time it’s called, then repeated calls directly contact the kernel with minimal overhead.
 Calls typically use the arrayfun() function.
 
-Data transfers between system memory and graphics memory is often a major “bottle-neck”.
+Data transfers between system memory and graphics memory is often a major bottle-neck.
 Therefore, this operation is best performed only once.
 However, once data is available to the GPU, many complex operations can be performed to extract information from the image without exceeding the processing-time limit imposed by the frame-rate of the camera sending the images.
 
-In total, this project employs advances in both software and hardware that facilitate  rapid accurate image analysis of living organisms with the ultimate goals of simplifying  neuronal behavior in both normal and pathologic states.
+In total, this project employs advances in both software and hardware that facilitate rapid accurate image analysis of living organisms with the ultimate goals of simplifying the acquisition and analysis of neural activity indicators in both normal and pathologic states.
