@@ -4,9 +4,9 @@ The support and patience I have received from my committee has gone far beyond w
 - Xue Han, Ph.D.
 - Jerome Mertz, Ph.D.
 - Ian Davis, Ph.D.
-- Tom Bifano, Ph.D.
 - David Boas, Ph.D.
-
+- Vickery Trinkauss-Randall, Ph.D.
+- Steven Borkan, M.D.
 
 
 ***

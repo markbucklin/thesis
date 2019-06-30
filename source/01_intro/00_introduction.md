@@ -41,13 +41,6 @@ However, several major challenges currently antagonize the potential benefits of
 
     3. The experimental design and data analysis procedures familiar to neuroscientists for network activity data for 5 to 10 cells produce highly biased spurious results in the absence of numerous stimulus-response repetitions, i.e., trials. The number of repeated trials sufficient to produce an accurate description of the neural response to any stimulus is on the order of 2N, where N is the number of neurons being measured.
 
-<!-- todo: remove -->
-The objective of this project is to establish procedures that address these specific challenges and then use these procedures to evaluate the effect that expanding available neural response input on the performance of a closed-loop encoder.
- For example, sensors on a moving ball can be trained such that a closed-loop encoder can predict changes in motor state of a mouse running on the ball.
-It will then use the predicted motor state to modulate motor state in another mouse using opsins.
-This process can be thought of as a model neuroprosthetic designed to overcome dysfunction caused by pathologically disconnected brain areas that occur in Parkinson’s disease (PD).
-A primary goal is to increase the synchronization of mice beyond chance, such that they tend to both run together and rest together.
-
 In the chapters that follow I provide background on the general procedure for offline video processing.
 I also discuss some of the issues that limit execution of these procedures on a large dataset, and the variety of approaches that I and others have attempted to address this issue.
 I then introduce the streaming approach that is capable of directly processing video during acquisition and extracting signals, thereby saving relevant signals only while also discarding or compressing the raw video.
