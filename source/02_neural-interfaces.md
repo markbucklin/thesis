@@ -7,6 +7,18 @@ The projects described in the following sections are also tied together by a com
 
 ## Animal Tracking
 
+### PD mouse model:
+
+You can induce a quantifiable PD-like state in mice with a unilateral injection of the neurotoxin 6-hydroxydopamine (6-OHDA) into the striatum, and subsequent administration of apomorphine to provoke side-biased motor deficits [@iancu_behavioral_2005].
+Side-biased“turning” behavior is quantified autonomously on two distinct platforms, a computer-vision system that allows free movement, and a virtual-reality spherical treadmill platform that simulates free movement.
+
+### Metrics of Behavior
+
+Two testing platforms are used to assess changes in behavior over time.
+Behavior is analyzed and quantified in real-time, and are synchronized with electrophysiology and made available as stream of events synchronized with imaging and/or electrophysiology.
+The quantification routine creates a signal that is representative of symptom severity.
+For our unilaterally lesioned mouse model of PD the most readily observable impairment is the inability to walk straight; mice would turn in circles contralateral to the lesion when given intraperitoneal apomorphine.
+
 ### Behavior Box
 
 I built an experiment apparatus for mice to enable a study being run by Jia-Min Zhuo.
@@ -148,7 +160,7 @@ This section describes the background in microscopy in the neurosciences, and al
 It will also describe the basic elements necessary for the construction of a microscope in a laboratory where calcium imaging in an animal is available.
 It will also refer to later sections which cover the design and construction of mechanical elements for animal handling and optical access (i.e. the headplate and a chronic optical window).
 
-#### Background: Brain Imaging and Microscopy in Neuroscience
+### Background: Brain Imaging and Microscopy in Neuroscience
 
 Optical imaging has traditionally involved wide-field imaging or two photon imaging, each with their own distinctive advantages and disadvantages.
 In recent years, two photon microscopy has been a preeminent choice for imaging in tissue, because of its high spatial resolution, and tissue penetrating features.
@@ -167,21 +179,42 @@ Because a single photon microscope does not rely on scanning features, it can be
 Additionally, recording sessions may be less sensitive to fluorophore bleaching than other techniques, which makes it possible to perform sustained illumination and subsequent imaging for an extended period of time - a desired feature for analyzing neural networks during some behavior paradigms (e.g., repeated trial learning paradigms).
 Thus, wide-field imaging offers an advantage if the objective is to simultaneously recording hundreds of neurons in the brain of a living and behaving animal with high temporal fidelity.
 
+#### Cameras for Widefield Microscopy
+
+Traditional widefield microscope or macroscope builds incorporate 'scientific grade' cameras.
+Compared to cameras built for other markets (e.g. consumer, industrial, studio, etc.), these cameras are often well tested and certified to offer low or well-characterised noise at moderate speeds, and a linear photo-response profile.
+Unlike consumer or studio cameras which are invaribaly configured for RGB color, they are preferably configured with 'monochrome' sensors - essentially identical to the analagous color sensor, without the bayer filter.
+Of much greater importance, one must consider the unique connectivity and control interface that scientific cameras come with.
+Standards exist, but are typically unique to this segment of the industry, with poorly defined specifications for translation to other electronic communication and connection interface standards, such as those used in studio and broadcast video, or those used with consumer cameras.
+The trait that is the most worthy of consideration, however, is the cost.
+See @discussion-cost-consumer for details.
+
+The in-vivo instrinsic-signal or fluorescent-dye imaging camera of 1 decade ago had a 0.5"-1" monochrome CCD sensor with 0.1-1 MegaPixels, a large well-depth, and moderately low noise at speeds around 30 to 60 fps.
+Connection was often LVDS, with custom electrial connectors unique to each camera.
+A particularly popular and long-running model was the Dalsa 1M30, followed by the 1M60 in later years [@takahashi_vivo_2006].
+
 ### Microscope Construction
-<div id="fig:widefield-microscope">
+<!-- todo -->
 
-![schematic showing relation of microscope and mouse on spherical treadmill](img/microscope/widefield_microscope_diagram.png){ width=50% }
 
-![setup1](img/microscope/setup1.jpg){ width=10% }
-![setup2](img/microscope/setup2.jpg){ width=10% }
+<div id="fig:widefield-microscope1">
 
-![setup3-front](img/microscope/setup3-front.jpg){ width=10% }
-![setup3-closeup](img/microscope/setup3-closeup.jpg){ width=30% }
-![setup3-side](img/microscope/setup3-side.jpg){ width=30% }
+![Schematic showing relation of microscope and mouse on spherical treadmill](img/microscope/widefield_microscope_diagram.png){ width=30% }
+![Setup 1: the LED used for excitation can be seen extending to the left (black covering to block light)](img/microscope/setup1.jpg){ width=30% }
 
-![setup4-front](img/microscope/setup4-front.jpg){ width=10% }
-![setup4-closeup](img/microscope/setup4-closeup.jpg){ width=30% }
-![setup4-side](img/microscope/setup4-side.jpg){ width=30% }
+Basic configuration for a widefield epifluorescence microscope for in-vivo imaging. This first configuration used a phase contrast lens borrowed from an inverted microscope (not recommended).
+</div>
 
-Widefield fluorescence microscope. Multiple iterations are shown, with later iterations offering improved compatibility with usage of off-the-shelf components.
+<div id="fig:widefield-microscope3">
+
+![setup3: front](img/microscope/setup3-front.jpg){ width=25% }
+![setup3: closeup](img/microscope/setup3-closeup.jpg){ width=40% }
+![setup3: side](img/microscope/setup3-side.jpg){ width=25% }
+
+![setup4: front](img/microscope/setup4-front.jpg){ width=25% }
+![setup4: closeup](img/microscope/setup4-closeup.jpg){ width=40% }
+![setup4: side](img/microscope/setup4-side.jpg){ width=25% }
+
+Widefield fluorescence microscope reconfigured.
+Multiple iterations are shown, with later iterations offering improved compatibility with usage of off-the-shelf components.
 </div>

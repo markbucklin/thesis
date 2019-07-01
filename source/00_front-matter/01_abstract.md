@@ -1,4 +1,4 @@
-# Abstract
+# Abstract {.unnumbered}
 Imaging of multiple cells has rapidly multiplied the rate of data acquisition as well as our knowledge of the complex dynamics within the mammalian brain.
 The process of data acquisition has been dramatically enhanced with highly affordable, sensitive, genetically coded image sensors enable high-throughput detection of neural activity in intact animals.
 Genetically encoded calcium sensors deliver a substantial boost in signal strength and in combination with equally critical advances in the size, speed, and sensitivity of image sensors available in scientific cameras enables high-throughput detection of neural activity in behaving animals using traditional wide-field fluorescence microscopy.

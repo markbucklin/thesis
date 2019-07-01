@@ -2,11 +2,10 @@
 
 ## Primary Goals
 
-The function of the brain is to translate/encode sensory input into neural output, actuating an effect that promotes organism survival or propagates to promote the survival of offspring (response generation).
-It achieves this by communicating input through interconnected neurons via converging and diverging connections that comprise the neural network .Testing and observing the properties of individual neurons and the response to changing conditions at the direct connections they form with others is The function of the brain is to translate/encode sensory input into neural output that actuates an effect that promotes survival of the organism or propagates to promote the survival of offspring (generation of a response).
-It does this by communicating input through interconnected neurons via converging and diverging connections which comprise the neural network.
+The function of the brain is to translate/encode sensory input into neural output, actuating an effect that promotes organism survival or the survival of offspring.
+It achieves this by communicating input through interconnected neurons via converging and diverging connections that comprise the neural network.
 One way to study the brain is by testing and observing the properties of individual neurons and the response to changing conditions at the direct connections they form with others.
-Another approach is to observe a collection of neurons and then measure their response to variable conditions in their external environment either by recording or stimulating variations in sensory input or measuring an organism’s physical/behavioral response.
+Another approach is to observe a collection of neurons and measure their response to variable conditions in their external environment either by recording or stimulating variations in sensory input or measuring an organism’s physical/behavioral response.
 
 One might presume that the expansion of information provided by measuring activity from a larger number of cells in a network would simplify analysis in stimulus-response type experiments and afford insight about underlying functional mechanisms.
 Unfortunately, the correlation and information theoretic procedures traditionally used to make these associations suffer from a systematic bias that exponentially grows with the number responses considered for each stimulus (i.e., the number of included cells).
@@ -14,9 +13,9 @@ The trial number necessary to overcome this bias becomes exponentially large alt
 
 A systems neuroscience experiment benefits from online feedback in one or both of two ways:
 
-    1. It informs the user regarding the current number of trials, i.e., repeated presentations of the stimulus will be sufficient to overcome limited sampling bias in an experiment attempting to learn the neural response/pattern associated with a specific stimulus. This could be done by testing pattern hypotheses online against subsets of collected data and then assessing their stability.
+1. It informs the user regarding the current number of trials, i.e., repeated presentations of the stimulus will be sufficient to overcome limited sampling bias in an experiment attempting to learn the neural response/pattern associated with a specific stimulus. This could be done by testing pattern hypotheses online against subsets of collected data and then assessing their stability.
 
-    2. Online pattern recognition feedback maximizes the information in the response to a stimulus either by directing modification of the stimulus, or directing modification of the field-of-view either by directing modification of the stimulus, or directing modification of the field-of-view.
+2. Online pattern recognition feedback maximizes the information in the response to a stimulus either by directing modification of the stimulus, or directing modification of the field-of-view either by directing modification of the stimulus, or directing modification of the field-of-view.
 
 Streaming processing addresses the issues of processing and storing for sufficient learning from large networks.
 Additionally, I propose a strategy in the methods section by which incorporating this online processing stream into stimulus-response-type experiments could help correct limited sampling bias, enabling neural coding analysis in large populations of neurons [@ince_presence_2009].
