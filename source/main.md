@@ -1,4 +1,65 @@
-# Abstract {.unnumbered}
+---
+author: Mark Bucklin
+title: Development & Application of a Closed-Loop Continuous Optical Neural Interface
+date: April 13, 2017
+fontsize: 12pt
+linestretch: 1.5
+toc-depth: 2
+lof: True
+lot: True
+numbersections: true
+header-includes: |
+  - \usepackage{appendix}
+  - \usepackage{caption}
+  - \usepackage{float}
+  - \numberwithin{figure}{section}
+  - \numberwithin{table}{section}
+  - \numberwithin{equations}{section}
+  - \pagenumbering{arabic}
+  - \setstretch{1}
+  - \setlength{\parskip}{9pt}
+
+bibliography: [ references.bib ]
+classoptions:
+	- 12pt
+	- letterpaper
+documentclass: report
+degree: 2
+prevdegrees:
+	- B.S., Columbia University, 2009
+department: Department of Biomedical Engineering
+defenseyear: 2019
+degreeyear: 2019
+readers:
+	- order: First
+	  name: Jerome Mertz, Ph.D.
+	  title: Associate Professor of Biomedical Engineering
+	- order: Second
+	  name: Kamal Sen, Ph.D.
+	  title: Associate Professor of Biomedical Engineering
+advisors:
+	number: 1
+	a:
+	  name: Xue Han, Ph.D.
+	  title: Associate Professor of Biomedical Engineering
+<!-- quote: quote  -->
+<!-- ack: ack -->
+abstract: abstract
+abbrv: abbrv
+<!-- appendix: appendix -->
+biblio: library
+<!-- cv: cv -->
+colorlinks: true
+keywords:
+    - session types
+    - applied type system
+    - dependent types
+    - linear types
+    - multirole logic
+proposal: true
+...
+
+<!-- # Abstract {.unnumbered}
 Imaging of multiple cells has rapidly multiplied the rate of data acquisition as well as our knowledge of the complex dynamics within the mammalian brain.
 The process of data acquisition has been dramatically enhanced with highly affordable, sensitive, genetically coded image sensors enable high-throughput detection of neural activity in intact animals.
 Genetically encoded calcium sensors deliver a substantial boost in signal strength and in combination with equally critical advances in the size, speed, and sensitivity of image sensors available in scientific cameras enables high-throughput detection of neural activity in behaving animals using traditional wide-field fluorescence microscopy.
@@ -23,7 +84,7 @@ After describing a slew of marginally successful naive attempts to pre-shrink lo
 
 Here you will find the strategic ingredients to consider if your intent is to transform an abundant flow of raw data into proportionally informative knowledge.
 Certainly, aggressive deployment of streamed computation on graphics processing hardware will be vital component, but not solely sufficient.
-A likely solution will also recognize opportunities afforded by implementing performance-tuned data structures, modular and dynamically reconfigurable data processing elements, and graph oriented stream semantics coordinating data-flow.
+A likely solution will also recognize opportunities afforded by implementing performance-tuned data structures, modular and dynamically reconfigurable data processing elements, and graph oriented stream semantics coordinating data-flow. -->
 
 # Introduction: Background and Literature Review
 
@@ -543,7 +604,6 @@ Traditional document-based or relational databases are outperformed by graph-bas
 These sorts of developments are targeted at the bottlenecks restricting access to data, and early results suggest orders of magnitude improvements in throughput.
 These tools are being developed with or without the contribution of physicians and scientists.
 It would be prudent however to orient the tools specific to the needs of scientists and clinicians to take advantage of these developments as they become available.
-
 
 
 
